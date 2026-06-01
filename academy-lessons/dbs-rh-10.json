@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "packageSource": "dbs-rh-10",
+    "name": "DBS Masterclass - Ressources Humaines & Évaluations",
+    "description": "Fiches de poste structurées, grilles salariales conventionnelles tunisiennes, KPI de performance collaborateurs, entretiens annuels d'évaluation, plans de développement.",
+    "tags": [
+      "rh",
+      "salaire",
+      "evaluation",
+      "kpi",
+      "formation",
+      "fiche-poste",
+      "grille-salariale",
+      "cncc",
+      "tunisie"
+    ],
+    "category": "hr",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Grilles Salariales - Convention Collective Textile-Habillement Tunisie",
+      "content": "La convention collective sectorielle du textile-habillement (CNCC) définit les catégories et salaires minima garantis (SMG) par catégorie professionnelle, révisés par accord patronat-syndicat :\nCatégories opérateurs de production (à titre indicatif, base 2024) :\n\n* Catégorie I (manoeuvre, aide-opérateur) : SMG environ 450-480 DT/mois brut.\n* Catégorie II (opérateur qualifié machine) : SMG environ 510-540 DT/mois brut.\n* Catégorie III (opérateur hautement qualifié, polyvalent) : SMG environ 560-600 DT/mois brut.\n* Catégorie IV (chef de groupe, régleur) : SMG environ 620-680 DT/mois brut.\nPrimes légales obligatoires à intégrer dans la rémunération totale :\n* Prime de transport : variable selon zone géographique, négociée en convention.\n* Prime de panier (si travail en 2x8 ou 3x8) : montant fixé par convention.\n* 13ème mois : obligatoire dans la plupart des conventions collectives tunisiennes, versé avant fin décembre.\nLa rémunération totale chargée = Salaire brut x 1,1657 (part patronale CNSS) + accidents du travail.",
+      "category": "hr",
+      "tags": [
+        "rh",
+        "salaire",
+        "convention-collective",
+        "textile",
+        "grille-salariale",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Fiche de Poste - Structure et Mentions Obligatoires ISO",
+      "content": "La fiche de poste est un document opposable exigé par la norme ISO 9001 (Chapitre 7.2 Compétences). Structure standardisée pour intégration ERP :\n\n* Identification : Intitulé exact (conforme à la grille CNCC), département, statut.\n* Rattachement : Hiérarchique (N+1 repéré dans l'organigramme) et fonctionnel.\n* Mission globale : Résumé de la finalité du poste en une phrase.\n* Activités principales : Liste de 5 à 7 tâches régulières évaluables (utilisant des verbes d'action).\n* Profil et Compétences requises : Savoir (diplômes techniques), Savoir-faire (expérience métier, maîtrise machine/logiciel), Savoir-être (soft skills).\n* Conditions d'exercice : Régime horaire (ex: 3x8), risques professionnels spécifiques (EPI obligatoires, port de charge), mobilité.\nLa fiche de poste doit être datée et signée par le collaborateur à l'embauche pour validation juridique de son périmètre d'intervention.",
+      "category": "hr",
+      "tags": [
+        "fiche-poste",
+        "iso9001",
+        "competences",
+        "rh",
+        "recrutement",
+        "organisation"
+      ]
+    },
+    {
+      "title": "Calcul de la Rémunération Totale et Traitement des Avantages",
+      "content": "La rémunération d'un salarié tunisien intègre des strates soumises à des traitements fiscaux et sociaux distincts :\n\n* Salaire de base : Indexé sur la grille conventionnelle, cotisable à la CNSS et imposable (IRPP).\n* Primes fixes et conventionnelles : Présence, transport, salissure. Cotisables et imposables.\n* Primes variables de rendement : Liées à l'atteinte d'objectifs (KPI), cotisables.\n* Avantages en nature : Voiture de fonction, logement, tickets restaurant. L'évaluation fiscale est forfaitaire ou réelle (ex: véhicule de fonction = évaluation mensuelle de 1% de la valeur d'acquisition TTC si les frais sont à la charge de l'employeur). Ils sont intégrés dans l'assiette de calcul de l'IRPP.\nLe coût global employeur (masse salariale chargée) correspond au Brut + Charges patronales (16,57% CNSS + 0,5% à 5% Accidents du Travail + 1% TFP + 1% FOPROLOS). Un salaire brut de 1000 DT coûte environ 1200 DT à la PME.",
+      "category": "hr",
+      "tags": [
+        "remuneration",
+        "paie",
+        "irpp",
+        "cnss",
+        "primes",
+        "avantages",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Entretien Annuel d'Évaluation (EAE) - Déroulement et Fixation d'Objectifs",
+      "content": "L'EAE est le jalon managérial annuel mesurant la performance individuelle, obligatoire pour le maintien du SMQ (Système de Management de la Qualité). Trame standard :\n\n* Bilan de l'année N-1 : Évaluation des compétences métiers et comportementales sur une échelle standard (ex: 1 à 4 : Non acquis, En cours d'acquisition, Acquis, Expert). Mesure de l'atteinte des objectifs passés.\n* Fixation des objectifs N : 3 à 5 objectifs maximum, impérativement SMART (Spécifique, Mesurable, Atteignable, Réaliste, Temporel). Exemple non-SMART : \"Améliorer la qualité\". Exemple SMART : \"Réduire le taux de rebut au poste assemblage de 3% à 1,5% d'ici le 31 décembre\".\n* Plan de Développement Individuel (PDI) : Identification des actions correctives (formations financées via la TFP/CNFCPP, tutorat interne, montée en compétence croisée).\nL'EAE est signé par l'évaluateur (N+1) et l'évalué, puis centralisé par les RH avant la construction du plan de formation annuel.",
+      "category": "hr",
+      "tags": [
+        "evaluation",
+        "eae",
+        "smart",
+        "formation",
+        "objectifs",
+        "management",
+        "rh"
+      ]
+    },
+    {
+      "title": "KPI Individuels - Mesure de la Performance Opérationnelle",
+      "content": "Le pilotage RH en industrie exige un suivi chiffré des opérateurs via des KPI extraits du Manufacturing Execution System (MES) ou de l'ERP :\n\n1. Taux d'absentéisme : (Heures d'absence / Heures théoriques de travail) x 100. Cible PME : < 3%. L'absentéisme micro-désorganise les chaînes de production et dégrade le TRS.\n2. Efficience / Productivité individuelle : Temps alloué standard (SAM - Standard Allowed Minute) / Temps réel passé. Cible opérateur textile confirmé : > 85%.\n3. Taux de non-qualité individuel : Nombre de pièces rebutées ou retouchées / Nombre total de pièces produites.\n4. Taux de polyvalence (Matrice ILUO) : Mesure l'aptitude d'un opérateur à tenir différents postes (I=Initié, L=Pratiquant, U=Autonome, O=Formateur). Une forte polyvalence est critique pour le lissage (Capacity Leveling) et l'absentéisme.",
+      "category": "hr",
+      "tags": [
+        "kpi",
+        "performance",
+        "absenteisme",
+        "productivite",
+        "polyvalence",
+        "matrice-iluo"
+      ]
+    },
+    {
+      "title": "Pilotage de la Masse Salariale et Contrôle Budgétaire",
+      "content": "La masse salariale représente 30% à 50% du chiffre d'affaires d'une PME industrielle. Son pilotage budgétaire s'articule autour de trois effets techniques :\n\n* L'effet de Noria : Économie réalisée par le remplacement de collaborateurs seniors (salaires élevés) par des recrutements juniors.\n* L'effet GVT (Glissement, Vieillesse, Technicité) : Augmentation mécanique et irréversible de la masse salariale liée à l'ancienneté et aux promotions annuelles (environ +2% à +4% par an).\n* Suivi des écarts : L'ERP doit isoler les dérives de coûts (heures supplémentaires non budgétées, recours excessif à l'intérim).\nOptimisation en Tunisie : Limiter l'impact des hausses salariales conventionnelles (UGTT/UTICA) par une politique de rémunération variable (primes sur TRS). Exploiter les contrats aidés de l'ANETI (contrats CIVP ou Karama) qui offrent des subventions et exonérations patronales de CNSS pour l'embauche de jeunes diplômés.",
+      "category": "hr",
+      "tags": [
+        "masse-salariale",
+        "budget",
+        "rh",
+        "gvt",
+        "civp",
+        "controle-de-gestion",
+        "erp"
+      ]
+    }
+  ]
+}
