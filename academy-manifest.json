@@ -1,1 +1,710 @@
-[]
+[
+  {
+    "id": "dbs-achats-19",
+    "name": "DBS Masterclass - Gestion des Achats & Procurement",
+    "description": "Évaluation et homologation fournisseur, appel d'offres achat, cahier des charges technique, négociation contrats-cadres, gestion des non-conformités fournisseur, matrice de risque achat.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8180,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-achats-19.json",
+    "tags": [
+      "achats",
+      "procurement",
+      "fournisseur",
+      "evaluation",
+      "homologation",
+      "contrat-cadre",
+      "nc-fournisseur",
+      "negociation"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-bom-06",
+    "name": "DBS Masterclass - Nomenclatures BOM & Optimisation",
+    "description": "Nomenclatures multi-niveaux, calcul des taux de rebut et perte matière, réconciliation BOM à la clôture OF, gestion des variantes, coût standard vs coût réel.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7892,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-bom-06.json",
+    "tags": [
+      "bom",
+      "nomenclature",
+      "rebut",
+      "mrp",
+      "composants",
+      "cout-standard",
+      "reconciliation",
+      "of"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-crm-27",
+    "name": "DBS Masterclass - Gestion Relation Client CRM et Recouvrement",
+    "description": "Segmentation client RFM, calcul de la valeur vie client (CLV), gestion des réclamations, procédure de recouvrement structurée (amiable et judiciaire tunisien), NPS, fidélisation et programmes de loyauté.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8369,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-crm-27.json",
+    "tags": [
+      "crm",
+      "client",
+      "rfm",
+      "clv",
+      "recouvrement",
+      "reclamation",
+      "nps",
+      "fidelisation",
+      "pipeline"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-douanes-03",
+    "name": "DBS Masterclass - Douanes & Import/Export",
+    "description": "Régimes douaniers tunisiens, admission temporaire perfectionnement actif, mise à la consommation, suspension de TVA, Incoterms 2020, liasse documentaire, droits de douane.",
+    "snippetCount": 6,
+    "fileSizeBytes": 6696,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-douanes-03.json",
+    "tags": [
+      "douanes",
+      "import",
+      "export",
+      "incoterms",
+      "admission-temporaire",
+      "liasse",
+      "dae",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-droit-travail-01",
+    "name": "DBS Masterclass - Législation & Droit du Travail Tunisien",
+    "description": "Code du travail tunisien, CNSS, types de contrats, période d'essai, licenciement, heures supplémentaires, congés, obligations administratives de l'employeur.",
+    "snippetCount": 6,
+    "fileSizeBytes": 5585,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-droit-travail-01.json",
+    "tags": [
+      "cnss",
+      "droit",
+      "travail",
+      "contrat",
+      "licenciement",
+      "heures-sup",
+      "conges",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-ecommerce-26",
+    "name": "DBS Masterclass - E-commerce & Vente Digitale Tunisie",
+    "description": "Cadre légal e-commerce tunisien (loi 2000-83), passerelles de paiement locales (Konnect, Click to Pay, Flouci), marketplaces (Jumia, MyTek), logistique last-mile, gestion des retours, indicateurs de performance e-commerce.",
+    "snippetCount": 6,
+    "fileSizeBytes": 9039,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-ecommerce-26.json",
+    "tags": [
+      "ecommerce",
+      "digital",
+      "konnect",
+      "jumia",
+      "paiement-en-ligne",
+      "logistique",
+      "livraison",
+      "tunisie",
+      "marketplace"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-finance-04",
+    "name": "DBS Masterclass - Gestion Financière & Comptabilité",
+    "description": "Calcul des marges brute/nette, amortissements linéaires/dégressifs SCE, flux de trésorerie directs/indirects, ratios de solvabilité et liquidité, prévisions cash-flow PME.",
+    "snippetCount": 6,
+    "fileSizeBytes": 6949,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-finance-04.json",
+    "tags": [
+      "finance",
+      "comptabilite",
+      "marge",
+      "amortissement",
+      "tresorerie",
+      "ratios",
+      "cash-flow",
+      "bilan"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-financement-20",
+    "name": "DBS Masterclass - Financement & Aides PME Tunisiennes",
+    "description": "BFPME, SOTUGAR, SICAR, FOPRODI, leasing vs crédit bancaire, programmes d'appui européens (GIZ, COSPE), microcrédit, processus de demande de financement et dossier bancaire PME.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8542,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-financement-20.json",
+    "tags": [
+      "financement",
+      "bfpme",
+      "sotugar",
+      "foprodi",
+      "sicar",
+      "leasing",
+      "credit",
+      "aides",
+      "pme",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-fiscalite-02",
+    "name": "DBS Masterclass - Fiscalité Tunisienne",
+    "description": "TVA multi-taux 7%/13%/19%, FODEC 1%, retenue à la source, déclaration mensuelle unique, acomptes provisionnels IS, obligations fiscales des PME tunisiennes.",
+    "snippetCount": 6,
+    "fileSizeBytes": 6040,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-fiscalite-02.json",
+    "tags": [
+      "tva",
+      "fodec",
+      "impots",
+      "retenue-source",
+      "dmu",
+      "acomptes",
+      "fiscal",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-flow-30",
+    "name": "Processus DBS — Du Premier Jour à la Clôture",
+    "description": "Documentation technique des processus DBS, racontée comme une histoire séquentielle. Chaque chapitre suit quatre temps : Douleur → Ancienne Méthode → La Méthode DBS → Résultat. Couvre l'installation, les utilisateurs, le catalogue, le stock, les achats, la facturation, la sous-traitance, la production, l'IA et le réseau LAN.",
+    "snippetCount": 10,
+    "fileSizeBytes": 24254,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-flow-30.json",
+    "tags": [
+      "processus",
+      "workflow",
+      "installation",
+      "stock",
+      "facturation",
+      "production",
+      "sous-traitance",
+      "bom",
+      "bsi",
+      "ost",
+      "ia",
+      "lan",
+      "utilisateurs",
+      "roles",
+      "catalogue",
+      "achats"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-giants-13",
+    "name": "DBS Masterclass - Pratiques des Géants Industriels",
+    "description": "Toyota Production System (TPS) et Lean, réactivité supply-chain de Zara (fast fashion), grilles d'audit fournisseur Apple, principes transposables aux PME industrielles.",
+    "snippetCount": 6,
+    "fileSizeBytes": 9652,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-giants-13.json",
+    "tags": [
+      "toyota",
+      "tps",
+      "lean",
+      "zara",
+      "apple",
+      "supply-chain",
+      "audit-fournisseur",
+      "fast-fashion",
+      "best-practices"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-guide-00",
+    "name": "DBS Guide Utilisateur — Navigation & Fonctionnalités",
+    "description": "Réponses aux questions de navigation et d'utilisation de DBS : où trouver chaque fonction, comment effectuer les opérations courantes, et liste des fonctionnalités non encore disponibles.",
+    "snippetCount": 14,
+    "fileSizeBytes": 16267,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-guide-00.json",
+    "tags": [
+      "guide",
+      "navigation",
+      "ui",
+      "aide",
+      "comment",
+      "ou",
+      "fonctionnalite",
+      "dbs"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-iso-05",
+    "name": "DBS Masterclass - Normes ISO & Qualité",
+    "description": "ISO 9001:2015 structure HLS et audit, CAPA (actions correctives et préventives), ISO 14001:2015 environnement, ISO 45001:2018 sécurité au travail, documentation qualité PME.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7039,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-iso-05.json",
+    "tags": [
+      "iso",
+      "qualite",
+      "audit",
+      "iso9001",
+      "iso14001",
+      "iso45001",
+      "capa",
+      "smq",
+      "documentation"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-maintenance-24",
+    "name": "DBS Masterclass - Maintenance Industrielle TPM et GMAO",
+    "description": "Types de maintenance (préventive/corrective/prédictive/améliorative), TPM (Total Productive Maintenance), calcul MTBF et MTTR, plan de maintenance préventive, GMAO (logiciel de gestion de la maintenance), coût global de défaillance.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8273,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-maintenance-24.json",
+    "tags": [
+      "maintenance",
+      "tpm",
+      "gmao",
+      "mtbf",
+      "mttr",
+      "preventive",
+      "corrective",
+      "predictive",
+      "industriel"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-08",
+    "name": "DBS Masterclass - Rédaction d'Offres & Négociation Commerciale",
+    "description": "Calcul CMT textile, structure d'une offre B2B gagnante, Incoterms et conditions de paiement export, techniques de négociation prix, réponse aux appels d'offres, positionnement tarifaire et TCO.",
+    "snippetCount": 6,
+    "fileSizeBytes": 9446,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-08.json",
+    "tags": [
+      "offre",
+      "negociation",
+      "cmt",
+      "textile",
+      "prix",
+      "conditions-paiement",
+      "ao",
+      "commercial"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-agro-22",
+    "name": "DBS Masterclass - Offres Commerciales Agroalimentaire",
+    "description": "Calcul du coût de revient alimentaire, structure d'une offre fournisseur GMS/restauration, normes HACCP dans l'offre commerciale, DLC/DLUO et gestion des dates, marges distributeur et négociation grande distribution tunisienne.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7359,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-agro-22.json",
+    "tags": [
+      "agroalimentaire",
+      "haccp",
+      "dlc",
+      "dluo",
+      "gms",
+      "restauration",
+      "cout-revient",
+      "marge",
+      "distribution",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-btoc-16",
+    "name": "DBS Masterclass - Offres Commerciales BtoC",
+    "description": "Construction d'un devis BtoC clair et convaincant, psychologie du prix en vente directe, présentation des options good/better/best, traitement des objections consommateur, closing face-à-face et digital, suivi post-devis.",
+    "snippetCount": 6,
+    "fileSizeBytes": 6981,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-btoc-16.json",
+    "tags": [
+      "btoc",
+      "devis",
+      "prix",
+      "closing",
+      "objections",
+      "consommateur",
+      "vente-directe",
+      "psychologie-prix"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-btp-17",
+    "name": "DBS Masterclass - Offres Commerciales Construction & BTP",
+    "description": "Structure d'un devis BTP professionnel, bordereau de prix unitaires, calcul du coût de revient travaux, gestion des avenants, retenue de garantie, réponse aux appels d'offres publics tunisiens, assurances obligatoires.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8052,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-btp-17.json",
+    "tags": [
+      "btp",
+      "construction",
+      "devis",
+      "bordereau",
+      "avenant",
+      "retenue-garantie",
+      "ao-public",
+      "marches-publics",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-services-21",
+    "name": "DBS Masterclass - Offres Commerciales Services IT Conseil Formation",
+    "description": "Tarification en régie (jour/homme), contrats au forfait, définition du périmètre SOW, SLA et pénalités, gestion des dépassements de scope, pricing de formation professionnelle, retainer contracts.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7831,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-services-21.json",
+    "tags": [
+      "services",
+      "it",
+      "conseil",
+      "formation",
+      "regie",
+      "forfait",
+      "sow",
+      "sla",
+      "scope",
+      "pricing"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-textile-15",
+    "name": "DBS Masterclass - Offres Commerciales Textile B2B Export",
+    "description": "Construction d'une offre prix export textile (CMT/FOB/CIF), lecture de fiche technique client, gestion des protos et échantillons, conditions de paiement international, négociation avec donneurs d'ordres européens.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8002,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-textile-15.json",
+    "tags": [
+      "textile",
+      "offre",
+      "cmt",
+      "fob",
+      "cif",
+      "proto",
+      "fiche-technique",
+      "export",
+      "b2b",
+      "negociation"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-offres-vefa-23",
+    "name": "DBS Masterclass - Offres Promoteur Immobilier et VEFA",
+    "description": "Vente en l'état futur d'achèvement (VEFA) tunisienne, contrat de réservation, appels de fonds par tranche, garantie d'achèvement, réglementation promoteur immobilier, calcul du prix de revient promotion immobilière.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7696,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-offres-vefa-23.json",
+    "tags": [
+      "immobilier",
+      "vefa",
+      "promoteur",
+      "reservation",
+      "appels-de-fonds",
+      "garantie",
+      "tunisie",
+      "construction"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-optimisation-extreme-28",
+    "name": "DBS Masterclass - Ingénierie Légale & Optimisation Agressive (Real World)",
+    "description": "Cartographie des pratiques d'optimisation fiscale, sociale et financière observées dans les PME tunisiennes — contenu descriptif/forensique pour conseillers et dirigeants avertis. Certaines pratiques comportent des risques légaux significatifs ; l'objectif est la compréhension du terrain, pas la prescription.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7449,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-optimisation-extreme-28.json",
+    "tags": [
+      "optimisation",
+      "loopholes",
+      "fiscalite",
+      "bfr",
+      "sivp",
+      "liquidation",
+      "real-world",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-pdca-12",
+    "name": "DBS Masterclass - PDCA & Amélioration Continue",
+    "description": "Cycle Plan-Do-Check-Act de Deming, méthode des 5 Pourquoi, diagramme d'Ishikawa, audits de processus, Kaizen, résolution structurée de problèmes en PME industrielle.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8315,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-pdca-12.json",
+    "tags": [
+      "pdca",
+      "deming",
+      "5pourquoi",
+      "ishikawa",
+      "amelioration-continue",
+      "audit",
+      "kaizen",
+      "lean"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-pme-14",
+    "name": "DBS Masterclass - Gestion Pragmatique de PME",
+    "description": "Cash burn rate et runway, délégation de tâches non critiques, automatisation des processus administratifs, optimisation de trésorerie de démarrage, bonnes pratiques communautés entrepreneurs.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8086,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-pme-14.json",
+    "tags": [
+      "cashburn",
+      "runway",
+      "tresorerie",
+      "delegation",
+      "automatisation",
+      "startup",
+      "pme",
+      "bootstrap",
+      "lean-startup"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-production-07",
+    "name": "DBS Masterclass - Techniques de Production & Ordonnancement",
+    "description": "Méthode Kanban, calcul Lead Time, identification des goulots d'étranglement (Theory of Constraints), ordonnancement des ordres de fabrication, OEE/TRS.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8244,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-production-07.json",
+    "tags": [
+      "kanban",
+      "lead-time",
+      "goulot",
+      "toc",
+      "ordonnancement",
+      "of",
+      "oee",
+      "trs",
+      "production"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-projets-25",
+    "name": "DBS Masterclass - Gestion de Projets",
+    "description": "WBS (Work Breakdown Structure), diagramme de Gantt et chemin critique (CPM), Earned Value Management (EVM), gestion des risques projet, réunion de lancement et jalons, clôture de projet et retour d'expérience.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7986,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-projets-25.json",
+    "tags": [
+      "projet",
+      "wbs",
+      "gantt",
+      "chemin-critique",
+      "evm",
+      "risques",
+      "jalons",
+      "planning",
+      "pmo"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-rh-10",
+    "name": "DBS Masterclass - Ressources Humaines & Évaluations",
+    "description": "Fiches de poste structurées, grilles salariales conventionnelles tunisiennes, KPI de performance collaborateurs, entretiens annuels d'évaluation, plans de développement.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8115,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-rh-10.json",
+    "tags": [
+      "rh",
+      "salaire",
+      "evaluation",
+      "kpi",
+      "formation",
+      "fiche-poste",
+      "grille-salariale",
+      "cncc",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-stocks-18",
+    "name": "DBS Masterclass - Gestion des Stocks & Logistique Interne",
+    "description": "Méthodes FIFO/FEFO/LIFO, analyse ABC-XYZ, calcul du stock de sécurité et du point de commande, organisation physique entrepôt (5S), procédure d'inventaire annuel obligatoire tunisien, coût de possession du stock.",
+    "snippetCount": 6,
+    "fileSizeBytes": 8626,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-stocks-18.json",
+    "tags": [
+      "stocks",
+      "logistique",
+      "fifo",
+      "fefo",
+      "abc",
+      "stock-securite",
+      "point-commande",
+      "inventaire",
+      "entrepot"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-story-00",
+    "name": "L'Histoire de DBS — Le Marché des Commerçants",
+    "description": "La saga narrative de DBS : les problèmes réels des PME tunisiennes, les fausses solutions qui ont échoué, et comment DBS les résout — racontés à travers les marchands de Mercantia. Idéal pour comprendre le positionnement, la vision et les cas d'usage de DBS.",
+    "snippetCount": 8,
+    "fileSizeBytes": 15634,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-story-00.json",
+    "tags": [
+      "histoire",
+      "vision",
+      "mission",
+      "positionnement",
+      "dbs",
+      "pme",
+      "tunisie",
+      "story",
+      "probleme",
+      "solution",
+      "concurrent"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-story-fr-00",
+    "name": "Le Chroniqueur de Mercantia — L'Histoire de DBS en Français",
+    "description": "La saga narrative de DBS racontée en français : les problèmes réels des PME tunisiennes, les fausses solutions qui ont échoué, et comment le Living Ledger les résout — à travers les marchands de Mercantia. Version littéraire avec les termes mystiques anglais préservés. Idéale pour les présentations commerciales, les formations et la compréhension de la vision DBS.",
+    "snippetCount": 9,
+    "fileSizeBytes": 19025,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-story-fr-00.json",
+    "tags": [
+      "histoire",
+      "french",
+      "narratif",
+      "fantasy",
+      "vision",
+      "mercantia",
+      "pme",
+      "tunisie",
+      "living-ledger",
+      "chronicler",
+      "positionnement"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-strategie-09",
+    "name": "DBS Masterclass - Gestion d'Entreprise & Stratégie",
+    "description": "Analyse SWOT et PESTEL, planification budgétaire PME, KPI ERP essentiels, tableau de bord de direction, pilotage stratégique et opérationnel PME tunisienne.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7862,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-strategie-09.json",
+    "tags": [
+      "strategie",
+      "swot",
+      "pestel",
+      "budget",
+      "kpi",
+      "tableau-de-bord",
+      "gestion",
+      "pme",
+      "erp"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-subventions-aides-29",
+    "name": "DBS Masterclass - Cartographie des Subventions & Aides PME/GE",
+    "description": "Fonds d'État tunisiens (FOPRODI, FOPRODEX), programmes internationaux (GIZ, BERD, AFD), incitations Startup Act, subventions à l'emploi (SIVP), programmes de mise à niveau PMN.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7506,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-subventions-aides-29.json",
+    "tags": [
+      "subvention",
+      "foprodi",
+      "giz",
+      "berd",
+      "startup-act",
+      "foprodex",
+      "financement",
+      "aides",
+      "tunisie"
+    ],
+    "installed": false
+  },
+  {
+    "id": "dbs-vente-11",
+    "name": "DBS Masterclass - Vente & Communication Commerciale",
+    "description": "Écoute active, traitement des objections prix, techniques de relance devis, emails de conversion commerciale, closing B2B, gestion du cycle de vente PME.",
+    "snippetCount": 6,
+    "fileSizeBytes": 7742,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/dbs-vente-11.json",
+    "tags": [
+      "vente",
+      "objections",
+      "devis",
+      "email",
+      "closing",
+      "communication",
+      "commercial",
+      "b2b"
+    ],
+    "installed": false
+  },
+  {
+    "id": "production",
+    "name": "Module Production ERP",
+    "description": "Fiches techniques décrivant le fonctionnement pratique du module de production et d'ordonnancement dans DBS ERP.",
+    "snippetCount": 5,
+    "fileSizeBytes": 3541,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/production.json",
+    "tags": [
+      "production",
+      "of",
+      "bom",
+      "cloture",
+      "reconciliation"
+    ],
+    "installed": false
+  },
+  {
+    "id": "suggestions",
+    "name": "Astuces et Suggestions de l'Assistant",
+    "description": "Conseils d'utilisation avancés et exemples de requêtes interactives pour exploiter au mieux DBS ERP.",
+    "snippetCount": 6,
+    "fileSizeBytes": 4967,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/suggestions.json",
+    "tags": [
+      "astuces",
+      "suggestions",
+      "raccourcis",
+      "ia",
+      "optimisation"
+    ],
+    "installed": false
+  },
+  {
+    "id": "textile-pack-1",
+    "name": "Extension Textile & Confection",
+    "description": "Base étendue de fiches sur les procédés textiles, contrôles de couture, calculs de gâche et tolérances douanières tunisiennes.",
+    "snippetCount": 3,
+    "fileSizeBytes": 1913,
+    "filePath": "https://raw.githubusercontent.com/OntopDBS/dbs-releases/main/academy-lessons/textile-pack.json",
+    "tags": [
+      "textile",
+      "BOM",
+      "confection"
+    ],
+    "installed": false
+  }
+]
