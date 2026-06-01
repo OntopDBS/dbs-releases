@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "packageSource": "dbs-pdca-12",
+    "name": "DBS Masterclass - PDCA & Amélioration Continue",
+    "description": "Cycle Plan-Do-Check-Act de Deming, méthode des 5 Pourquoi, diagramme d'Ishikawa, audits de processus, Kaizen, résolution structurée de problèmes en PME industrielle.",
+    "tags": [
+      "pdca",
+      "deming",
+      "5pourquoi",
+      "ishikawa",
+      "amelioration-continue",
+      "audit",
+      "kaizen",
+      "lean"
+    ],
+    "category": "quality",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Les 5 Pourquoi - Méthode et Pièges à Éviter",
+      "content": "La méthode des 5 Pourquoi (Sakichi Toyoda / Toyota) permet de remonter à la cause racine d'un problème en questionnant itérativement la cause apparente. Règles d'application rigoureuse :\n\n1. Un seul fil causal par analyse : si la réponse à \"Pourquoi ?\" génère deux causes distinctes, ouvrir deux branches séparées (arbre des causes).\n2. Vérifier chaque lien de causalité : \"Cela est-il réellement dû à... ?\" — éviter les sauts logiques.\n3. S'arrêter à la cause système : la cause racine doit être un facteur sur lequel on peut agir (procédure manquante, compétence non formée, équipement non maintenu) — jamais \"erreur humaine\" seul (trop vague, non actionnable).\nExemple appliqué (machine à coudre arrêtée) :\n\n* Pourquoi 1 : La machine est arrêtée car le fil a cassé en cours de production.\n* Pourquoi 2 : Le fil a cassé car la tension était incorrecte.\n* Pourquoi 3 : La tension était incorrecte car le réglage n'a pas été vérifié après le changement de série.\n* Pourquoi 4 : Le réglage n'a pas été vérifié car il n'y a pas de check-list de démarrage OF.\n* Pourquoi 5 : Pas de check-list car la procédure de changement de série n'a jamais été formalisée.\nCause racine actionnable : absence de procédure formalisée de changement de série. Action : créer la procédure + former les régleurs + intégrer dans l'audit ISO.",
+      "category": "quality",
+      "tags": [
+        "pdca",
+        "5pourquoi",
+        "amelioration-continue",
+        "lean",
+        "kaizen",
+        "qualite"
+      ]
+    },
+    {
+      "title": "Cycle PDCA de Deming - Phasing et Erreurs Classiques",
+      "content": "Le cycle de Deming structure l'amélioration continue en 4 phases itératives. La répartition temporelle idéale est souvent contre-intuitive pour une PME :\n\n* Plan (50% du temps) : Définir le problème, cartographier l'état actuel, mesurer la baseline (KPI), analyser les causes racines, définir la cible.\n* Do (20%) : Tester la solution à petite échelle (pilote) pour valider l'hypothèse sans risquer la production globale.\n* Check (20%) : Mesurer les résultats du pilote par rapport aux objectifs fixés au Plan. Si échec, retour au Plan.\n* Act (10%) : Standardiser (mettre à jour les procédures/SOP), documenter, former le personnel, déployer.\nErreurs fatales : Le syndrome \"Do-Do-Do\" (sauter la phase Plan, agir sur les symptômes au lieu des causes) ou l'oubli de la phase Act (les problèmes réapparaissent après 3 mois par manque de standardisation).",
+      "category": "quality",
+      "tags": [
+        "pdca",
+        "deming",
+        "lean",
+        "methodologie",
+        "qualite",
+        "processus"
+      ]
+    },
+    {
+      "title": "Diagramme d'Ishikawa - Modélisation des Causes (6M)",
+      "content": "Le diagramme en arêtes de poisson (Ishikawa) catégorise visuellement les causes potentielles d'un effet (problème) identifiées lors d'un brainstorming. Structure standard des 6M :\n\n* Matière : Non-conformité des composants, variations de lots, défauts d'emballage.\n* Matériel : Pannes machine, usure d'outillage, métrologie défaillante.\n* Méthode : Procédures absentes ou erronées, paramètres de réglage inadaptés.\n* Main d'œuvre : Manque de formation, fatigue, inattention, rotation du personnel (turnover).\n* Milieu : Température, hygrométrie, éclairage, poussière, encombrement (5S).\n* Management : Pression sur les délais, objectifs contradictoires, absence de supervision.\nRègle d'or : Ishikawa ne donne pas la cause racine, il cartographie le champ des possibles. Chaque arête majeure identifiée comme très probable doit ensuite être soumise aux 5 Pourquoi.",
+      "category": "quality",
+      "tags": [
+        "ishikawa",
+        "6m",
+        "causes-racines",
+        "resolution-probleme",
+        "qualite"
+      ]
+    },
+    {
+      "title": "Rapport A3 - Outil de Communication et Résolution de Problème",
+      "content": "Le Rapport A3 condense l'intégralité d'un cycle PDCA sur une seule page (format A3), forçant la synthèse et la rigueur visuelle. Il se lit de haut en bas et de gauche à droite. Structure standard :\n\n1. Contexte (Background) : Pourquoi ce problème est-il stratégique pour l'entreprise ?\n2. Situation Actuelle : Données chiffrées, schéma ou VSM (Value Stream Mapping) de l'existant.\n3. Objectif : Cible chiffrée (SMART) de l'amélioration attendue.\n4. Analyse des causes : Résumé Ishikawa / 5 Pourquoi.\n5. Contre-mesures : Solutions retenues ciblant les causes racines actionnables.\n6. Plan d'Action : Matrice de déploiement (Qui fait Quoi, Quand, Comment).\n7. Suivi : Indicateurs de performance (KPI) post-implémentation.\nUsage PME : Le A3 remplace les longs rapports textuels et sert de support visuel unique lors des revues de direction qualité (CODIR).",
+      "category": "quality",
+      "tags": [
+        "a3report",
+        "toyota",
+        "lean",
+        "pdca",
+        "codir",
+        "reporting"
+      ]
+    },
+    {
+      "title": "Événement Kaizen (Blitz) - Déploiement Sprint sur 3 à 5 Jours",
+      "content": "Le Kaizen Event (ou Blitz) est une intervention intensive visant une transformation radicale et immédiate d'un processus spécifique.\nPrérequis (J-30) : Définir un périmètre strict, réunir les données préalables, bloquer le temps d'une équipe pluridisciplinaire (manager, ingénierie, 2 à 3 opérateurs de ligne).\nDéroulement type :\n\n* J1 : Formation Lean éclair, observation sur le terrain (Gemba), cartographie de l'état actuel.\n* J2 : Identification des gaspillages (Muda) et analyse des causes racines.\n* J3 : Brainstorming, conception de l'état futur cible et préparation des modifications physiques.\n* J4 : Implémentation physique sur le terrain (déplacement de machines, création de détrompeurs Poka-Yoke), tests réels (Quick Wins).\n* J5 : Ajustements, mise à jour des standards de travail, présentation des résultats au comité de direction.\nObjectif de sortie : 80% des améliorations sont opérationnelles immédiatement, les 20% restantes sont planifiées sur un plan d'action strict à 30 jours maximum.",
+      "category": "quality",
+      "tags": [
+        "kaizen",
+        "blitz",
+        "gemba",
+        "lean",
+        "muda",
+        "action-immediate"
+      ]
+    },
+    {
+      "title": "Audit Processus et Indicateurs de Maturité d'Amélioration Continue",
+      "content": "L'audit interne de processus (approche par les risques) surpasse l'audit documentaire classique en évaluant l'efficacité réelle du flux via l'approche \"Turtle Diagram\" (ressources matérielles, compétences, méthodes, indicateurs).\nCritères d'évaluation PME pour chaque processus :\n\n* Conformité : Respect des standards et SOP documentés.\n* Efficacité : Les cibles KPI sont-elles atteintes ?\n* Dynamique d'amélioration : Des CAPA ont-elles été ouvertes et clôturées efficacement face aux écarts ?\nIndicateurs de maturité de la culture Lean à intégrer dans le tableau de bord ERP :\n\n1. Taux de clôture des actions correctives (CAPA) dans les délais (< 30 ou 60 jours selon criticité).\n2. Nombre d'idées d'amélioration (Kaizen Teian) soumises par employé et par an (Cible world-class : > 2).\n3. Taux d'implémentation des idées soumises (Cible > 70% pour maintenir l'engagement terrain).\n4. Réduction mesurable du coût de non-qualité (CNQ) sur l'exercice fiscal.",
+      "category": "quality",
+      "tags": [
+        "audit",
+        "processus",
+        "maturite",
+        "kpi",
+        "capa",
+        "culture-entreprise"
+      ]
+    }
+  ]
+}
