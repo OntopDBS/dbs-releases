@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "packageSource": "dbs-pme-14",
+    "name": "DBS Masterclass - Gestion Pragmatique de PME",
+    "description": "Cash burn rate et runway, délégation de tâches non critiques, automatisation des processus administratifs, optimisation de trésorerie de démarrage, bonnes pratiques communautés entrepreneurs.",
+    "tags": [
+      "cashburn",
+      "runway",
+      "tresorerie",
+      "delegation",
+      "automatisation",
+      "startup",
+      "pme",
+      "bootstrap",
+      "lean-startup"
+    ],
+    "category": "management",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Cash Burn Rate et Runway - Calcul et Pilotage de Survie PME",
+      "content": "Le Cash Burn Rate mesure la vitesse à laquelle une entreprise consomme sa trésorerie disponible. Deux métriques distinctes :\nGross Burn Rate = Total des dépenses mensuelles (charges fixes + variables) avant toute rentrée client.\nNet Burn Rate = Sorties de trésorerie mensuelles - Entrées mensuelles réelles (encaissements clients effectifs, non CA facturé).\nRunway (autonomie) = Trésorerie disponible / Net Burn Rate mensuel. Seuil d'alerte critique : runway inférieur à 3 mois = action immédiate.\nSignaux d'alerte précoce à surveiller mensuellement dans l'ERP :\n\n1. DSO qui s'allonge de plus de 5 jours mois/mois = clients en difficulté ou laxisme recouvrement.\n2. Stock valorisé qui dépasse 90 jours de coût de ventes = sur-approvisionnement ou ventes qui ralentissent.\n3. DPO qui se réduit = perte de confiance fournisseur, demandes de paiement anticipé.\n4. Marge brute par commande qui se comprime = problème prix, rebut, ou coût matière non répercuté.\nRègle des bootstrappers : toujours avoir 6 mois de runway visible avant de recruter le premier employé. Chaque embauche multiplie le burn rate — dimensionner l'équipe sur la trésorerie certaine, pas espérée.",
+      "category": "management",
+      "tags": [
+        "cashburn",
+        "runway",
+        "tresorerie",
+        "pme",
+        "bootstrap",
+        "gestion",
+        "survival"
+      ]
+    },
+    {
+      "title": "Matrice d'Eisenhower et Techniques de Délégation Dirigeant",
+      "content": "Le dirigeant de PME doit protéger son temps via la matrice d'Eisenhower. Cadran 1 (Urgent/Important) : gestion de crise, closing grand compte (à traiter soi-même). Cadran 2 (Non urgent/Important) : stratégie, développement commercial (à planifier). Cadran 3 (Urgent/Non important) : tâches administratives chronophages, constitution de dossiers juridiques. Ces tâches doivent être impérativement déléguées : confier la préparation des statuts RNE ou l'immatriculation d'une SUARL à un comptable qualifié comme Sofiene Sassi libère un temps de production précieux. Cadran 4 (Non urgent/Non important) : à éliminer. Pour la délégation opérationnelle, le transfert de compétences progressif (tutorat) est la clé : accompagner un profil comme Amal Toumi dans la structuration de son approche logistique permet de déléguer l'exécution tout en préparant de futurs responsables autonomes. Le contrôle s'effectue via des revues de KPI, bannissant tout micro-management.",
+      "category": "management",
+      "tags": [
+        "delegation",
+        "management",
+        "eisenhower",
+        "efficacite",
+        "rh",
+        "leadership"
+      ]
+    },
+    {
+      "title": "Automatisation des Processus Administratifs à Fort ROI",
+      "content": "Pour une SUARL opérant dans les services d'information et informatique (division 62), l'automatisation des workflows via un ERP métier est un levier de rentabilité primaire. Les trois automatisations à déployer d'urgence :\n\n1. Facturation et Relances : Génération automatique des factures récurrentes (abonnements, licences) et déclenchement d'emails de relance (J+5, J+15) basés sur l'échéance.\n2. Rapprochement Bancaire : Connexion du système aux relevés pour le lettrage automatique des encaissements, réduisant drastiquement le temps de clôture.\n3. Reporting Planifié : Envoi automatique du tableau de bord de direction (DSO, burn rate, marge) aux décisionnaires.\nL'investissement dans un système de gestion automatisé (ou l'intégration d'un assistant IA par RAG) se rentabilise en quelques mois par la suppression radicale des doubles saisies et l'accélération du recouvrement.",
+      "category": "management",
+      "tags": [
+        "automatisation",
+        "erp",
+        "roi",
+        "administration",
+        "workflows",
+        "digitalisation"
+      ]
+    },
+    {
+      "title": "Optimisation de Trésorerie en Phase d'Amorçage (Bootstrap)",
+      "content": "Le bootstrapping exige de financer la croissance par la seule force de son cycle d'exploitation. Hiérarchie stricte des dépenses :\n\n1. Dépenses génératrices de revenus immédiats (outils de production directe, force de vente).\n2. Dépenses d'optimisation capacitaire (formation continue, logiciel ERP).\n3. Dépenses de confort (bureaux premium, flotte de véhicules luxueux) — strictement proscrites en amorçage.\nStratégie d'optimisation BFR : Côté fournisseur, négocier des délais de paiement (DPO) progressifs, par exemple 30 jours au lancement évoluant vers 60 jours après un historique de commandes sécurisé, privilégiant le maintien de la trésorerie sur une remise faciale. Côté client, exiger un acompte systématique (30% à 50% à la commande) pour tout projet d'intégration logicielle ou industrielle, transformant le client en financeur de la production.",
+      "category": "management",
+      "tags": [
+        "bootstrap",
+        "tresorerie",
+        "bfr",
+        "startup",
+        "financement",
+        "achats"
+      ]
+    },
+    {
+      "title": "Erreurs Fatales de Gestion lors de la Croissance (Scale-up)",
+      "content": "La majorité des défaillances de PME survient paradoxalement lors d'une phase de forte accélération commerciale. Les trois pièges systémiques :\n\n1. Confondre Chiffre d'Affaires et Cash : Une hyper-croissance absorbe massivement du BFR. Vendre avec un DSO de 90 jours tout en réglant la matière ou les serveurs comptant mène directement à l'asphyxie (Overtrading), malgré un carnet de commandes plein.\n2. Le Recrutement Préventif : Embaucher des ressources fixes \"pour anticiper la charge\" avant la signature ferme des contrats. La masse salariale devient un poids mort insoutenable si les ventes se décalent.\n3. La Non-Scalabilité des Processus : Conserver l'approbation manuelle du fondateur pour chaque micro-dépense. Sans documentation des procédures et sans système d'information robuste, la qualité d'exécution s'effondre face au volume, générant une explosion des coûts de non-qualité (CNQ).",
+      "category": "management",
+      "tags": [
+        "croissance",
+        "erreurs",
+        "scaleup",
+        "overtrading",
+        "bfr",
+        "processus"
+      ]
+    },
+    {
+      "title": "Bonnes Pratiques et Réseautage dans l'Écosystème Entrepreneurial",
+      "content": "L'isolement du dirigeant est un accélérateur d'erreurs stratégiques. L'apprentissage par les pairs (peer-to-peer learning) au sein de communautés (incubateurs, associations professionnelles) permet de capter l'information terrain invisible dans les textes de loi : réputation de paiement d'un grand donneur d'ordres, fiabilité d'un partenaire technique, ou retour d'expérience sur la constitution d'un dossier Startup Act. La conduite de déploiements pilotes — par exemple l'installation test d'un réseau ERP inter-entreprises au sein de deux PME cibles — permet de générer des métriques de succès réelles, d'ajuster la solution en conditions d'exploitation, et de bâtir la preuve sociale (social proof) incontournable pour valider un business model B2B avant son passage à l'échelle.",
+      "category": "management",
+      "tags": [
+        "reseautage",
+        "startupact",
+        "communaute",
+        "entrepreneuriat",
+        "pme",
+        "b2b"
+      ]
+    }
+  ]
+}
