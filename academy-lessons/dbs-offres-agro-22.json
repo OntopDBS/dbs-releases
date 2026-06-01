@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-agro-22",
+    "name": "DBS Masterclass - Offres Commerciales Agroalimentaire",
+    "description": "Calcul du coût de revient alimentaire, structure d'une offre fournisseur GMS/restauration, normes HACCP dans l'offre commerciale, DLC/DLUO et gestion des dates, marges distributeur et négociation grande distribution tunisienne.",
+    "tags": [
+      "agroalimentaire",
+      "haccp",
+      "dlc",
+      "dluo",
+      "gms",
+      "restauration",
+      "cout-revient",
+      "marge",
+      "distribution",
+      "tunisie"
+    ],
+    "category": "commercial",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Calcul du Coût de Revient Alimentaire - Méthode Standard Industrie Agro",
+      "content": "Le coût de revient alimentaire est la base de toute politique de prix en agroalimentaire. Décomposition pour un produit transformé (exemple : conserve de tomates 370g) :\nMatières premières (50-60% du coût de revient typique) :\n\n* Tomates fraîches : 0,320 kg x 0,45 DT/kg = 0,144 DT\n* Sel, épices, conservateurs : forfait 0,015 DT\n* Eau process : 0,005 DT\nEmballage (15-20%) :\n* Boîte métal 370g + couvercle : 0,085 DT\n* Étiquette + colle : 0,008 DT\n* Carton regroupement (quote-part) : 0,012 DT\nMain d'oeuvre directe + énergie (10-15%) :\n* MOD : 0,045 DT/boîte sur ligne automatisée 8 000 boîtes/h\n* Énergie (vapeur, froid, électricité) : 0,018 DT\nFrais généraux et amortissements (10%) : 0,033 DT\nCoût de revient usine total : environ 0,365 DT/boîte 370g\nPrix départ usine cible (marge 25%) : 0,365 / (1 - 0,25) = 0,487 DT HT\nPrix consommateur final (après marge distributeur 35%) : 0,487 / (1 - 0,35) = 0,749 DT HT, soit environ 0,89 DT TTC (TVA 19%).",
+      "category": "commercial",
+      "tags": [
+        "agroalimentaire",
+        "cout-revient",
+        "haccp",
+        "dlc",
+        "gms",
+        "distribution",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Conditions de Référencement et Marges Grande Distribution (GMS)",
+      "content": "Le référencement en GMS tunisienne (Magasin Général, Monoprix, Carrefour) impose une structuration tarifaire intégrant marge avant et marges arrière. La marge distributeur varie de 20% (produits de base/laitiers) à 40% (produits frais, confiserie, épicerie fine). Les contrats annuels de coopération commerciale déduisent les ristournes, le BFA (Bonus de Fin d'Année) et les frais d'animation (Tête de Gondole, prospectus). Les conditions de paiement s'étalent de 60 à 90 jours fin de mois, nécessitant une forte capacité de financement du BFR par le producteur. Le déréférencement (retrait définitif des rayons) s'applique automatiquement en cas de rotation insuffisante du stock (taux d'écoulement sous la cible) ou de ruptures de livraison répétées (OTIF < 95%).",
+      "category": "commercial",
+      "tags": [
+        "gms",
+        "referencement",
+        "marge",
+        "bfr",
+        "distribution",
+        "bfa",
+        "negociation"
+      ]
+    },
+    {
+      "title": "Structure de l'Offre Commerciale GMS - Paramètres Logistiques",
+      "content": "Une offre fournisseur agroalimentaire (Fiche Produit) exige la définition stricte des unités logistiques pour l'ERP du distributeur. L'Unité de Vente Consommateur (UVC) doit obligatoirement comporter un code-barres EAN 13 validé par GS1 Tunisie. Le conditionnement de regroupement se définit par le PCB (Par Combien - ex: carton de 12 UVC). L'offre précise la palettisation (Palettes Europe 80x120 cm), le nombre de cartons par couche et le nombre de couches par palette. Les tarifs s'expriment en Franco de Port (livraison incluse aux plateformes GMS) ou Départ Usine (EXW), adossés à une Quantité Minimum de Commande (MOQ) exprimée en valeur monétaire ou en nombre de palettes pour amortir le coût de transport frigorifique ou sec.",
+      "category": "commercial",
+      "tags": [
+        "offre",
+        "pcb",
+        "uvc",
+        "logistique",
+        "ean13",
+        "gs1",
+        "moq"
+      ]
+    },
+    {
+      "title": "Gestion DLC/DLUO et Règle de la Vie Résiduelle à Livraison",
+      "content": "La gestion des dates est critique en agroalimentaire pour éviter le rejet à la réception. La Date Limite de Consommation (DLC - \"à consommer jusqu'au\") concerne les denrées très périssables (risque sanitaire direct). La Date de Durabilité Minimale (DDM, ex-DLUO - \"à consommer de préférence avant le\") concerne les produits secs ou stérilisés (risque organoleptique). Règle commerciale stricte de la GMS : garantie de vie résiduelle. Le fournisseur doit s'engager contractuellement à livrer un produit disposant d'au moins 2/3 (66%) de sa durée de vie totale. Un produit avec une DLC de 90 jours livré à J+35 sera systématiquement refusé par la plateforme logistique centrale, générant un coût de retour et une pénalité de non-livraison.",
+      "category": "commercial",
+      "tags": [
+        "dlc",
+        "dluo",
+        "perissable",
+        "reception",
+        "logistique",
+        "cahier-des-charges"
+      ]
+    },
+    {
+      "title": "Normes HACCP - Intégration Contractuelle et Maîtrise Sanitaire",
+      "content": "Le système HACCP (Hazard Analysis Critical Control Point) est une obligation légale et une condition sine qua non de référencement B2B. L'offre commerciale s'accompagne d'un extrait du Plan de Maîtrise Sanitaire (PMS). Le fournisseur doit démontrer l'identification et la maîtrise de ses Points Critiques pour la Maîtrise (CCP). Exemples de CCP industriels : température exacte de pasteurisation (couple temps/température), détecteur de métaux en fin de ligne (vérifié à fréquence fixe avec des témoins étalons), et maîtrise stricte de la chaîne du froid. Le contrat GMS inclut des clauses d'audit inopiné et exige une procédure de retrait/rappel de lot testée annuellement (traçabilité ascendante et descendante devant être bouclée en moins de 4 heures).",
+      "category": "commercial",
+      "tags": [
+        "haccp",
+        "ccp",
+        "securite-alimentaire",
+        "qualite",
+        "tracabilite",
+        "rappel"
+      ]
+    },
+    {
+      "title": "Certifications Valorisantes - ISO 22000, FSSC 22000 et Labels",
+      "content": "Les certifications tierce partie constituent un différenciateur commercial majeur, justifiant un \"Pricing Power\" (surprime) face aux acheteurs professionnels.\n\n* ISO 22000 : Démontre la conformité du Système de Management des Denrées Alimentaires (SMDA).\n* FSSC 22000 / IFS / BRC : Standards reconnus par la GFSI (Global Food Safety Initiative). Indispensables pour l'exportation vers la grande distribution européenne ou le co-packing pour les multinationales.\n* Certification BIO (Loi tunisienne relative à l'agriculture biologique) : Exige un audit de toute la chaîne de valeur (zéro résidu de pesticides, séparation stricte des flux conventionnels en usine).\n* Food Grade : Exigence documentaire sur les emballages primaires (certificat de non-migration des composants plastiques vers l'aliment).",
+      "category": "commercial",
+      "tags": [
+        "iso22000",
+        "fssc22000",
+        "bio",
+        "gfsi",
+        "export",
+        "certification",
+        "smda"
+      ]
+    }
+  ]
+}
