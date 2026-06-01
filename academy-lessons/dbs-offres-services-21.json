@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-services-21",
+    "name": "DBS Masterclass - Offres Commerciales Services IT Conseil Formation",
+    "description": "Tarification en régie (jour/homme), contrats au forfait, définition du périmètre SOW, SLA et pénalités, gestion des dépassements de scope, pricing de formation professionnelle, retainer contracts.",
+    "tags": [
+      "services",
+      "it",
+      "conseil",
+      "formation",
+      "regie",
+      "forfait",
+      "sow",
+      "sla",
+      "scope",
+      "pricing"
+    ],
+    "category": "commercial",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Calcul du TJM - Tarification Jour-Homme pour Société de Services",
+      "content": "Le Taux Journalier Moyen (TJM) est le prix de vente d'une journée de travail d'un consultant ou développeur. Méthode de calcul ascendante (cost-plus) :\nÉtape 1 — Coût chargé annuel du consultant :\n\n* Salaire brut annuel : exemple 30 000 DT\n* Charges patronales (CNSS 16,57% + autres) : + 5 000 DT\n* Coût chargé total : 35 000 DT/an\nÉtape 2 — Jours facturables réels :\n* 365 jours - 104 week-ends - 30 congés - 10 jours fériés - 20 jours non facturables (admin, formation, prospection) = 201 jours facturables/an\nÉtape 3 — Coût de revient journalier :\n* 35 000 DT / 201 jours = 174 DT/jour\nÉtape 4 — TJM de vente (coefficient x2 cible pour société de services rentable) :\n* TJM = 174 DT x 2,0 = 348 DT/jour (environ 100 EUR/jour)\nBenchmarks marché tunisien 2026 : consultant IT junior 200-300 DT/jour, senior 400-600 DT/jour, expert/architecte 700-1000 DT/jour. Formation professionnelle intra-entreprise : 800-1500 DT/jour-groupe selon la thématique.",
+      "category": "commercial",
+      "tags": [
+        "tjm",
+        "services",
+        "conseil",
+        "it",
+        "formation",
+        "pricing",
+        "regie",
+        "forfait"
+      ]
+    },
+    {
+      "title": "Contrats de Services - Régie vs Forfait",
+      "content": "Les modèles de facturation IT et conseil déterminent l'allocation du risque financier entre client et prestataire :\n\n* Contrat en Régie (Time & Materials) : Facturation strictement basée sur le temps passé (TJM x jours consommés). Le prestataire a une obligation de moyens. Le risque de dépassement budgétaire est porté par le client. Exige un pointage rigoureux validé mensuellement par un CRA (Compte Rendu d'Activité) signé (Timesheet).\n* Contrat au Forfait (Fixed Price) : Engagement sur un prix fixe pour livrer un périmètre défini. Le prestataire a une obligation de résultat. Le risque financier (dérapage planning) est porté par le prestataire. Exige une majoration de sécurité (marge de risque de 15% à 20% intégrée au calcul des jours) et un périmètre contractuel (SOW) verrouillé.",
+      "category": "commercial",
+      "tags": [
+        "regie",
+        "forfait",
+        "contrats",
+        "it",
+        "risques",
+        "facturation",
+        "cra"
+      ]
+    },
+    {
+      "title": "Statement of Work (SOW) - Délimitation du Périmètre Contractuel",
+      "content": "Le SOW (Statement of Work) ou Cahier des Charges Contractuel est la pièce maîtresse d'un contrat au forfait. Il fige le périmètre d'intervention pour bloquer l'inflation silencieuse des exigences (Scope Creep).\nComposantes obligatoires d'un SOW robuste :\n\n* Livrables (Deliverables) : Description exhaustive et tangible des éléments à fournir (ex: module logiciel, rapport d'audit, manuel de procédure).\n* Jalons (Milestones) : Calendrier liant les dates de livraison aux échéances de facturation (ex: 30% à la validation des spécifications, 40% au déploiement, 30% au VABF).\n* Critères d'acceptation : Tests et métriques objectifs validant la conformité du livrable (UAT - User Acceptance Testing).\n* Périmètre exclu (Out of Scope) : Liste explicite des éléments non inclus (ex: \"La migration des données historiques antérieures à 2020 n'est pas incluse\"). C'est le bouclier juridique du prestataire.",
+      "category": "commercial",
+      "tags": [
+        "sow",
+        "scope",
+        "perimetre",
+        "livrables",
+        "jalons",
+        "uat",
+        "management-projet"
+      ]
+    },
+    {
+      "title": "Gestion des Dépassements de Périmètre - Change Request Process",
+      "content": "Dans un contrat au forfait, toute demande client modifiant le périmètre initialement défini dans le SOW déclenche une procédure de gestion du changement (Change Request).\nProcédure stricte :\n\n1. Identification : Le chef de projet prestataire notifie le client que la demande est hors-périmètre (Out of Scope).\n2. Chiffrage (Impact Analysis) : Évaluation technique chiffrant l'impact de la demande sur le coût (jours/hommes additionnels) et sur le planning (décalage du chemin critique).\n3. Émission de l'Avenant : Soumission formelle du document \"Change Request\" (CR) pour validation tarifaire.\n4. Gel d'exécution : Les travaux relatifs à cette nouvelle demande ne démarrent qu'après signature officielle du CR par le donneur d'ordres. Tolérance zéro pour les modifications verbales en cours de sprint.",
+      "category": "commercial",
+      "tags": [
+        "changerequest",
+        "scopecreep",
+        "avenant",
+        "projet",
+        "it",
+        "budget",
+        "gestion"
+      ]
+    },
+    {
+      "title": "SLA (Service Level Agreement) et Pénalités Financières",
+      "content": "Le SLA définit contractuellement le niveau d'exigence d'un service récurrent (infogérance, maintenance applicative, hébergement cloud).\nIndicateurs (KPI) standards en IT :\n\n* Taux de disponibilité (Uptime) : Exprimé en pourcentage (ex: 99,9% = maximum 43 minutes d'interruption par mois).\n* GTR (Garantie de Temps de Rétablissement) : Délai maximum pour résoudre un incident bloquant (ex: GTR 4h ouvrées).\n* GTI (Garantie de Temps d'Intervention) : Délai de prise en charge du ticket.\nMécanisme de pénalités (Crédits de Service) : En cas de non-respect du SLA, le prestataire accorde une ristourne sur la facture suivante. Les pénalités doivent être contractuellement plafonnées (généralement à 10% ou 15% de la redevance mensuelle du service concerné) pour ne pas menacer la survie de la PME.",
+      "category": "commercial",
+      "tags": [
+        "sla",
+        "gtr",
+        "gti",
+        "penalites",
+        "maintenance",
+        "infogerance",
+        "cloud"
+      ]
+    },
+    {
+      "title": "Pricing Formation, Subventions TFP/CNFCPP et Retainer Contracts",
+      "content": "Tarification de la formation professionnelle : La commercialisation de formations en B2B tunisien est dopée par le mécanisme de ristourne sur la TFP (Taxe de Formation Professionnelle). Le prestataire doit posséder un numéro d'enregistrement auprès du Ministère de la Formation Professionnelle. Les entreprises clientes se font rembourser via le CNFCPP. Le prix se structure au forfait journalier par groupe (ex: 1200 DT/jour pour 10 participants maximum), indépendamment du nombre de présents, pour garantir la marge du cabinet.\nContrat de Retainer (Abonnement mensuel) : Accord par lequel le client paie des honoraires fixes récurrents (ex: 2000 DT/mois) pour garantir la disponibilité du prestataire (conseil stratégique, support technique de niveau 3) sur un quota d'heures (ex: 10h/mois). Sécurise une trésorerie prévisible (Monthly Recurring Revenue - MRR) pour la PME de services. Les heures non consommées ne sont généralement pas reportables au mois suivant (Use it or lose it).",
+      "category": "commercial",
+      "tags": [
+        "formation",
+        "tfp",
+        "cnfcpp",
+        "retainer",
+        "mrr",
+        "abonnement",
+        "pricing"
+      ]
+    }
+  ]
+}
