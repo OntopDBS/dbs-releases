@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-vefa-23",
+    "name": "DBS Masterclass - Offres Promoteur Immobilier et VEFA",
+    "description": "Vente en l'état futur d'achèvement (VEFA) tunisienne, contrat de réservation, appels de fonds par tranche, garantie d'achèvement, réglementation promoteur immobilier, calcul du prix de revient promotion immobilière.",
+    "tags": [
+      "immobilier",
+      "vefa",
+      "promoteur",
+      "reservation",
+      "appels-de-fonds",
+      "garantie",
+      "tunisie",
+      "construction"
+    ],
+    "category": "commercial",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Structure des Appels de Fonds VEFA - Échéancier Standard Promoteur Tunisien",
+      "content": "L'échéancier de paiement en VEFA doit être adossé à l'avancement réel des travaux et respecter les plafonds légaux tunisiens protégeant l'acquéreur :\nTranche 1 - Signature du contrat de réservation : 5% maximum du prix total. Versé sur compte séquestre notarié ou compte bloqué bancaire — ne peut être utilisé par le promoteur avant l'obtention du permis de construire.\nTranche 2 - Obtention du permis de construire : 10% du prix total. Débloque le début des travaux.\nTranche 3 - Achèvement des fondations (certificat de contrôle technique) : 20% du prix total cumulé.\nTranche 4 - Mise hors d'eau / toiture (procès-verbal de contrôle) : 40% du prix total cumulé.\nTranche 5 - Achèvement des travaux de finition (procès-verbal de fin de travaux) : 25% du prix total cumulé.\nTranche 6 - Livraison et signature de l'acte de vente définitif chez le notaire : 5% du prix total restant + remise des clés.\nTotal : 100%. Le promoteur ne peut exiger plus que ces pourcentages avant l'avancement correspondant. Toute stipulation contraire est nulle de droit selon la loi tunisienne sur la promotion immobilière.",
+      "category": "commercial",
+      "tags": [
+        "vefa",
+        "immobilier",
+        "promoteur",
+        "appels-de-fonds",
+        "construction",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Définition et Cadre Légal de la VEFA (Loi 90-17)",
+      "content": "La Vente en l'État Futur d'Achèvement (VEFA) en Tunisie est strictement encadrée par la loi n°90-17 du 26 février 1990 portant refonte de la réglementation de la promotion immobilière. Elle transfère immédiatement à l'acquéreur les droits sur le sol et la propriété des constructions au fur et à mesure de leur exécution. Le promoteur conserve la qualité de maître de l'ouvrage (et les risques associés) jusqu'à la réception définitive. L'exercice de la profession exige un agrément préalable du Ministère de l'Équipement et l'inscription au tableau de l'ordre. Toute vente sur plan réalisée par une entité non agréée est frappée de nullité absolue et expose à des sanctions pénales.",
+      "category": "commercial",
+      "tags": [
+        "loi9017",
+        "vefa",
+        "cadre-legal",
+        "agrement",
+        "immobilier",
+        "promoteur"
+      ]
+    },
+    {
+      "title": "Contrat de Réservation - Mentions Obligatoires et Conditions Suspensives",
+      "content": "Le contrat de réservation (ou contrat préliminaire) est obligatoirement rédigé par acte authentique ou acte sous seing privé légalisé. Mentions exigées sous peine de nullité : surface approximative du bien (la tolérance légale d'écart de métrage est généralement fixée à 5%), description détaillée des matériaux (cahier des charges techniques et notice descriptive annexés), prix de vente total prévisionnel, conditions et formule mathématique de révision du prix (souvent indexée sur l'indice du coût de la construction), délai de livraison ferme, et pénalités de retard applicables au promoteur (ex: 1/1000 du prix par mois de retard). Il intègre obligatoirement une condition suspensive liée à l'obtention du financement bancaire par l'acquéreur.",
+      "category": "commercial",
+      "tags": [
+        "contrat-reservation",
+        "vefa",
+        "cahier-des-charges",
+        "penalites",
+        "droit",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Garantie d'Achèvement des Travaux - Obligation Légale",
+      "content": "La législation tunisienne impose au promoteur de fournir une garantie d'achèvement des travaux pour sécuriser les fonds de l'acquéreur en VEFA en cas de faillite de la société de promotion. Deux formes juridiques existent :\n\n* La garantie extrinsèque : Fournie par un établissement de crédit (caution bancaire solidaire) ou une compagnie d'assurance qui s'engage irrévocablement à payer les sommes nécessaires à l'achèvement de l'immeuble. C'est le standard exigé par les notaires.\n* La garantie intrinsèque : Autorise le promoteur à s'auto-garantir, mais elle n'est applicable légalement que si l'immeuble est déjà \"hors d'eau\" (toiture posée) et qu'il n'est grevé d'aucun privilège ou hypothèque bancaire, condition rare en pratique de financement de projet.",
+      "category": "commercial",
+      "tags": [
+        "garantie-achevement",
+        "caution-bancaire",
+        "assurance",
+        "vefa",
+        "risques",
+        "immobilier"
+      ]
+    },
+    {
+      "title": "Calcul du Prix de Revient d'une Opération de Promotion",
+      "content": "Le calcul du Coût de Revient Total (CRT) d'un projet immobilier (faisabilité financière) additionne six grands postes :\n\n1. Charge foncière : Prix d'achat du terrain + Droits d'enregistrement (taux promoteur ou taux plein si non encore agréé) + Frais de notaire/agence.\n2. Coûts de construction : Contrats marchés BTP (gros œuvre et second œuvre).\n3. Honoraires d'études : Architecte, Bureau d'Études Techniques (BET), Bureau de contrôle, topographe (historiquement 8% à 12% des coûts de construction).\n4. Frais financiers : Intérêts intercalaires du crédit de promotion immobilière calculés sur la durée du chantier, frais de dossier, agios.\n5. Frais de commercialisation : Marketing, commissions agences/courtiers (généralement 2% à 5%).\n6. Frais de gestion : Quote-part des charges fixes de l'entreprise.\nLa marge bénéficiaire nette cible d'un promoteur tunisien se situe standardement entre 15% et 25% du CRT.",
+      "category": "commercial",
+      "tags": [
+        "cout-revient",
+        "budget",
+        "foncier",
+        "promotion-immobiliere",
+        "marge",
+        "finance"
+      ]
+    },
+    {
+      "title": "Fiscalité du Promoteur Immobilier Tunisien - TVA et Enregistrement",
+      "content": "La fiscalité immobilière tunisienne s'applique spécifiquement aux opérations du promoteur agréé :\n\n* TVA : Les ventes d'immeubles à usage d'habitation par un promoteur immobilier sont soumises à la TVA au taux de 13% (Loi de Finances 2024), calculée sur la totalité du prix de vente. Les locaux commerciaux ou administratifs supportent la TVA au taux normal de 19%.\n* Droits d'enregistrement : L'acquéreur bénéficie d'un droit fixe (actuellement 30 DT par acte) pour l'achat d'un bien d'habitation neuf auprès d'un promoteur agréé, évitant le taux proportionnel de 5% ou 6% applicable aux transactions entre particuliers.\n* Impôt sur les Sociétés (IS) : Le promoteur est soumis à l'IS au taux de 15% sur son bénéfice net d'exploitation. La taxe sur la plus-value immobilière des particuliers ne le concerne pas, ses ventes constituant du chiffre d'affaires ordinaire.",
+      "category": "commercial",
+      "tags": [
+        "fiscalite",
+        "tva",
+        "is",
+        "droits-enregistrement",
+        "promoteur",
+        "tunisie"
+      ]
+    }
+  ]
+}
