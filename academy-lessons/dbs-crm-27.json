@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "packageSource": "dbs-crm-27",
+    "name": "DBS Masterclass - Gestion Relation Client CRM et Recouvrement",
+    "description": "Segmentation client RFM, calcul de la valeur vie client (CLV), gestion des réclamations, procédure de recouvrement structurée (amiable et judiciaire tunisien), NPS, fidélisation et programmes de loyauté.",
+    "tags": [
+      "crm",
+      "client",
+      "rfm",
+      "clv",
+      "recouvrement",
+      "reclamation",
+      "nps",
+      "fidelisation",
+      "pipeline"
+    ],
+    "category": "sales",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Procédure de Recouvrement Structurée - De la Relance Amiable à l'Injonction de Payer",
+      "content": "Le recouvrement des créances impayées doit suivre une procédure progressive, documentée et chronométrée pour maximiser le taux de recouvrement et préserver la relation commerciale autant que possible :\nJ+1 après échéance : vérification interne (virement reçu mais non rapproché ? Erreur de coordonnées bancaires ?). Ne pas relancer avant vérification.\nJ+5 : premier contact téléphonique informatif, ton neutre. \"Nous n'avons pas reçu votre règlement de X DT arrivé à échéance le JJ/MM — souhaitez-vous confirmer la date de virement ?\"\nJ+15 : email de relance formel avec copie de la facture en pièce jointe. Demander une confirmation écrite de date de paiement.\nJ+30 : deuxième relance email + appel téléphonique. Proposer un échéancier si difficulté avérée — mieux vaut récupérer en 3 fois qu'engager une procédure.\nJ+45 : mise en demeure par courrier recommandé avec accusé de réception. Mentionner les pénalités de retard contractuelles (ou légales : taux directeur BCT + 3 points) et l'intention d'engager une procédure judiciaire sous 15 jours.\nJ+60 et au-delà : injonction de payer (ordonnance sur requête) auprès du tribunal de première instance compétent. Procédure non contradictoire, délai 15-30 jours, coût dossier huissier environ 150-300 DT. Efficace pour créances inférieures à 20 000 DT avec factures et bons de livraison signés comme preuves.",
+      "category": "sales",
+      "tags": [
+        "crm",
+        "recouvrement",
+        "client",
+        "creances",
+        "relance",
+        "injonction",
+        "tunisie",
+        "pme"
+      ]
+    },
+    {
+      "title": "Segmentation Client RFM - Modèle de Scoring et Actions",
+      "content": "La méthode RFM segmente le portefeuille client selon trois variables objectives pour personnaliser l'effort commercial : Récence (date de la dernière commande), Fréquence (nombre de commandes sur la période), Montant (Chiffre d'Affaires cumulé). Chaque variable est notée de 1 à 5 (5 étant le meilleur score).\nStratégies par segment d'appartenance :\n\n* Champions (Scores 555 à 454) : Clients les plus récents, fréquents et dépensiers. Action : intégration au programme VIP, up-selling, accès en avant-première aux nouveaux stocks.\n* Clients Fidèles à Risque (Scores 155 à 255) : Fort historique d'achat mais inactifs récemment. Action : appel téléphonique sortant immédiat par un Account Manager, enquête d'insatisfaction, offre de réactivation agressive.\n* Nouveaux Clients (Scores 511 à 512) : Achat récent mais faible récurrence. Action : séquence d'onboarding par email (J+7, J+14), envoi d'un code de réduction à durée limitée pour déclencher le deuxième achat.",
+      "category": "sales",
+      "tags": [
+        "rfm",
+        "segmentation",
+        "marketing",
+        "scoring",
+        "crm",
+        "fidelisation"
+      ]
+    },
+    {
+      "title": "Customer Lifetime Value (CLV) - Formule et Pilotage Stratégique",
+      "content": "La Customer Lifetime Value (Valeur Vie Client) modélise la rentabilité totale d'un compte sur l'ensemble de sa relation avec l'entreprise.\nFormule : CLV = Marge brute moyenne par commande × Fréquence d'achat annuelle × Durée de vie client estimée (en années).\nExemple : un client B2B achète 4 fois par an, avec une marge de 150 DT par commande, sur une relation moyenne estimée à 5 ans. Sa CLV = 150 × 4 × 5 = 3 000 DT.\nRègle d'or financière (Ratio LTV/CAC) : Le Coût d'Acquisition Client (CAC) doit être strictement inférieur au tiers de la CLV (CLV > 3x CAC).\nLeviers ERP pour augmenter la CLV : systématiser le Cross-selling (proposer le produit accessoire dans le devis) et sécuriser la rétention par la mise en place de contrats de réapprovisionnement annuels (contrats-cadres) pour figer la durée de vie client.",
+      "category": "sales",
+      "tags": [
+        "clv",
+        "cac",
+        "marge",
+        "rentabilite",
+        "crossselling",
+        "crm",
+        "finance"
+      ]
+    },
+    {
+      "title": "Gestion des Réclamations Clients - Procédure et Escalade",
+      "content": "Le traitement des réclamations (norme ISO 10002) transforme un incident en levier de fidélisation si le processus de résolution est immédiat. Toute plainte doit générer un ticket ERP horodaté.\nWorkflow standardisé :\n\n1. Accusé de réception formel et traçable (H+2 maximum).\n2. Qualification typologique (défaut qualité, erreur de préparation logistique, litige facturation).\n3. Traitement de niveau 1 (curatif) : Remplacement de la marchandise ou émission d'un avoir dans un délai ferme de 48h.\n4. Escalade de niveau 2 (si blocage à J+5) : Prise en main par le N+1 ou le service Qualité.\n5. Clôture du ticket avec compensation proportionnelle.\nAnalytique ERP : Les tickets doivent être liés aux numéros de lots (traçabilité) ou aux collaborateurs responsables pour alimenter la base des Non-Conformités et déclencher l'ouverture de CAPA (Actions Correctives ISO 9001).",
+      "category": "sales",
+      "tags": [
+        "reclamation",
+        "sav",
+        "iso10002",
+        "iso9001",
+        "capa",
+        "qualite",
+        "satisfaction"
+      ]
+    },
+    {
+      "title": "Net Promoter Score (NPS) et Programmes de Loyauté B2B/B2C",
+      "content": "Le NPS mesure la propension à la recommandation d'une marque. Basé sur l'unique question : \"Sur une échelle de 0 à 10, quelle est la probabilité que vous nous recommandiez ?\".\nSegmentation des réponses :\n\n* 0 à 6 : Détracteurs (risque fort de churn et bad buzz).\n* 7 à 8 : Passifs (satisfaits mais sensibles à la concurrence).\n* 9 à 10 : Promoteurs (ambassadeurs fidèles).\nCalcul : NPS = % Promoteurs - % Détracteurs. Un NPS supérieur à 30 est jugé très bon. Procédure : tout détracteur (score < 6) doit être rappelé sous 24h par un manager.\nProgrammes de fidélisation pour PME (hors guerre des prix) : Éviter les remises systématiques qui détruisent la marge. Privilégier les Remises de Fin d'Année (RFA) basées sur l'atteinte de paliers de chiffre d'affaires, et l'octroi d'un Service Level Agreement (SLA) VIP (ex: garantie de livraison J+1, technicien dédié).",
+      "category": "sales",
+      "tags": [
+        "nps",
+        "recommandation",
+        "fidelisation",
+        "rfa",
+        "sla",
+        "loyalty",
+        "crm"
+      ]
+    },
+    {
+      "title": "Indicateurs CRM à Monitorer dans l'ERP - Tableau de Bord Client",
+      "content": "Le pilotage d'un portefeuille client nécessite la supervision mensuelle de cinq métriques comportementales extraites de l'ERP :\n\n1. Taux d'Attrition (Churn Rate) : (Nombre de clients perdus sur le mois / Nombre de clients au début du mois) × 100.\n2. Taux de Réachat (Repeat Customer Rate) : Nombre de clients ayant commandé plus d'une fois / Nombre total de clients uniques.\n3. Valeur Moyenne de Commande (AOV - Average Order Value) : Chiffre d'affaires total / Nombre de commandes.\n4. Taux de Concentration Client : Pourcentage du Chiffre d'Affaires généré par les 5 (ou 10) plus grands comptes. Un taux supérieur à 30% signale un risque systémique majeur de dépendance.\n5. Délai de Recouvrement (DSO) par Segment : Croiser les données comptables et le scoring RFM pour identifier si les \"meilleurs\" clients commerciaux sont également les meilleurs payeurs.",
+      "category": "sales",
+      "tags": [
+        "kpi",
+        "churn",
+        "aov",
+        "dso",
+        "dashboard",
+        "erp",
+        "analytique",
+        "crm"
+      ]
+    }
+  ]
+}
