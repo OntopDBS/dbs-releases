@@ -1,0 +1,95 @@
+{
+  "metadata": {
+    "packageSource": "dbs-finance-04",
+    "name": "DBS Masterclass - Gestion Financière & Comptabilité",
+    "description": "Calcul des marges brute/nette, amortissements linéaires/dégressifs SCE, flux de trésorerie directs/indirects, ratios de solvabilité et liquidité, prévisions cash-flow PME.",
+    "tags": [
+      "finance",
+      "comptabilite",
+      "marge",
+      "amortissement",
+      "tresorerie",
+      "ratios",
+      "cash-flow",
+      "bilan"
+    ],
+    "category": "finance",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Calcul du BFR et Optimisation pour PME Industrielle",
+      "content": "Le Besoin en Fonds de Roulement (BFR) mesure le besoin de financement du cycle d'exploitation :\nBFR = Stocks + Créances clients — Dettes fournisseurs\nRatios de référence pour une PME industrielle tunisienne :\n\n* Délai client moyen (DSO) cible : 45 jours maximum. Au-delà, risque de tension de trésorerie structurelle.\n* Délai fournisseur moyen (DPO) cible : négocier 60-90 jours sur les matières premières importées.\n* Rotation des stocks : objectif 6x/an minimum pour le secteur textile (soit environ 60 jours de stock).\nLeviers de réduction du BFR : escompte commercial pour paiement anticipé client (proposer 2% pour règlement à 10 jours), affacturage (factor local : BNA Factor, Tunisie Factoring — coût 1,5% à 3% du montant cédé), allongement délai fournisseur par consolidation commandes.",
+      "category": "finance",
+      "tags": [
+        "bfr",
+        "tresorerie",
+        "finance",
+        "comptabilite",
+        "pme"
+      ]
+    },
+    {
+      "title": "Marges et Rentabilité - Brut, Net, Taux de Marge vs Marque",
+      "content": "La rentabilité d'une PME se pilote à travers des marges en cascade issues de l'État de Résultat :\n\n* Marge Brute = Chiffre d'Affaires HT - Coût d'achat des marchandises vendues (ou coût de production pour l'industrie).\n* Marge Nette = Résultat Net (après impôts et frais financiers) / Chiffre d'Affaires HT.\nDifférence critique pour la politique de prix :\n* Taux de Marge = (Marge Brute / Coût d'Achat) x 100.\n* Taux de Marque = (Marge Brute / Prix de Vente) x 100.\nUn produit acheté 100 DT et vendu 125 DT génère une marge de 25 DT. Le taux de marge est de 25% (25/100), mais le taux de marque (la part de la marge dans le prix final) n'est que de 20% (25/125). Les distributeurs (GMS) raisonnent toujours en taux de marque.",
+      "category": "finance",
+      "tags": [
+        "marge",
+        "rentabilite",
+        "prix",
+        "finance",
+        "pme",
+        "gestion"
+      ]
+    },
+    {
+      "title": "Amortissements selon le Système Comptable des Entreprises (SCE)",
+      "content": "L'amortissement constate la dépréciation irréversible d'une immobilisation. Le SCE tunisien encadre deux méthodes principales :\n\n* Amortissement Linéaire : Annuité constante = Valeur d'acquisition HT / Durée de vie utile. Taux fiscaux standards (révisés annuellement) : Matériel industriel 10% à 15%, Matériel informatique 33,3%, Bâtiments 5%.\n* Amortissement Dégressif : Autorisé fiscalement pour certains équipements acquis neufs (informatique, machines agricoles). L'annuité est calculée sur la Valeur Nette Comptable (VNC) multipliée par un coefficient (1,5 pour durée 3-4 ans ; 2,0 pour 5-6 ans ; 2,5 pour >6 ans). Il permet de maximiser la charge déductible (et donc réduire l'IS) sur les premières années d'exploitation.",
+      "category": "finance",
+      "tags": [
+        "amortissement",
+        "sce",
+        "comptabilite",
+        "immobilisations",
+        "fiscalite"
+      ]
+    },
+    {
+      "title": "Tableau des Flux de Trésorerie - Méthodes Directe et Indirecte",
+      "content": "Le tableau des flux de trésorerie (TFT) est un état financier obligatoire (selon la NCT 7) qui explique la variation de la trésorerie sur un exercice.\n\n* Méthode Directe : S'appuie sur les encaissements et décaissements bruts (Encaissements clients - Décaissements fournisseurs/salariés/État). Recommandée pour le pilotage opérationnel d'une PME.\n* Méthode Indirecte : Reconstitue le flux net de trésorerie d'exploitation (FNTE) à partir du Résultat Net.\nCalcul : Résultat Net + Dotations aux amortissements (charges non décaissées) - Reprises (produits non encaissés) - Plus-values de cessions d'actifs - Variation du BFR.\nRègle de survie PME : Le FNTE doit structurellement être positif pour financer les investissements (flux d'investissement) et rembourser les emprunts (flux de financement).",
+      "category": "finance",
+      "tags": [
+        "tft",
+        "tresorerie",
+        "cash-flow",
+        "fnte",
+        "comptabilite"
+      ]
+    },
+    {
+      "title": "Ratios Clés d'Analyse Financière - Liquidité et Solvabilité",
+      "content": "L'analyse d'un bilan comptable PME repose sur quatre ratios de structure vitaux :\n\n1. Liquidité Générale = Actif Courant / Passif Courant. Mesure la capacité à payer les dettes à court terme. Cible saine : > 1,2.\n2. Liquidité Réduite = (Créances + Trésorerie) / Passif Courant. Exclut le stock (moins liquide). Cible : proche de 1.\n3. Ratio d'Autonomie Financière = Capitaux Propres / Total Bilan. Mesure l'indépendance vis-à-vis des banques. Cible PME industrielle : > 30%.\n4. Ratio de Couverture des Intérêts (ICR) = EBIT (Résultat d'Exploitation) / Frais Financiers. Mesure la capacité à honorer le service de la dette. Une PME avec un ICR inférieur à 2,0 est considérée en zone de risque par les banques tunisiennes.",
+      "category": "finance",
+      "tags": [
+        "ratios",
+        "bilan",
+        "solvabilite",
+        "liquidite",
+        "analyse-financiere"
+      ]
+    },
+    {
+      "title": "Construction d'un Prévisionnel Cash-Flow à 12 Mois",
+      "content": "Le budget de trésorerie glissant sur 12 mois est l'outil anti-faillite d'une PME. Il ne se base pas sur la facturation, mais sur les dates réelles d'encaissement/décaissement (TTC) :\n\n1. Prévision des entrées : CA prévisionnel TTC décalé du DSO (si vente en janvier avec délai 60j, encaissement en mars). Ajouter récupération TVA et déblocage emprunts.\n2. Prévision des sorties fixes : Salaires nets, charges patronales CNSS (trimestrielles), loyers, échéances de prêts bancaires (principal + intérêts), acomptes IS.\n3. Prévision des sorties variables : Achats fournisseurs TTC décalés du DPO, paiements douane (comptant), DMU (TVA à décaisser).\nLe solde mensuel cumulé permet d'anticiper les impasses de trésorerie avec 3 à 6 mois d'avance, donnant le temps de négocier un découvert exceptionnel ou d'accélérer le recouvrement.",
+      "category": "finance",
+      "tags": [
+        "cash-flow",
+        "budget",
+        "previsionnel",
+        "tresorerie",
+        "gestion",
+        "pme"
+      ]
+    }
+  ]
+}
