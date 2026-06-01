@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "packageSource": "dbs-vente-11",
+    "name": "DBS Masterclass - Vente & Communication Commerciale",
+    "description": "Écoute active, traitement des objections prix, techniques de relance devis, emails de conversion commerciale, closing B2B, gestion du cycle de vente PME.",
+    "tags": [
+      "vente",
+      "objections",
+      "devis",
+      "email",
+      "closing",
+      "communication",
+      "commercial",
+      "b2b"
+    ],
+    "category": "sales",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Traitement des Objections Prix - Méthode CRAC Appliquée",
+      "content": "L'objection prix est la plus fréquente en B2B tunisien et résulte rarement d'un vrai problème de budget — elle signale généralement une valeur perçue insuffisante. Méthode CRAC :\nC — Comprendre : \"Quand vous dites que c'est cher, par rapport à quoi vous comparez ?\" Isoler la vraie objection (concurrent, budget interne, expérience passée).\nR — Reformuler : \"Si je comprends bien, votre préoccupation c'est de s'assurer que l'investissement est justifié par rapport à ce que vous allez obtenir, c'est ça ?\" Validation et création d'ouverture.\nA — Argumenter par la valeur : chiffrer le ROI plutôt que défendre le prix. \"Notre solution réduit le DSO de 15 jours en moyenne, ce qui sur votre volume de CA représente X DT de trésorerie libérée immédiatement.\"\nC — Conclure : \"Donc si on règle cette question de ROI, est-ce que ce serait un frein à avancer ensemble ?\" Closing conditionnel.\nErreurs à éviter : ne jamais baisser le prix sans contrepartie (réduction de périmètre, paiement anticipé, volume garanti). Toute concession sans contrepartie détruit la valeur perçue.",
+      "category": "sales",
+      "tags": [
+        "vente",
+        "objections",
+        "negociation",
+        "commercial",
+        "closing",
+        "b2b"
+      ]
+    },
+    {
+      "title": "Écoute Active et Méthodologie SPIN Selling",
+      "content": "L'écoute active en vente B2B nécessite un ratio de parole de 30% (vendeur) / 70% (prospect). La méthode SPIN structure ce questionnement stratégique :\n\n* S (Situation) : Questions factuelles sur le contexte actuel (outils utilisés, processus). À limiter car trouvables en ligne.\n* P (Problem) : Identification des points de douleur (pain points). \"Quelles difficultés rencontrez-vous avec votre système actuel ?\"\n* I (Implication) : Chiffrage de l'impact du problème. \"Combien de jours de production perdez-vous annuellement à cause de ces pannes ?\"\n* N (Need-payoff) : Projection des bénéfices (le prospect formule lui-même la valeur de la solution). \"Quel serait l'impact d'une réduction de 15 jours de votre DSO ?\"\nTechniques complémentaires : la reformulation miroir (répéter les 3 derniers mots du prospect) et le silence actif (pause de 3 à 5 secondes après une réponse pour forcer l'élaboration).",
+      "category": "sales",
+      "tags": [
+        "spinselling",
+        "ecoute-active",
+        "prospection",
+        "communication",
+        "b2b"
+      ]
+    },
+    {
+      "title": "Séquence de Relance Devis - Timing J+3, J+7, J+14",
+      "content": "Une offre commerciale B2B nécessite une séquence de relance structurée et multicanale pour maximiser la conversion sans harcèlement :\n\n* J+3 (L'Accompagnement) : Email court confirmant la bonne réception. Ton de service. CTA (Call To Action) : \"Avez-vous besoin d'éclaircissements sur la section technique ou les délais ?\"\n* J+7 (L'Apport de Valeur) : Ne jamais demander \"où en êtes-vous ?\". Partager un contenu pertinent (cas client, article technique) validant le ROI du devis. CTA : \"Je vous appelle mardi à 10h pour échanger sur ce point.\"\n* J+14 (Le Retrait Stratégique ou Break-up Email) : Clôturer psychologiquement l'opportunité pour provoquer une réaction. \"Sans retour de votre part, je suppose que ce projet n'est plus prioritaire. Je clôture ce devis dans notre système. Au plaisir d'échanger ultérieurement.\"\nCette séquence doit être automatisée via les workflows du CRM/ERP pour garantir 100% d'exécution.",
+      "category": "sales",
+      "tags": [
+        "devis",
+        "relance",
+        "email",
+        "workflow",
+        "conversion",
+        "commercial"
+      ]
+    },
+    {
+      "title": "Emails de Conversion B2B - Prospection et Suivi Post-Réunion",
+      "content": "L'email de prospection à froid (Cold Email) B2B doit comporter moins de 150 mots et suivre le framework AIDA (Attention, Intérêt, Désir, Action) :\n\n* Objet : Court, intrigant, sans majuscules promotionnelles (ex: \"Vos délais de clôture OF\").\n* Corps : Citer une douleur métier spécifique (\"J'ai remarqué que...\"), insérer la proposition de valeur différenciante (UVP) chiffrée (\"Nous aidons X à réduire Y de Z%\"), et un CTA à faible friction (\"Disponible pour un échange de 10 min ce jeudi ?\").\nLe suivi post-réunion (Follow-up) s'envoie à H+2 maximum. Structure : remerciement synthétique, rappel exclusif des points de douleur validés ensemble, présentation de la solution comme réponse directe, et listing des \"Next Steps\" avec responsabilités et dates limites fermes.",
+      "category": "sales",
+      "tags": [
+        "emailing",
+        "prospection",
+        "aida",
+        "conversion",
+        "copywriting",
+        "b2b"
+      ]
+    },
+    {
+      "title": "Techniques de Closing B2B - Sécuriser la Vente",
+      "content": "Le closing est l'aboutissement naturel d'un cycle de vente maîtrisé. Techniques actionnables :\n\n* Le Closing Alternatif : Éviter les questions fermées (oui/non). Proposer un choix mineur pour valider l'accord majeur. \"Préférez-vous que l'on commence l'implémentation début mars ou mi-mars ?\"\n* Le Résumé-Bénéfices : Récapituler les 3 besoins principaux exprimés par le prospect et les 3 solutions apportées par l'offre avant de poser la question de conclusion. \"Au vu de ces éléments, avons-nous couvert tous vos prérequis ?\"\n* L'Urgence Légitime : Créer un levier de décision basé sur des contraintes réelles, non artificielles. \"Pour garantir une livraison sur la semaine 42, nous devons verrouiller le planning de production ce vendredi.\" (Ne jamais inventer une fausse promotion expirante en B2B industriel).",
+      "category": "sales",
+      "tags": [
+        "closing",
+        "decision",
+        "negociation",
+        "argumentation",
+        "b2b"
+      ]
+    },
+    {
+      "title": "Gestion du Pipeline ERP et Taux de Transformation",
+      "content": "Le pipeline commercial dans un ERP modélise le cycle de vie de l'opportunité avec des probabilités de clôture statistiques :\n\n* Stade 1 : Qualification (Probabilité 10%) - BANT (Budget, Authority, Need, Timeline) identifié.\n* Stade 2 : Découverte / Démo (Probabilité 25%) - Cahier des charges compris.\n* Stade 3 : Devis émis (Probabilité 50%) - Offre remise au décideur.\n* Stade 4 : Négociation (Probabilité 75%) - Traitement des objections et ajustements.\n* Stade 5 : Clos Gagné (100%) ou Clos Perdu (0% - avec motif de perte obligatoire pour analyse stratégique).\nKPI prioritaire : Taux de transformation (Win Rate) = (Nombre de devis gagnés / Nombre total de devis émis) x 100.\nLe pilotage exige le nettoyage hebdomadaire du pipeline : toute opportunité bloquée au même stade au-delà du cycle de vente moyen (ex: 90 jours) doit être reléguée en \"Nurturing\" (maturation) ou fermée définitivement.",
+      "category": "sales",
+      "tags": [
+        "pipeline",
+        "crm",
+        "erp",
+        "taux-transformation",
+        "kpi",
+        "vente"
+      ]
+    }
+  ]
+}
