@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "packageSource": "dbs-projets-25",
+    "name": "DBS Masterclass - Gestion de Projets",
+    "description": "WBS (Work Breakdown Structure), diagramme de Gantt et chemin critique (CPM), Earned Value Management (EVM), gestion des risques projet, réunion de lancement et jalons, clôture de projet et retour d'expérience.",
+    "tags": [
+      "projet",
+      "wbs",
+      "gantt",
+      "chemin-critique",
+      "evm",
+      "risques",
+      "jalons",
+      "planning",
+      "pmo"
+    ],
+    "category": "management",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Earned Value Management (EVM) - Contrôle Budgétaire et Planning en Temps Réel",
+      "content": "L'EVM (Earned Value Management) est la méthode de référence pour mesurer simultanément l'avancement physique et la consommation budgétaire d'un projet :\nTrois valeurs de base à calculer à chaque point de contrôle :\n\n* PV (Planned Value / Valeur Planifiée) : budget prévu pour le travail censé être terminé à date. Issu du planning de référence.\n* EV (Earned Value / Valeur Acquise) : budget correspondant au travail réellement terminé. EV = % avancement physique réel x Budget total.\n* AC (Actual Cost / Coût Réel) : dépenses réellement engagées pour le travail terminé.\nIndicateurs de performance dérivés :\n* SV (Schedule Variance) = EV - PV. Négatif = retard. Positif = avance.\n* CV (Cost Variance) = EV - AC. Négatif = dépassement. Positif = économie.\n* SPI (Schedule Performance Index) = EV / PV. Inférieur à 1 = retard, supérieur à 1 = avance.\n* CPI (Cost Performance Index) = EV / AC. Inférieur à 1 = dépassement, supérieur à 1 = économie.\nExemple : projet à 50% d'avancement prévu, 40% réellement accompli, 55% du budget consommé.\nPV = 50, EV = 40, AC = 55. SPI = 40/50 = 0,80 (retard 20%). CPI = 40/55 = 0,73 (dépassement 27%).\nPrévision à fin (EAC) = Budget total / CPI = budget / 0,73 = dépassement final estimé +37%.",
+      "category": "management",
+      "tags": [
+        "projet",
+        "evm",
+        "gantt",
+        "wbs",
+        "planning",
+        "budget",
+        "gestion"
+      ]
+    },
+    {
+      "title": "WBS (Work Breakdown Structure) et Décomposition Règle des 8/80",
+      "content": "Le WBS (Structure de Découpage du Projet) est la fondation du pilotage : il décompose hiérarchiquement le périmètre (Scope) en livrables tangibles, puis en lots de travaux (Work Packages). La granularité s'arrête au niveau de la tâche élémentaire selon la règle stricte des 8/80 : aucune tâche ne doit durer moins de 8 heures (risque de micro-management) ni plus de 80 heures (perte de contrôle et de visibilité). Chaque lot de travaux doit être mutuellement exclusif (règle des 100%), posséder un livrable mesurable, et être assigné à un responsable unique (Single Point of Accountability). Un dictionnaire WBS accompagne obligatoirement l'arborescence pour définir techniquement les critères d'acceptation de chaque lot.",
+      "category": "management",
+      "tags": [
+        "wbs",
+        "perimetre",
+        "lotdetravail",
+        "scope",
+        "managementprojet"
+      ]
+    },
+    {
+      "title": "Estimation des Durées - Technique PERT (3 Points)",
+      "content": "L'estimation experte mono-point est statistiquement biaisée par l'optimisme. La technique PERT (Program Evaluation and Review Technique) modélise l'incertitude via une moyenne pondérée de trois scénarios : Optimiste (O), Probable (P) et Pessimiste (Pe).\nFormule d'estimation de la durée attendue (E) : E = (O + 4P + Pe) / 6.\nL'écart-type (σ) de la tâche mesurant le niveau de risque : σ = (Pe - O) / 6.\nLa variance est égale à σ². Cette approche permet de calculer mathématiquement le niveau de confiance d'un planning. Pour un chemin critique composé de plusieurs tâches, la variance totale du projet est la somme des variances des tâches critiques. Cette méthode est indispensable en PME industrielle pour coter les délais de développement de nouveaux produits avec une marge d'erreur quantifiée.",
+      "category": "management",
+      "tags": [
+        "pert",
+        "estimation",
+        "planning",
+        "statistiques",
+        "projet"
+      ]
+    },
+    {
+      "title": "Diagramme de Gantt et Chemin Critique (CPM)",
+      "content": "Le diagramme de Gantt modélise le séquencement temporel des tâches via leurs dépendances logiques (principalement Fin-à-Début). Le cœur de l'ordonnancement est l'identification du Chemin Critique (CPM - Critical Path Method) : c'est la séquence de tâches incompressibles déterminant la durée totale du projet. Toute tâche sur ce chemin possède une marge totale nulle (Float = 0) ; par conséquent, tout retard sur une tâche critique retarde proportionnellement la livraison finale. L'optimisation d'un planning en retard s'effectue par deux techniques d'accélération : le Fast-Tracking (parallélisation de tâches initialement séquentielles, ce qui augmente le risque de retouches) ou le Crashing (injection de ressources budgétaires supplémentaires sur les tâches critiques, ce qui augmente le coût).",
+      "category": "management",
+      "tags": [
+        "cpm",
+        "chemincritique",
+        "gantt",
+        "ordonnancement",
+        "planning"
+      ]
+    },
+    {
+      "title": "Gestion des Risques Projet - Matrice et Stratégies de Réponse",
+      "content": "La gestion des risques s'anticipe dès le cadrage du projet via l'initialisation du Registre des Risques. Chaque risque identifié est évalué via la Matrice de Criticité : Criticité = Probabilité (échelle 1-5) × Impact (échelle 1-5). Les risques dont le score dépasse le seuil de tolérance prédéfini exigent un plan d'action préventif.\nQuatre stratégies de réponse s'appliquent aux risques négatifs (Menaces) :\n\n* Éviter : Modifier le plan de management de projet pour éliminer totalement la menace (ex: changer de technologie ou de zone géographique).\n* Transférer : Déplacer l'impact financier vers un tiers (ex: souscrire une assurance tous risques chantier, exiger un contrat au forfait).\n* Atténuer : Mettre en œuvre des actions pour réduire la probabilité ou l'impact (ex: stratégie de double-sourcing fournisseur, prototypage anticipé).\n* Accepter : Provisionner une réserve financière pour aléas (Contingency Reserve) sans action préventive, stratégie réservée aux risques mineurs.",
+      "category": "management",
+      "tags": [
+        "risques",
+        "matrice",
+        "mitigation",
+        "contingence",
+        "pmo",
+        "gestion"
+      ]
+    },
+    {
+      "title": "Cycle de Vie - Réunion de Lancement, Jalons et Clôture (RETEX)",
+      "content": "La gouvernance de projet impose des rituels stricts pour maintenir l'alignement. Le Kick-off Meeting (Réunion de lancement) fige la charte de projet, aligne les parties prenantes sur les objectifs (OKR) et officialise l'autorité du chef de projet. Le pilotage opérationnel s'effectue par des revues de Jalons (Milestones/Go-No-Go) situées aux points de bascule technique ou budgétaire.\nLa phase de Clôture est légalement et financièrement l'étape la plus critique :\n\n1. Procès-Verbal (PV) de Réception : Document contradictoire transférant formellement la propriété au client, déclenchant la facturation du solde et l'activation des garanties légales ou contractuelles.\n2. RETEX (Retour d'Expérience / Post-Mortem) : Réunion obligatoire d'amélioration continue formalisant les leçons apprises, les causes d'écarts de budget, et la mise à jour des abaques d'estimation.\n3. Archivage : Verrouillage et stockage des livrables et du registre dans la base de données ERP de l'entreprise.",
+      "category": "management",
+      "tags": [
+        "kickoff",
+        "jalons",
+        "cloture",
+        "retex",
+        "pvreception",
+        "gouvernance"
+      ]
+    }
+  ]
+}
