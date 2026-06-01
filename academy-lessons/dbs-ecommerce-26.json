@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "packageSource": "dbs-ecommerce-26",
+    "name": "DBS Masterclass - E-commerce & Vente Digitale Tunisie",
+    "description": "Cadre légal e-commerce tunisien (loi 2000-83), passerelles de paiement locales (Konnect, Click to Pay, Flouci), marketplaces (Jumia, MyTek), logistique last-mile, gestion des retours, indicateurs de performance e-commerce.",
+    "tags": [
+      "ecommerce",
+      "digital",
+      "konnect",
+      "jumia",
+      "paiement-en-ligne",
+      "logistique",
+      "livraison",
+      "tunisie",
+      "marketplace"
+    ],
+    "category": "sales",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Passerelles de Paiement Tunisiennes - Comparatif Technique et Tarifaire",
+      "content": "Le paiement en ligne est le principal frein à l'e-commerce en Tunisie — la solution choisie impacte directement le taux de conversion :\nKonnect (anciennement Paymee) :\n\n* Intégration : API REST + plugins WooCommerce, Shopify, PrestaShop disponibles.\n* Moyens de paiement acceptés : cartes bancaires tunisiennes (Visa/Mastercard locale), cartes Visa/MC internationale avec autorisation BCT.\n* Frais : 1,5% à 2% par transaction + 0,150 DT fixe. Pas de frais mensuels.\n* Virement sur compte : J+1 ouvrable.\n* Avantage majeur : meilleure couverture bancaire locale, intégration la plus documentée.\nClick to Pay (SMT — Société Monétique Tunisie) :\n* Solution interbancaire officielle, accepte toutes les cartes tunisiennes.\n* Frais négociés avec la banque acquéreuse (généralement 1,2-1,8%).\n* Intégration plus complexe, nécessite un contrat avec une banque acquéreuse.\n* Idéal pour les volumes élevés avec négociation tarifaire possible.\nFlouci (portefeuille mobile) :\n* Cible les paiements de petit montant et les utilisateurs sans carte bancaire.\n* Commission : 0,5-1% selon volume.\n* Base utilisateurs : croissante chez les 18-35 ans non bancarisés.\nRecommandation PME débutante : commencer avec Konnect (intégration rapide, documentation complète) puis ajouter Click to Pay à partir de 50 000 DT/mois de CA e-commerce pour réduire les frais.",
+      "category": "sales",
+      "tags": [
+        "ecommerce",
+        "konnect",
+        "paiement-en-ligne",
+        "tunisie",
+        "digital",
+        "marketplace"
+      ]
+    },
+    {
+      "title": "Cadre Légal E-commerce - Loi 2000-83 et Signature Électronique",
+      "content": "Le e-commerce en Tunisie est encadré par la loi n° 2000-83 du 9 août 2000 sur les échanges et le commerce électroniques. Obligations légales du e-commerçant (Article 25) : affichage clair et permanent de l'identité de l'entreprise (Matricule Fiscal, RNE, adresse physique), description détaillée des caractéristiques des produits, prix TTC, frais et délais de livraison, et modalités de paiement. Le décret n° 2001-2601 valide juridiquement la signature électronique et le document électronique au même titre que l'écrit papier, sous réserve de l'utilisation d'un certificat émis par l'ANCE (Agence Nationale de Certification Électronique). La collecte et le traitement des données clients (RGPD local) exigent une déclaration préalable et obligatoire auprès de l'INPDP (Instance Nationale de Protection des Données Personnelles).",
+      "category": "sales",
+      "tags": [
+        "ecommerce",
+        "loi2000-83",
+        "legal",
+        "ance",
+        "inpdp",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Comparatif Marketplaces Tunisiennes - Positionnement et Commissions",
+      "content": "Les marketplaces offrent une acquisition client immédiate en échange d'une commission sur vente (modèles Drop-shipping ou Consignation).\n\n* Jumia Tunisie : Leader généraliste B2C. Les frais de commission sont variables de 8% à 15% selon la catégorie de produit (électronique, mode, beauté). Offre une forte visibilité nationale mais impose une forte pression sur les marges et des règles d'expédition et de conditionnement (Jumia Express) très strictes.\n* MyTek : Marketplace historiquement spécialisée dans le matériel informatique, high-tech et électroménager. Audience qualifiée mixant B2B et B2C, générant un panier moyen (AOV) largement supérieur à la moyenne nationale.\n* Tayara : Modèle hybride de petites annonces (C2C et B2C). Publication d'annonces gratuites avec options de mise en avant payantes (Freemium). Excellent canal pour le déstockage massif sans payer de commission sur la transaction finale.\nStratégie PME : Démarrer par les marketplaces pour tester l'appétence marché (Proof of Concept), puis basculer progressivement le trafic récurrent vers son propre site web (Shopify/PrestaShop) pour récupérer la marge rognée par les commissions.",
+      "category": "sales",
+      "tags": [
+        "marketplace",
+        "jumia",
+        "mytek",
+        "tayara",
+        "commission",
+        "ecommerce"
+      ]
+    },
+    {
+      "title": "Logistique Last-Mile et Mécanisme du Cash on Delivery (COD)",
+      "content": "La livraison du dernier kilomètre (last-mile) et le paiement à la livraison (Cash on Delivery - COD) sont les piliers du e-commerce tunisien (plus de 70% des flux financiers physiques).\n\n* Acteurs nationaux (Aramex, Tunis-Link, Poste Tunisienne) : Tarification standardisée se situant entre 7 et 9 DT HT par colis (généralement jusqu'à 3kg). Délais d'acheminement : 24h sur le Grand Tunis, 48h à 72h pour les régions intérieures.\n* Coursiers urbains (Delivery startups) : Opèrent à l'échelle locale (ex: Intigo, flottes indépendantes), ultra-rapides (Same-day delivery), avec une tarification à la course (4 à 6 DT sur le Grand Tunis).\nGestion financière du COD : L'opérateur logistique encaisse les espèces auprès du client final et effectue un reversement bancaire hebdomadaire ou bi-mensuel au e-commerçant, déduction faite de ses frais de livraison et de retour. Ce délai d'encaissement décalé (Cash Conversion Cycle) doit être anticipé, car il impacte brutalement le Besoin en Fonds de Roulement (BFR) d'une startup.",
+      "category": "sales",
+      "tags": [
+        "logistique",
+        "lastmile",
+        "cod",
+        "livraison",
+        "aramex",
+        "ecommerce"
+      ]
+    },
+    {
+      "title": "Reverse Logistics - Gestion des Retours et Droit de Rétractation",
+      "content": "La loi tunisienne relative à la protection du consommateur garantit un droit de rétractation légal de 10 jours ouvrables à compter de la réception (standardisé commercialement à 14 jours). Le retour de la marchandise doit s'effectuer sans pénalité pour l'acheteur. La gestion des retours (Reverse Logistics) coûte en moyenne 3% à 5% du Chiffre d'Affaires global.\nProcédure ERP : Dès le retour physique, réalisation d'un contrôle qualité, remise en stock immédiate si produit conforme, ou déclassement en stock de rebut/second choix.\nLe piège du COD : Le taux de retour spontané (colis non réclamé ou refusé à la porte) peut atteindre 15% à 20% en Tunisie en raison de la facilité de commander sans payer d'avance. Action préventive obligatoire à systématiser dans l'ERP : confirmation de la commande par appel téléphonique ou validation WhatsApp dans les 12 heures suivant l'achat en ligne pour filtrer les intentions d'achat impulsives et confirmer l'adresse d'expédition exacte.",
+      "category": "sales",
+      "tags": [
+        "retours",
+        "reverselogistics",
+        "retractation",
+        "cod",
+        "ecommerce",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "KPI E-commerce - Indicateurs de Performance Essentiels pour ERP",
+      "content": "Le pilotage de la rentabilité d'une boutique en ligne exige le monitoring quotidien de 5 métriques clés dans le tableau de bord ERP ou outil d'Analytics :\n\n1. Taux de Conversion (CR - Conversion Rate) : Nombre de commandes validées / Nombre de visiteurs uniques. La cible moyenne en Tunisie oscille entre 1% et 2,5%.\n2. Panier Moyen (AOV - Average Order Value) : Chiffre d'Affaires total / Nombre de commandes. S'optimise via des stratégies de Cross-selling (produits complémentaires suggérés).\n3. Taux d'Abandon de Panier : Pourcentage de paniers initiés mais non convertis en achat. Souvent lié à l'absence de l'option COD, à des frais de livraison cachés ou à un processus de checkout trop complexe.\n4. Coût d'Acquisition Client (CAC) : Total des dépenses publicitaires (Ads) et marketing / Nombre de nouveaux clients acquis sur la période.\n5. Customer Lifetime Value (CLV) : Valeur de la marge nette moyenne générée par un client sur toute sa durée de fidélité. Règle de rentabilité universelle : la CLV doit être au minimum supérieure à 3 fois le CAC pour qu'un modèle e-commerce soit économiquement viable.",
+      "category": "sales",
+      "tags": [
+        "kpi",
+        "conversion",
+        "cac",
+        "clv",
+        "panier-moyen",
+        "analytics",
+        "ecommerce"
+      ]
+    }
+  ]
+}
