@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "packageSource": "dbs-fiscalite-02",
+    "name": "DBS Masterclass - Fiscalité Tunisienne",
+    "description": "TVA multi-taux 7%/13%/19%, FODEC 1%, retenue à la source, déclaration mensuelle unique, acomptes provisionnels IS, obligations fiscales des PME tunisiennes.",
+    "tags": [
+      "tva",
+      "fodec",
+      "impots",
+      "retenue-source",
+      "dmu",
+      "acomptes",
+      "fiscal",
+      "tunisie"
+    ],
+    "category": "legal",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "TVA - Taux Applicables et Champ d'Application",
+      "content": "La TVA tunisienne comporte trois taux opérationnels selon la nature de l'opération :\n\n* 7% : eau potable, médicaments remboursables, transport de personnes, hôtellerie classée.\n* 13% : services bancaires (commissions, agios), certains produits agricoles transformés, services informatiques (depuis loi de finances 2023).\n* 19% : taux normal applicable à la majorité des biens et services non expressément exonérés ou soumis à taux réduit.\nLa TVA sur intrants est déductible dans le mois de réception de la facture fournisseur. Le crédit de TVA non imputable sur 3 mois consécutifs est remboursable sur demande auprès du bureau de contrôle des impôts compétent.",
+      "category": "legal",
+      "tags": [
+        "tva",
+        "fiscal",
+        "impots",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "FODEC - Fonds de Développement de la Compétitivité Industrielle",
+      "content": "Le FODEC est une taxe parafiscale fixée au taux de 1% applicable aux entreprises industrielles. Il s'applique sur le chiffre d'affaires hors TVA issu de la vente locale de produits fabriqués. Base de calcul : Prix de vente hors TVA (EXW). L'assiette de la TVA inclut le montant du FODEC (TVA calculée sur [Prix de vente + FODEC]). Sont expressément exonérées du FODEC : les ventes à l'exportation, les ventes de produits agricoles à l'état naturel, et les ventes réalisées par des entreprises totalement exportatrices sur le marché local dans la limite de leur quota légal.",
+      "category": "legal",
+      "tags": [
+        "fodec",
+        "industrie",
+        "taxe",
+        "vente-locale",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Retenue à la Source (RAS) - Catégories et Taux Applicables",
+      "content": "Le mécanisme de retenue à la source oblige le client (débiteur) à prélever une avance sur l'impôt de son fournisseur et à la reverser au Trésor. Les taux principaux :\n\n* 15% : Honoraires, commissions, courtages, rémunérations d'activités non commerciales (médecins, avocats, experts) et loyers.\n* 5% : Rémunérations au titre de marchés d'études.\n* 1,5% : Achats de biens, matériels, marchandises et services auprès des fournisseurs soumis au régime réel.\nL'entreprise déclarante doit délivrer obligatoirement un certificat de retenue à la source (RS) au fournisseur au moment du paiement. Le défaut de retenue expose l'entreprise à une amende égale au montant non retenu.",
+      "category": "legal",
+      "tags": [
+        "ras",
+        "retenue-source",
+        "honoraires",
+        "loyers",
+        "impots"
+      ]
+    },
+    {
+      "title": "Déclaration Mensuelle Unique (DMU) et Pénalités de Retard",
+      "content": "La Déclaration Mensuelle Unique (DMU) centralise la déclaration et le paiement de la TVA, de la RAS, du FODEC, de la TFP et du FOPROLOS. Pour une PME (personne morale), le délai de dépôt et de paiement électronique exclusif est fixé au plus tard le 28 du mois suivant le mois de réalisation des opérations. Le non-respect de ce délai génère des pénalités de retard :\n\n* 0,75% par mois ou fraction de mois en cas de paiement volontaire spontané.\n* 1,25% par mois ou fraction de mois suite à l'intervention des services de contrôle fiscal.\nUne amende fixe supplémentaire s'applique en cas de non-dépôt d'une déclaration même néante.",
+      "category": "legal",
+      "tags": [
+        "dmu",
+        "declaration",
+        "penalites",
+        "fiscalite",
+        "tva",
+        "pme"
+      ]
+    },
+    {
+      "title": "Acomptes Provisionnels IS - Mode de Calcul et Calendrier",
+      "content": "Toute personne morale soumise à l'Impôt sur les Sociétés (IS) doit s'acquitter de trois acomptes provisionnels imputables sur l'impôt définitif de l'exercice en cours.\nBase de calcul : 15% de l'impôt sur les bénéfices dû au titre de l'exercice précédent (N-1).\nÉchéances légales de paiement :\n\n* 1er acompte : 28 juin de l'année.\n* 2ème acompte : 28 septembre de l'année.\n* 3ème acompte : 28 décembre de l'année.\nSi l'entreprise estime que les acomptes déjà payés excèdent l'impôt total qui sera dû pour l'exercice en cours, elle peut s'abstenir de payer les acomptes restants sous sa propre responsabilité légale.",
+      "category": "legal",
+      "tags": [
+        "acomptes",
+        "is",
+        "impots",
+        "societe",
+        "calendrier-fiscal"
+      ]
+    },
+    {
+      "title": "Régimes d'Imposition PME - Régime Réel vs Forfait d'Assiette",
+      "content": "Le code de l'IRPP et de l'IS définit deux régimes d'imposition principaux pour les entreprises :\nRégime Réel : Obligatoire pour les SARL/SUARL (comme les sociétés de services informatiques) et les activités industrielles ou de commerce de gros. Exige une comptabilité commerciale complète selon le Système Comptable des Entreprises (SCE). L'impôt est calculé sur le bénéfice net réel.\nForfait d'Assiette : Réservé aux entreprises individuelles dont le chiffre d'affaires ne dépasse pas un plafond légal fixé annuellement. L'impôt est calculé sur une base forfaitaire (pourcentage du chiffre d'affaires). Le passage du régime forfaitaire au régime réel est irrévocable.",
+      "category": "legal",
+      "tags": [
+        "regime-reel",
+        "forfait",
+        "is",
+        "comptabilite",
+        "startup"
+      ]
+    }
+  ]
+}
