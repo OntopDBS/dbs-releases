@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "packageSource": "dbs-giants-13",
+    "name": "DBS Masterclass - Pratiques des Géants Industriels",
+    "description": "Toyota Production System (TPS) et Lean, réactivité supply-chain de Zara (fast fashion), grilles d'audit fournisseur Apple, principes transposables aux PME industrielles.",
+    "tags": [
+      "toyota",
+      "tps",
+      "lean",
+      "zara",
+      "apple",
+      "supply-chain",
+      "audit-fournisseur",
+      "fast-fashion",
+      "best-practices"
+    ],
+    "category": "operations",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Toyota Production System - Les 4 Piliers et 14 Principes Fondamentaux",
+      "content": "Le TPS (Toyota Production System) repose sur deux piliers fondateurs : Jidoka (qualité intégrée au processus) et Just-In-Time (JIT — produire ce qui est nécessaire, quand c'est nécessaire, en quantité nécessaire). Les 14 principes du Toyota Way (Liker, 2004) sont regroupés en 4 catégories :\nCatégorie Philosophie long terme :\n\n* P1 : Baser les décisions sur une philosophie long terme, même au détriment des objectifs financiers à court terme.\nCatégorie Processus (éliminer les gaspillages) :\n* P2 : Flux continu (one-piece flow) pour faire remonter les problèmes à la surface.\n* P3 : Système pull (Kanban) pour éviter la surproduction — premier des 7 gaspillages Muda.\n* P4 : Heijunka — niveler la charge de travail (éliminer Mura et Muri avant de chasser Muda).\n* P5 : Jidoka — arrêter pour résoudre les problèmes et obtenir la qualité du premier coup.\n* P6 : Standardiser les tâches comme base de l'amélioration continue.\n* P7 : Contrôle visuel (5S + Andon) — rendre les problèmes visibles immédiatement.\nLes 7 Muda (gaspillages) à éliminer : Surproduction, Attentes, Transports inutiles, Surtraitement, Stocks excessifs, Mouvements inutiles, Défauts et retouches.",
+      "category": "operations",
+      "tags": [
+        "toyota",
+        "tps",
+        "lean",
+        "jidoka",
+        "jit",
+        "kanban",
+        "muda",
+        "heijunka"
+      ]
+    },
+    {
+      "title": "Concept de Jidoka - Autonomation et Séparation Homme/Machine",
+      "content": "Le Jidoka (autonomation ou automatisation avec une touche humaine) est le second pilier du TPS. Il confère à la machine la capacité de détecter une anomalie et de s'arrêter automatiquement sans intervention externe.\nSéquence d'activation (4 étapes) :\n\n1. Détection de l'anomalie (par capteur mécanique/optique ou par l'opérateur via une corde Andon).\n2. Arrêt immédiat de la production (empêche la création d'une série défectueuse et protège l'équipement).\n3. Sécurisation et correction immédiate du problème par le superviseur ou la maintenance.\n4. Recherche de la cause racine et mise en place d'une contre-mesure définitive (Poka-Yoke / détrompeur).\nImpact organisationnel : Le Jidoka sépare le travail humain du cycle machine. L'opérateur n'a plus à surveiller une machine qui fonctionne normalement. Il peut opérer plusieurs machines simultanément (Multi-Machine Handling), augmentant drastiquement la productivité de la main-d'œuvre directe (MOD) tout en garantissant un taux de défaut nul en sortie de poste.",
+      "category": "operations",
+      "tags": [
+        "jidoka",
+        "autonomation",
+        "andon",
+        "pokayoke",
+        "qualite",
+        "tps"
+      ]
+    },
+    {
+      "title": "Supply-Chain Zara - Modèle Pull et Réactivité Fast Fashion",
+      "content": "Le modèle Inditex (Zara) redéfinit la logistique textile avec un cycle \"Design-to-Shelf\" (de la conception à la mise en rayon) compressé à 15 jours, contre 6 mois pour le modèle industriel traditionnel.\nPrincipes du système Pull Zara :\n\n* Capteurs de demande réels : Les managers de boutique utilisent des terminaux PDA pour remonter quotidiennement les tendances (coupes, couleurs, tailles) dictées par les achats clients réels, et non par des prévisions (Forecasting).\n* Nearshoring capacitaire : Plus de 50% de la production (articles très tendance) est fabriquée en proximité (Espagne, Portugal, Maroc, Tunisie) pour garantir un Lead Time inférieur à 3 semaines. Les pays lointains (Asie) sont réservés aux articles basiques à demande stable.\n* Mini-séries à répétition : Production délibérée de petits lots sans réassort automatique. Cela crée un sentiment de rareté incitant le client à l'achat immédiat, réduisant drastiquement le coût des invendus et des soldes (démarques).\n* Logistique hyper-centralisée : 100% des flux physiques transitent par des plateformes automatisées en Espagne, avec expéditions bi-hebdomadaires mondiales (48h max par avion/camion).",
+      "category": "operations",
+      "tags": [
+        "zara",
+        "supplychain",
+        "fastfashion",
+        "pull",
+        "nearshoring",
+        "logistique",
+        "textile"
+      ]
+    },
+    {
+      "title": "Grille d'Audit Fournisseur Apple - Supplier Responsibility Standards",
+      "content": "Apple impose des exigences drastiques à ses sous-traitants via son Code de Conduite Fournisseurs, dont les standards surpassent souvent les lois locales et normes ISO classiques. L'audit couvre 6 domaines stricts :\n\n* Droits du Travail : Semaine de travail plafonnée à 60 heures (heures supplémentaires incluses), 1 jour de repos obligatoire par tranche de 7 jours, zéro frais de recrutement supportés par les travailleurs (tolérance zéro).\n* Santé et Sécurité : Évaluation de l'exposition aux produits chimiques, sécurité des machines, préparation incendie.\n* Environnement : Exigences de traitement des eaux usées, validation de l'empreinte carbone, démarche Zero Waste to Landfill.\n* Approvisionnement Responsable : Traçabilité obligatoire des minerais de conflit (Tantale, Étain, Tungstène, Or - 3TG).\n* Système de Management : Preuve documentaire que la direction pilote ces exigences via des KPI.\nSanctions : La découverte d'une \"Core Violation\" (violation majeure, ex: travail forcé ou falsification de registres horaires) entraîne une mise en demeure immédiate. Le fournisseur doit soumettre un CAP (Corrective Action Plan). Si le défaut persiste après 90 jours, le déréférencement est définitif.",
+      "category": "operations",
+      "tags": [
+        "apple",
+        "audit-fournisseur",
+        "compliance",
+        "rse",
+        "supplychain",
+        "code-conduite"
+      ]
+    },
+    {
+      "title": "Transposition des Pratiques des Géants aux PME Tunisiennes",
+      "content": "L'adoption des méthodes des leaders mondiaux par une PME tunisienne exige un pragmatisme strict, sans nécessiter d'investissements massifs :\n\n* Lean Management (Toyota) : Déployer le 5S et le Management Visuel avant tout achat technologique. Un atelier rangé et des standards visuels réduisent instantanément les temps de recherche (Muda) et stabilisent la qualité à coût nul.\n* Agilité Supply Chain (Zara) : Transformer le modèle capacitaire PME. Au lieu de proposer des grandes séries à prix cassés (concurrence asiatique), vendre la flexibilité. Utiliser la proximité géographique (Tunisie-Europe) pour proposer des Lead Times de 3 semaines sur des petites séries, justifiant une prime de prix de 15-20% pour le client européen.\n* Conformité et RSE (Apple) : Les donneurs d'ordres européens exigent désormais des standards stricts (mécanisme d'ajustement carbone aux frontières CBAM, audits SMETA/BSCI). Les PME doivent formaliser un Code de Conduite basique, systématiser les déclarations CNSS et tracer l'origine de leurs matières premières pour sécuriser leurs contrats export.",
+      "category": "operations",
+      "tags": [
+        "pme",
+        "nearshoring",
+        "tunisie",
+        "lean",
+        "flexibilite",
+        "rse",
+        "competitivite"
+      ]
+    },
+    {
+      "title": "Méthode de Sélection des Meilleures Pratiques à Fort ROI",
+      "content": "Pour éviter l'épuisement organisationnel, l'implémentation de nouvelles pratiques industrielles en PME doit suivre une matrice Gains / Efforts garantissant un Retour sur Investissement (ROI) rapide :\n\n1. Quick Wins (Effort Faible / Impact Fort) : Implémenter le SMED de base (séparer opérations internes/externes pour réduire de 30% le temps de changement de série), instaurer une réunion debout de 5 minutes chaque matin (Top 5), appliquer les 5 Pourquoi sur les non-conformités majeures. Réalisation : J+15 à J+30.\n2. Projets Majeurs (Effort Fort / Impact Fort) : Déploiement d'un système ERP métier, passage d'une production par lots à un système Kanban, certification ISO 9001/14001. Nécessite un budget Capex et un pilotage projet structuré. Réalisation : 6 à 12 mois.\n3. Fill-ins (Effort Faible / Impact Faible) : Optimisation d'un formulaire papier, marquage au sol secondaire. À traiter en flux continu lors des heures creuses.\n4. À éviter (Effort Fort / Impact Faible) : Robotisation d'un poste avant d'avoir stabilisé son taux de rebut (automatisation du gaspillage), développement d'un ERP spécifique \"from scratch\".\nRègle d'or : Ne jamais engager de dépenses d'augmentation capacitaire (Capex) si le TRS (Taux de Rendement Synthétique) actuel de l'usine est inférieur à 70%. La capacité cachée doit d'abord être libérée par l'élimination des gaspillages.",
+      "category": "operations",
+      "tags": [
+        "roi",
+        "quickwins",
+        "lean",
+        "matrice",
+        "capex",
+        "trs",
+        "priorisation"
+      ]
+    }
+  ]
+}
