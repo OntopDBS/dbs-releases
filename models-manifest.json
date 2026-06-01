@@ -1,0 +1,42 @@
+[
+  {
+    "id": "qwen2.5:3b",
+    "name": "Qwen 2.5 · 3B",
+    "description": "Modèle compact multilingue (français/arabe/anglais). Idéal pour les machines 8 Go RAM. Excellent rapport qualité/taille pour DBS.",
+    "recommendation": "Recommandé pour machines 8–15 Go RAM",
+    "size_gb": 2.0,
+    "min_ram_gb": 6,
+    "recommended": true,
+    "tags": ["multilingue", "compact", "français", "arabe"]
+  },
+  {
+    "id": "llama3.2:3b",
+    "name": "Llama 3.2 · 3B",
+    "description": "Modèle léger de Meta, fort en français et en raisonnement. Bonne alternative si Qwen n'est pas disponible.",
+    "recommendation": "Bonne alternative pour 8 Go RAM",
+    "size_gb": 2.0,
+    "min_ram_gb": 6,
+    "recommended": false,
+    "tags": ["compact", "français", "meta"]
+  },
+  {
+    "id": "mistral:7b",
+    "name": "Mistral · 7B",
+    "description": "Modèle 7 milliards de paramètres, meilleure qualité de réponse. Recommandé pour les machines 16 Go RAM et plus.",
+    "recommendation": "Meilleure qualité — nécessite 16 Go RAM",
+    "size_gb": 4.1,
+    "min_ram_gb": 12,
+    "recommended": false,
+    "tags": ["haute-qualité", "7b", "français"]
+  },
+  {
+    "id": "phi3:mini",
+    "name": "Phi-3 Mini",
+    "description": "Modèle Microsoft ultra-léger. Rapide mais capacités limitées. À utiliser uniquement sur machines contraintes.",
+    "recommendation": "Ultra-léger — machines contraintes uniquement",
+    "size_gb": 2.2,
+    "min_ram_gb": 4,
+    "recommended": false,
+    "tags": ["ultra-léger", "microsoft", "rapide"]
+  }
+]
