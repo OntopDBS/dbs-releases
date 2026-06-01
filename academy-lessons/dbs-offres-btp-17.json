@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-btp-17",
+    "name": "DBS Masterclass - Offres Commerciales Construction & BTP",
+    "description": "Structure d'un devis BTP professionnel, bordereau de prix unitaires, calcul du coût de revient travaux, gestion des avenants, retenue de garantie, réponse aux appels d'offres publics tunisiens, assurances obligatoires.",
+    "tags": [
+      "btp",
+      "construction",
+      "devis",
+      "bordereau",
+      "avenant",
+      "retenue-garantie",
+      "ao-public",
+      "marches-publics",
+      "tunisie"
+    ],
+    "category": "commercial",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Structure d'un Devis BTP Professionnel - Décomposition par Lots",
+      "content": "Un devis BTP convaincant et défendable juridiquement doit comporter les éléments suivants, structurés par lot de travaux :\nEn-tête obligatoire : numéro de devis, date, validité (30-60 jours), coordonnées complètes entreprise + client, adresse et description du chantier, référence du plan/dossier technique si existant.\nCorps du devis — structure par lot :\nLOT 01 - GROS OEUVRE\n1.1  Terrassement et fouilles         m3   120   45,00 DT   5 400,00 DT\n1.2  Béton de propreté (e=10cm)       m2    85   22,00 DT   1 870,00 DT\n1.3  Semelles filantes béton armé     ml    64   85,00 DT   5 440,00 DT\nSous-total LOT 01 HT :                                      12 710,00 DT\nCalcul du prix unitaire main d'oeuvre : Salaire horaire chargé maçon qualifié = 4,50-5,50 DT/h. Pour 1 m3 de maçonnerie agglos : temps unitaire = 1,8h, coût MOD = 9,00 DT. Ajouter matériaux + matériel + frais généraux (25-35% du coût direct) + marge (10-15%) + aléas chantier (3-5%).\nClause avenants obligatoire à inclure dans tout devis BTP : \"Tout travail supplémentaire non prévu au présent devis fera l'objet d'un avenant écrit signé par les deux parties avant exécution. Aucun travail supplémentaire verbal ne sera facturé sans accord écrit préalable.\"",
+      "category": "commercial",
+      "tags": [
+        "btp",
+        "construction",
+        "devis",
+        "bordereau",
+        "prix-unitaires",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Calcul du Coût de Revient Travaux et Coefficient de Vente",
+      "content": "Le Prix de Vente HT d'un lot BTP s'établit via l'application d'un coefficient multiplicateur (K) sur le Déboursé Sec (DS).\nDéboursé Sec (DS) = Main d'Œuvre Directe (MOD) + Matériaux + Matériel (amortissement machine ou location).\nCoût de Revient (CR) = DS + Frais de Chantier (encadrement de proximité, grues, baraquements, consommables).\nPrix de Vente HT = CR + Frais Généraux Siège (10-15%) + Aléas (2-5%) + Marge Bénéficiaire (10-15%).\nFormule d'estimation rapide : PV HT = DS x K (où le coefficient K varie généralement de 1,35 à 1,65 selon la taille de l'entreprise et la nature du lot). En Tunisie, la TVA BTP applicable sur les travaux immobiliers facturés est généralement de 13% (ou 19% selon la nature des travaux, comme la menuiserie aluminium facturée seule).",
+      "category": "commercial",
+      "tags": [
+        "cout-revient",
+        "debourse-sec",
+        "marge",
+        "btp",
+        "devis",
+        "tva"
+      ]
+    },
+    {
+      "title": "Gestion des Avenants et Travaux Supplémentaires",
+      "content": "Un avenant encadre l'exécution de travaux situés hors du périmètre du marché initial. Le déclenchement nécessite impérativement l'émission d'un Ordre de Service (OS) formel ou d'un devis supplémentaire validé. Le Code des Obligations et des Contrats (COC) tunisien protège le Maître d'Ouvrage (MO) : l'accord écrit préalable est obligatoire avant toute exécution. La facturation d'un avenant s'effectue soit par l'application des mêmes prix unitaires que le marché initial (Bordereau des Prix Unitaires existant), soit via la création d'un Bordereau des Prix Nouveaux (BPN) négocié. L'exécution de travaux sur simple instruction verbale de l'architecte expose la PME à un risque de refus de paiement total lors du décompte final.",
+      "category": "commercial",
+      "tags": [
+        "avenant",
+        "os",
+        "travaux-supplementaires",
+        "contrat",
+        "coc",
+        "facturation"
+      ]
+    },
+    {
+      "title": "Conditions de Paiement, Situations et Retenue de Garantie",
+      "content": "Le cycle de facturation en BTP repose sur l'avancement physique réel.\nÉchéancier type : Un acompte de démarrage de 20% à 30% est versé à la commande (souvent conditionné par la remise d'une caution bancaire d'avance). La facturation s'opère ensuite par \"situations de travaux\" mensuelles (décomptes), strictement basées sur les \"attachements\" (documents de mesure contradictoire des quantités exécutées, signés par le bureau de contrôle ou l'architecte).\nRetenue de Garantie (RG) : Une déduction légale de 5% est appliquée sur chaque situation HT. Elle couvre les malfaçons post-livraison et n'est libérée qu'à l'issue de l'année de parfait achèvement (suite à la réception définitive). Optimisation trésorerie : Les PME peuvent substituer cette retenue par une \"caution bancaire de retenue de garantie\" émise dès le début du chantier, permettant d'encaisser 100% du montant des situations mensuelles.",
+      "category": "commercial",
+      "tags": [
+        "paiement",
+        "situation-travaux",
+        "attachement",
+        "retenue-garantie",
+        "tresorerie",
+        "caution"
+      ]
+    },
+    {
+      "title": "Réponse aux Appels d'Offres Publics Tunisiens (TUNEPS)",
+      "content": "La participation aux marchés publics de travaux (encadrée par le Décret 2014-1039) s'opère majoritairement via la plateforme électronique TUNEPS.\nComposition stricte de la soumission :\n\n* Dossier Administratif : Attestation fiscale valide, attestation CNSS, extrait RNE, caution provisoire (garantie de soumission bancaire ou chèque certifié de 1 à 2% du montant estimé).\n* Dossier Technique : Mémoire technique, planning prévisionnel (Gantt), CV de l'encadrement, liste du matériel, attestations de bonne exécution de projets similaires.\n* Offre Financière : Acte d'engagement (Soumission), Bordereau des Prix Unitaires (BPU), Détail Estimatif.\nL'attribution s'effectue généralement au \"moins disant\" parmi les offres jugées techniquement conformes. Le rejet de l'offre est automatique et sans recours si une seule pièce administrative est manquante ou périmée à la date limite de soumission.",
+      "category": "commercial",
+      "tags": [
+        "tuneps",
+        "marches-publics",
+        "appel-doffres",
+        "soumission",
+        "bpu",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Assurances Obligatoires et Gestion des Risques BTP",
+      "content": "L'exercice de la construction en Tunisie impose des couvertures assurantielles spécifiques.\n\n* Responsabilité Civile Décennale (Art. 163 COC) : Obligation d'ordre public. Elle engage solidairement l'entrepreneur et l'architecte pendant 10 ans à compter de la réception provisoire pour tout vice compromettant la solidité de l'ouvrage (effondrement, défaillance structurelle du gros œuvre).\n* Assurance Tous Risques Chantier (TRC) : Couvre les dommages matériels accidentels subis par l'ouvrage pendant son exécution (incendie, dégât des eaux, effondrement partiel). Souvent exigée par le Maître d'Ouvrage avant le démarrage.\n* Assurance Accidents du Travail (AT) : La part patronale CNSS intègre une couverture majorée (taux AT de 3% à 5% selon la dangerosité). Le système exige une déclaration nominative stricte des ouvriers (y compris journaliers) sur le chantier pour éviter des poursuites pénales directes contre le dirigeant en cas d'accident corporel grave.",
+      "category": "commercial",
+      "tags": [
+        "assurance",
+        "decennale",
+        "trc",
+        "accident-travail",
+        "risques",
+        "btp"
+      ]
+    }
+  ]
+}
