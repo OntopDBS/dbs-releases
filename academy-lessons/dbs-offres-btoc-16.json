@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-btoc-16",
+    "name": "DBS Masterclass - Offres Commerciales BtoC",
+    "description": "Construction d'un devis BtoC clair et convaincant, psychologie du prix en vente directe, présentation des options good/better/best, traitement des objections consommateur, closing face-à-face et digital, suivi post-devis.",
+    "tags": [
+      "btoc",
+      "devis",
+      "prix",
+      "closing",
+      "objections",
+      "consommateur",
+      "vente-directe",
+      "psychologie-prix"
+    ],
+    "category": "sales",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Psychologie du Prix BtoC - Techniques d'Ancrage et de Présentation",
+      "content": "Le cerveau consommateur ne traite pas les prix de manière rationnelle — il compare, relativise et se laisse influencer par le contexte de présentation :\nAncrage prix : toujours présenter d'abord l'option la plus chère. Elle devient la référence mentale, rendant les options inférieures perçues comme \"raisonnables\". Un produit à 800 DT présenté après un produit à 1 500 DT sera perçu comme accessible — le même produit présenté seul semblera cher.\nMéthode Good-Better-Best (3 options) :\n\n* Option Essentiel (bonne) : fonctionnel, sans extras. Prix plancher.\n* Option Confort (mieux) : fonctionnel + 2-3 avantages concrets valorisés. Prix médian — c'est là que vous voulez vendre.\n* Option Premium (excellent) : tout inclus + garantie étendue + service prioritaire. Prix élevé — sert principalement à ancrer et valoriser l'option médiane par contraste.\nStatistique comportementale : 60-70% des clients choisissent l'option médiane lorsqu'elle est présentée en second.\nPrix brisé vs prix rond : 990 DT vs 1 000 DT — l'effet est réel mais s'érode en B2B. En BtoC de proximité tunisien, les prix ronds sont souvent perçus comme plus honnêtes — tester les deux selon la clientèle cible.",
+      "category": "sales",
+      "tags": [
+        "btoc",
+        "prix",
+        "psychologie",
+        "ancrage",
+        "devis",
+        "vente",
+        "closing"
+      ]
+    },
+    {
+      "title": "Structure d'un Devis BtoC Lisible et Persuasif",
+      "content": "Un devis BtoC doit être compréhensible en moins de 10 secondes. Remplacer le jargon technique (ex: \"profilé aluminium 45x45\") par le bénéfice d'usage (\"Structure en aluminium renforcé pour une durabilité de 10 ans\"). L'en-tête doit afficher clairement les coordonnées de l'entreprise, le délai d'exécution garanti et la durée de validité de l'offre. Le prix final TTC (Toutes Taxes Comprises) doit être mis en évidence, car le consommateur ne raisonne pas en HT. La description des articles doit rassurer : inclure les garanties légales, les normes de sécurité et les conditions SAV. Une présentation visuelle aérée par blocs (Produit, Services, Garanties) augmente mécaniquement le taux d'acceptation.",
+      "category": "sales",
+      "tags": [
+        "btoc",
+        "devis",
+        "experience-client",
+        "vente",
+        "transparence"
+      ]
+    },
+    {
+      "title": "Traitement des Objections BtoC Classiques",
+      "content": "L'objection du consommateur final est souvent émotionnelle. \"C'est trop cher\" : ne jamais justifier les coûts de fabrication, mais isoler la vraie contrainte. Demander \"Est-ce une question de trésorerie immédiate ou doutez-vous de la valeur du produit ?\". Proposer un paiement échelonné si le frein est budgétaire. \"J'ai vu moins cher sur internet\" : contrer par le coût global de possession (Garantie locale, service après-vente immédiat, installation incluse). \"Je dois en parler à mon conjoint\" : valider l'objection (\"C'est une décision importante\") puis verrouiller la prochaine étape (\"Sur quel point précis allez-vous échanger ? Je vous rappelle mardi à 18h pour faire le point\").",
+      "category": "sales",
+      "tags": [
+        "objections",
+        "btoc",
+        "negociation",
+        "vente",
+        "prix"
+      ]
+    },
+    {
+      "title": "Techniques de Closing BtoC Sans Pression",
+      "content": "Le consommateur moderne fuit les techniques de vente agressives (hard selling). Privilégier le closing alternatif : orienter la décision non pas sur l'acte d'achat, mais sur les modalités d'exécution (\"Préférez-vous la livraison le mardi ou le jeudi ?\"). Le closing par présomption (Assumptive close) consiste à passer naturellement à l'étape suivante : \"Quelle adresse de facturation dois-je noter ?\". L'urgence légitime déclenche l'action sans dégrader la confiance : utiliser des contraintes logistiques réelles (\"Nos plannings de pose pour ce mois se remplissent, si nous validons aujourd'hui, je vous bloque le créneau du 15\"). Bannir les fausses promotions de type \"-50% seulement aujourd'hui\".",
+      "category": "sales",
+      "tags": [
+        "closing",
+        "btoc",
+        "vente-directe",
+        "decision",
+        "conversion"
+      ]
+    },
+    {
+      "title": "Processus de Relance et Choix des Canaux BtoC",
+      "content": "L'absence de suivi est responsable de 50% des pertes de devis BtoC. La cadence optimale s'articule en deux temps. J+2 (Service) : Message court confirmant la bonne réception et proposant un éclaircissement technique. J+5 (Réassurance) : Relance intégrant une preuve sociale (photo de réalisation similaire, témoignage client). Le choix du canal est déterminant en Tunisie : privilégier WhatsApp ou le SMS pour une réactivité maximale, l'email affichant des taux d'ouverture BtoC inférieurs à 20%. Le ton sur WhatsApp doit être direct mais courtois (\"Bonjour, suite à notre devis, avez-vous pu vérifier les mesures ?\"). Stopper après 3 relances sans réponse pour éviter le signalement intrusif.",
+      "category": "sales",
+      "tags": [
+        "relance",
+        "whatsapp",
+        "sms",
+        "suivi-client",
+        "crm",
+        "btoc"
+      ]
+    },
+    {
+      "title": "Le Devis Digitalisé - Outils et Automatisation ERP",
+      "content": "La digitalisation du parcours de devis BtoC réduit le cycle de décision de 40%. Un ERP moderne doit générer des devis au format PDF enrichi (intégrant fiches techniques, visuels produits) et proposer un lien direct vers une signature électronique sécurisée (ex: validation par code SMS OTP). L'intégration d'un bouton d'acceptation couplé à une passerelle de paiement locale (Konnect, Click to Pay) permet de capter l'acompte instantanément. Le tracking est essentiel : le CRM doit notifier le commercial en temps réel lorsque le client ouvre l'email ou le lien WhatsApp du devis, permettant un appel de closing au moment exact du pic d'intérêt du consommateur.",
+      "category": "sales",
+      "tags": [
+        "devis-digital",
+        "signature-electronique",
+        "erp",
+        "crm",
+        "automatisation",
+        "paiement"
+      ]
+    }
+  ]
+}
