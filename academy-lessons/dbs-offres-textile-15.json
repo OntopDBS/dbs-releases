@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-textile-15",
+    "name": "DBS Masterclass - Offres Commerciales Textile B2B Export",
+    "description": "Construction d'une offre prix export textile (CMT/FOB/CIF), lecture de fiche technique client, gestion des protos et échantillons, conditions de paiement international, négociation avec donneurs d'ordres européens.",
+    "tags": [
+      "textile",
+      "offre",
+      "cmt",
+      "fob",
+      "cif",
+      "proto",
+      "fiche-technique",
+      "export",
+      "b2b",
+      "negociation"
+    ],
+    "category": "commercial",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Décomposition CMT vs FOB vs CIF - Quand Proposer Quoi",
+      "content": "Les trois modes de cotation en textile export ont des implications très différentes sur la marge du façonnier et le contrôle du process :\nCMT (Cut-Make-Trim) : le client fournit toutes les matières (tissu, accessoires, étiquettes). Le façonnier facture uniquement la transformation.\n\n* Avantage façonnier : zéro risque matière, zéro besoin de trésorerie pour achats.\n* Inconvénient : marge limitée à la valeur ajoutée opératoire. Dépendance totale aux délais approvisionnement client.\n* Prix CMT typique chemise homme qualité standard : 2,00 à 3,50 EUR selon complexité.\nFOB (Free On Board) : le façonnier fournit matières + transformation + emballage + chargement à bord.\n* Marge supplémentaire sur les matières (sourcing local ou Chine) : 8-15% sur le coût matière.\n* Risque : exposition aux variations de prix matière entre booking et production. Protéger par clause de révision prix si délai supérieur à 90 jours.\nCIF (Cost Insurance Freight) : FOB + fret maritime + assurance transport.\n* Ajoute une complexité logistique mais peut être un différenciateur si le client cherche un service clé-en-main.\nRègle de décision : proposer CMT pour nouveaux clients (réduction du risque), basculer vers FOB/CIF après 2-3 saisons validées pour augmenter la valeur facturée par pièce.",
+      "category": "commercial",
+      "tags": [
+        "cmt",
+        "fob",
+        "cif",
+        "textile",
+        "export",
+        "offre",
+        "prix"
+      ]
+    },
+    {
+      "title": "Analyse de la Fiche Technique (Tech Pack)",
+      "content": "Le Tech Pack est le document contractuel liant le façonnier et le client. L'analyse préalable à la cotation exige la vérification de la nomenclature détaillée (BOM), du tableau de mesures (tolérances standards +/- 1 cm) et des spécifications de montage (points au centimètre). Une distinction stricte des accessoires s'impose lors de l'étude technique des approvisionnements : la griffe de composition permanente (sewn-in label) obéit à des contraintes de lavage, tandis que le size ticket correspond exclusivement à l'étiquette volante en papier (hang-tag) affichant le code-barres et la taille. Les exigences normatives dictées par le marché de destination (labels REACH, Oeko-Tex Standard 100) doivent être impérativement tracées, impactant directement le sourcing matière dans le cadre d'une offre FOB.",
+      "category": "commercial",
+      "tags": [
+        "techpack",
+        "fiche-technique",
+        "bom",
+        "textile",
+        "cotation"
+      ]
+    },
+    {
+      "title": "Structure de l'Offre de Prix (Quotation Sheet)",
+      "content": "Une offre de prix export (Quotation Sheet) doit figer les paramètres variables pour protéger la marge de l'entreprise. Éléments contractuels obligatoires : Référence et description du modèle, Incoterm exact spécifiant le port de départ (ex: FOB Radès), devise de facturation (couverture du risque de change si différente du Dinar), prix unitaire, et validité de l'offre (limitée à 30 ou 60 jours face à la volatilité des coûts de fret et matières). Le paramètre décisif est la Quantité Minimum de Commande (MOQ - Minimum Order Quantity), sous laquelle des surcoûts (surcharges) s'appliquent. Le Lead Time de production (ex: 4 à 6 semaines) doit être assorti d'un point de départ mesurable, formellement défini comme \"à compter de l'approbation du proto final et de la réception du L/C\".",
+      "category": "commercial",
+      "tags": [
+        "offre",
+        "quotation",
+        "devis",
+        "export",
+        "moq",
+        "leadtime"
+      ]
+    },
+    {
+      "title": "Gestion du Processus Proto et Échantillonnage",
+      "content": "Le prototypage valide la faisabilité industrielle et le bien-aller (fitting) avant le lancement de la production de masse (Bulk). La séquence d'approbation standard inclut : Proto initial (validation de la coupe), Size Set (validation de la gradation des tailles), PPS (Pre-Production Sample - validation finale avec les matières réelles), et TOP (Top Of Production - prélèvement sur la ligne de production). Règle commerciale pour les PME : les protos initiaux de développement doivent être facturés (généralement 2 à 3 fois le prix FOB estimé) pour filtrer les demandes abusives, avec possibilité de déduction sur la facture de la commande de gros. Le contrat doit limiter la phase de développement à deux itérations gratuites de révision ; toute modification de design exigée par le client après le PPS déclenche une facturation additionnelle.",
+      "category": "commercial",
+      "tags": [
+        "proto",
+        "echantillon",
+        "pps",
+        "fitting",
+        "textile",
+        "bulk"
+      ]
+    },
+    {
+      "title": "Conditions de Paiement à l'Export - Sécurisation Financière",
+      "content": "La sécurisation du paiement à l'international repose sur des instruments documentaires et bancaires précis :\n\n* Lettre de Crédit Documentaire (L/C ou Crédoc) : Instrument irrévocable. La banque de l'acheteur s'engage à payer sur présentation stricte des documents d'expédition (B/L, facture, certificat d'origine). Sécuritaire mais engendre des frais bancaires lourds et exige une rigueur documentaire absolue (risque de réserves).\n* Remise Documentaire (D/P - Documents Against Payment) : Les documents permettant le dédouanement ne sont remis à l'acheteur par sa banque qu'après paiement comptant. Moins coûteux que le Crédoc, mais expose au risque de refus de la marchandise au port d'arrivée.\n* Virement SWIFT (T/T - Telegraphic Transfer) : À n'accepter qu'avec une structuration d'acomptes (ex: 30% Deposit à la confirmation de commande, solde 70% contre copie numérisée du connaissement original B/L avant l'arrivée du navire).",
+      "category": "commercial",
+      "tags": [
+        "paiement",
+        "export",
+        "credoc",
+        "swift",
+        "lettre-de-credit",
+        "tresorerie"
+      ]
+    },
+    {
+      "title": "Négociation Européenne - Booking Window et Niveau de Qualité Acceptable (AQL)",
+      "content": "La négociation de contrats de façonnage avec la grande distribution ou les marques européennes exige l'établissement de garde-fous opérationnels. Le \"Booking Window\" (fenêtre de réservation) force le client à engager des volumes de capacité ferme à 90 jours, sous peine de perdre son slot de production. Les pénalités de retard d'expédition doivent être plafonnées contractuellement (maximum 5% de la valeur de la facture) et doivent inclure une clause d'exclusion stricte pour tout retard causé par le donneur d'ordres (retard de validation PPS, livraison tardive du tissu en CMT). Sur le plan qualitatif, l'inspection finale par une tierce partie (SGS, Intertek) doit être bornée par un standard AQL (Acceptable Quality Limit) niveau II, avec des seuils de tolérance négociés à l'avance (ex: 0 Défaut Critique, 2.5 Majeurs, 4.0 Mineurs) pour définir objectivement le statut Pass/Fail du lot.",
+      "category": "commercial",
+      "tags": [
+        "negociation",
+        "aql",
+        "qualite",
+        "export",
+        "penalites",
+        "b2b"
+      ]
+    }
+  ]
+}
