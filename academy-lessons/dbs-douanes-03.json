@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "packageSource": "dbs-douanes-03",
+    "name": "DBS Masterclass - Douanes & Import/Export",
+    "description": "Régimes douaniers tunisiens, admission temporaire perfectionnement actif, mise à la consommation, suspension de TVA, Incoterms 2020, liasse documentaire, droits de douane.",
+    "tags": [
+      "douanes",
+      "import",
+      "export",
+      "incoterms",
+      "admission-temporaire",
+      "liasse",
+      "dae",
+      "tunisie"
+    ],
+    "category": "logistics",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Incoterms 2020 - Répartition des Risques et Coûts",
+      "content": "Les Incoterms 2020 (ICC) définissent 11 règles standardisées de transfert de risque et de responsabilité des coûts entre vendeur et acheteur :\n\n* EXW (Ex Works) : le vendeur met à disposition à son usine. L'acheteur supporte tous les frais et risques dès le départ usine, y compris le chargement.\n* FOB (Free On Board) : vendeur livre à bord du navire au port d'embarquement désigné. Transfert de risque à bord. Adapté au vrac et conventionnel uniquement.\n* CIF (Cost, Insurance, Freight) : vendeur paye fret + assurance jusqu'au port de destination. Le risque transfère à bord du navire de départ — l'acheteur est en risque pendant le transport malgré que le vendeur le paye.\n* DAP (Delivered At Place) : vendeur livré au lieu désigné, non dédouané à l'import. L'acheteur gère le dédouanement et les droits.\n* DDP (Delivered Duty Paid) : obligation maximale vendeur — livré, dédouané, droits payés. Risqué pour l'exportateur tunisien sans structure locale dans le pays destination.",
+      "category": "logistics",
+      "tags": [
+        "incoterms",
+        "douanes",
+        "import",
+        "export",
+        "logistique"
+      ]
+    },
+    {
+      "title": "Régime d'Admission Temporaire pour Perfectionnement Actif (ATPA)",
+      "content": "L'ATPA est un régime douanier suspensif de droits et taxes permettant à une PME d'importer des matières premières ou composants destinés à être transformés, ouvrés ou réparés en Tunisie, en vue de leur réexportation. Ce régime nécessite une déclaration d'importation sous douane et le dépôt d'un cautionnement (bancaire ou SOTUGAR) couvrant les droits et taxes suspendus. Le délai légal d'apurement est fixé à 6 mois, renouvelable sur demande justifiée auprès du bureau des douanes. L'apurement s'effectue obligatoirement par la réexportation des produits compensateurs ou par la mise à la consommation justifiée (avec paiement des pénalités de retard et droits initiaux).",
+      "category": "logistics",
+      "tags": [
+        "atpa",
+        "douanes",
+        "admission-temporaire",
+        "export",
+        "industrie",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Mise à la Consommation et Calcul de la Base Taxable",
+      "content": "La mise à la consommation est le régime de droit commun (importation définitive). La base taxable pour le calcul des Droits de Douane (DD) est la Valeur en Douane (généralement la valeur CIF : valeur marchandise + fret + assurance jusqu'à la frontière tunisienne).\nCalcul de l'assiette de la TVA à l'importation :\nValeur en douane CIF + Droits de Douane + FODEC (si applicable) + Taxe de Consommation (si applicable).\nExemple : Pour une machine CIF 100 000 DT, soumise à 10% DD et 19% TVA.\n\n* DD = 10 000 DT.\n* Base TVA = 110 000 DT.\n* Montant TVA = 20 900 DT. Total à payer en douane : 30 900 DT.",
+      "category": "logistics",
+      "tags": [
+        "importation",
+        "douanes",
+        "tva",
+        "cif",
+        "taxes"
+      ]
+    },
+    {
+      "title": "Suspension de TVA - Agrément et Fonctionnement",
+      "content": "La suspension de TVA (Article 9 du Code de la TVA) permet aux PME effectuant des opérations d'exportation d'acquérir des biens et services locaux ou importés sans décaissement de la TVA, afin de soulager leur trésorerie. Elle est accordée par la Direction Générale des Impôts (DGI) après dépôt d'un dossier. Les entreprises totalement exportatrices en bénéficient de plein droit. Pour les entreprises partiellement exportatrices, la suspension est accordée dans la limite du chiffre d'affaires à l'exportation de l'année précédente (N-1). L'attestation est renouvelable annuellement et le fournisseur doit obligatoirement mentionner \"Vente en suspension de TVA selon attestation N° X\" sur sa facture.",
+      "category": "logistics",
+      "tags": [
+        "tva",
+        "suspension",
+        "dgi",
+        "export",
+        "tresorerie",
+        "fiscalite"
+      ]
+    },
+    {
+      "title": "Liasse Documentaire Standard à l'Importation",
+      "content": "Le dédouanement exige la présentation d'une liasse documentaire complète et conforme au système SINDA :\n\n* Facture commerciale : originale, détaillée (quantités, prix unitaires, Incoterm, devise), signée et visée.\n* Packing List (Liste de colisage) : poids net/brut, nombre de colis, volumes.\n* Titre de transport : Connaissement maritime (B/L) ou Lettre de Transport Aérien (LTA).\n* Certificat d'origine : indispensable pour bénéficier d'avantages tarifaires ou d'exonérations (ex: certificat EUR.1 pour la zone Euro-Méditerranéenne).\n* Titre de commerce extérieur : facture domiciliée auprès d'un intermédiaire agréé (banque) selon la nomenclature douanière.\n* DAU (Document Administratif Unique) : déclaration en douane générée par le système.",
+      "category": "logistics",
+      "tags": [
+        "liasse",
+        "documents",
+        "import",
+        "eur1",
+        "dau",
+        "douanes"
+      ]
+    },
+    {
+      "title": "Procédures d'Enlèvement et Rôle du Transitaire Agréé",
+      "content": "Le dédouanement en Tunisie doit obligatoirement être opéré par un commissionnaire en douane (transitaire) agréé, sauf si l'entreprise dispose de son propre service de douane intégré. Le transitaire enregistre le DAU sur SINDA, classe la marchandise tarifairement (code SH) et liquide les droits. La douane tunisienne affecte un circuit à la déclaration :\n\n* Circuit vert : mainlevée immédiate.\n* Circuit orange : contrôle documentaire.\n* Circuit rouge : visite physique de la marchandise.\nUne fois les droits acquittés ou cautionnés, la douane émet le Bon à Enlever (BAE), permettant au transitaire de récupérer le Bon de Sortie auprès de l'acconier (STAM) pour procéder à l'enlèvement physique de la marchandise du port ou aéroport.\n#transitaire #dédouanement #bae #sinda #stam #logistique",
+      "category": "logistics",
+      "tags": []
+    }
+  ]
+}
