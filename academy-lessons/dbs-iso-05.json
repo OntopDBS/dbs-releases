@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "packageSource": "dbs-iso-05",
+    "name": "DBS Masterclass - Normes ISO & Qualité",
+    "description": "ISO 9001:2015 structure HLS et audit, CAPA (actions correctives et préventives), ISO 14001:2015 environnement, ISO 45001:2018 sécurité au travail, documentation qualité PME.",
+    "tags": [
+      "iso",
+      "qualite",
+      "audit",
+      "iso9001",
+      "iso14001",
+      "iso45001",
+      "capa",
+      "smq",
+      "documentation"
+    ],
+    "category": "quality",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "ISO 9001:2015 - Structure des 10 Chapitres et Obligations Documentaires",
+      "content": "L'ISO 9001:2015 repose sur la High Level Structure (HLS) en 10 chapitres, garantissant l'intégration avec ISO 14001 et ISO 45001 :\n\n* Ch.4 Contexte : analyse SWOT, parties intéressées (clients, régulateurs, fournisseurs), domaine d'application du SMQ.\n* Ch.5 Leadership : politique qualité signée et communiquée, rôles et responsabilités définis, revue de direction annuelle obligatoire.\n* Ch.6 Planification : identification des risques et opportunités, objectifs qualité SMART, plans d'actions.\n* Ch.8 Réalisation : maîtrise des processus opérationnels, gestion des non-conformités fournisseurs, contrôle à réception.\n* Ch.9 Évaluation : indicateurs de performance (KPI qualité), audit interne annuel minimum, satisfaction client mesurée.\n* Ch.10 Amélioration : CAPA formalisées, analyse des causes racines (5 Pourquoi ou Ishikawa obligatoire pour NC majeures).\nInformations documentées obligatoires : politique qualité, objectifs qualité, compétences du personnel, résultats de surveillance, non-conformités et CAPA, résultats d'audit.",
+      "category": "quality",
+      "tags": [
+        "iso9001",
+        "smq",
+        "audit",
+        "qualite",
+        "documentation"
+      ]
+    },
+    {
+      "title": "Structure HLS (High Level Structure) et Intégration QSE",
+      "content": "L'annexe SL de l'ISO impose une structure commune de 10 chapitres (HLS) pour les normes de systèmes de management (ISO 9001, 14001, 45001), facilitant l'implémentation d'un Système de Management Intégré (SMI). Cette architecture unifie le vocabulaire et les exigences fondamentales : le chapitre 4 exige l'analyse du contexte (PESTEL) pour toutes les normes, le chapitre 5 centralise l'engagement de la direction à travers une politique QSE unique, et le chapitre 9 mutualise les audits internes et revues de direction. Avantage PME : réduction de 30% à 40% du volume documentaire et optimisation des ressources d'audit par la fusion des processus supports (RH, métrologie, achats).",
+      "category": "quality",
+      "tags": [
+        "hls",
+        "smi",
+        "qse",
+        "iso",
+        "integration"
+      ]
+    },
+    {
+      "title": "Processus d'Audit Interne et Gestion des CAPA",
+      "content": "L'audit interne (Chapitre 9) vérifie la conformité et l'efficacité du SMQ. Le cycle complet comprend : l'établissement d'un programme d'audit annuel (basé sur la criticité des processus), la préparation d'une liste de vérification (checklist) par un auditeur qualifié et indépendant du processus audité, la conduite de l'audit (entretiens, observation, revue documentaire), et l'émission du rapport. Toute Non-Conformité (NC) déclenche une CAPA (Corrective and Preventive Action) : action immédiate (curative), analyse des causes racines (méthodes Ishikawa ou 5 Pourquoi), plan d'action correctif avec délais et responsables, et enfin vérification de l'efficacité de l'action à J+30 ou J+90 avant clôture.",
+      "category": "quality",
+      "tags": [
+        "audit-interne",
+        "capa",
+        "non-conformite",
+        "amelioration",
+        "qualite"
+      ]
+    },
+    {
+      "title": "ISO 14001:2015 - Aspects et Impacts Environnementaux (AES)",
+      "content": "Le cœur de l'ISO 14001 (Chapitre 6) exige l'identification des aspects environnementaux (éléments d'activités interagissant avec l'environnement) et l'évaluation de leurs impacts (modification de l'environnement). La cotation PME utilise généralement la formule : Criticité = Fréquence x Gravité x Sensibilité du milieu. Les aspects dépassant le seuil critique deviennent des AES (Aspects Environnementaux Significatifs) nécessitant une maîtrise opérationnelle documentée (Chapitre 8) et des objectifs d'amélioration. Obligations légales tunisiennes à intégrer : gestion des déchets dangereux (loi 96-41), contrôle des rejets hydriques (norme INNORPI 106.002), et conformité des émissions atmosphériques.",
+      "category": "quality",
+      "tags": [
+        "iso14001",
+        "environnement",
+        "aes",
+        "impact",
+        "dechets",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "ISO 45001:2018 - Identification des Dangers et Évaluation des Risques SST",
+      "content": "L'ISO 45001 structure la Santé et Sécurité au Travail via l'identification proactive des dangers (mécaniques, électriques, chimiques, ergonomiques) et l'évaluation des risques SST. La hiérarchie de prévention légale et normative à appliquer : 1. Éliminer le danger, 2. Substituer par un procédé moins dangereux, 3. Mesures de protection collective (EPC), 4. Mesures administratives (procédures, signalisation), 5. Équipements de Protection Individuelle (EPI). Le Document Unique d'Évaluation des Risques Professionnels (DUERP) n'est pas explicitement nommé par l'ISO mais satisfait l'exigence d'information documentée. Obligation de consultation et participation des travailleurs (Chapitre 5.4), typiquement via le CSST (Comité de Santé et de Sécurité au Travail) obligatoire en Tunisie pour les entreprises de plus de 40 salariés.",
+      "category": "quality",
+      "tags": [
+        "iso45001",
+        "sst",
+        "risques",
+        "securite",
+        "danger",
+        "prevention",
+        "csst"
+      ]
+    },
+    {
+      "title": "Préparation à la Certification et Audit à Blanc",
+      "content": "Le cycle de certification d'une PME nécessite 6 à 9 mois. Étapes critiques : 1. Finalisation de l'implémentation (100% des exigences couvertes), 2. Réalisation du cycle complet d'audits internes et clôture des NC majeures, 3. Tenue de la revue de direction validant l'aptitude du système, 4. Exécution d'un audit à blanc (mock audit) par un consultant externe pour simuler les conditions réelles et lever les ultimes écarts. Choix de l'organisme certificateur : privilégier un organisme accrédité (TUNAC pour la Tunisie, COFRAC, UKAS) disposant d'auditeurs locaux (réduction des frais de déplacement) qualifiés dans le code NAF/secteur industriel de l'entreprise. L'audit de certification se déroule en deux étapes (Stage 1 : revue documentaire ; Stage 2 : audit sur site).",
+      "category": "quality",
+      "tags": [
+        "certification",
+        "audit-blanc",
+        "organisme",
+        "tunac",
+        "qse"
+      ]
+    }
+  ]
+}
