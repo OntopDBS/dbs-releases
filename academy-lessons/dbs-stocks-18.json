@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "packageSource": "dbs-stocks-18",
+    "name": "DBS Masterclass - Gestion des Stocks & Logistique Interne",
+    "description": "Méthodes FIFO/FEFO/LIFO, analyse ABC-XYZ, calcul du stock de sécurité et du point de commande, organisation physique entrepôt (5S), procédure d'inventaire annuel obligatoire tunisien, coût de possession du stock.",
+    "tags": [
+      "stocks",
+      "logistique",
+      "fifo",
+      "fefo",
+      "abc",
+      "stock-securite",
+      "point-commande",
+      "inventaire",
+      "entrepot"
+    ],
+    "category": "operations",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Analyse ABC-XYZ - Segmentation du Portefeuille de Stock",
+      "content": "L'analyse ABC segmente les articles en stock selon leur contribution à la valeur totale du stock, permettant de concentrer les efforts de gestion sur les articles à plus fort enjeu :\nCatégorie A (environ **20%** des références, **80%** de la valeur) : suivi quotidien, inventaire tournant mensuel, stock de sécurité précis calculé, réapprovisionnement en flux tendu. Tolérance rupture : zéro.\nCatégorie B (environ **30%** des références, **15%** de la valeur) : suivi hebdomadaire, inventaire tournant trimestriel, point de commande standard.\nCatégorie C (environ **50%** des références, **5%** de la valeur) : suivi mensuel, inventaire annuel suffisant, politique de stock minimum simplifié — commander par lots pour réduire les frais administratifs.\nL'analyse XYZ croise avec la régularité de la demande :\n\n* X : demande régulière et prévisible (CV inférieur à **0,2**). Idéal pour Kanban.\n* Y : demande saisonnière ou variable (CV entre **0,2** et **0,5**). MRP adapté.\n* Z : demande très irrégulière ou sporadique (CV supérieur à **0,5**). Commander sur besoin uniquement.\nCombinaison AX = articles critiques à gestion Kanban quotidien. Combinaison CZ = articles à gérer en flux poussé minimum ou à éliminer du catalogue.",
+      "category": "operations",
+      "tags": [
+        "stocks",
+        "abc",
+        "xyz",
+        "logistique",
+        "inventaire",
+        "gestion",
+        "erp"
+      ]
+    },
+    {
+      "title": "Méthodes de Valorisation des Stocks - FIFO, FEFO et CMUP",
+      "content": "Le Système Comptable des Entreprises (SCE) tunisien impose des méthodes précises pour l'évaluation des stocks à la clôture comptable :\n\n* CMUP (Coût Moyen Unitaire Pondéré) : Méthode recommandée pour les matières premières non périssables. La valeur est recalculée à chaque nouvelle réception ou calculée périodiquement. Elle permet de lisser les variations de prix d'achat.\n* FIFO (First In, First Out / PEPS) : Valorisation basée sur le coût des entrées les plus récentes. Privilégiée par la norme comptable car elle reflète une valeur de remplacement réelle au bilan.\n* FEFO (First Expired, First Out) : Variante logistique du FIFO s'appuyant sur la Date Limite d'Utilisation Optimale (DLUO) ou la Date Limite de Consommation (DLC). Exigence stricte en agroalimentaire pour éviter la péremption et assurer la conformité ISO 22000.\n* LIFO (Last In, First Out) : Méthode strictement interdite par le SCE tunisien et les normes IFRS car elle sous-évalue artificiellement le stock final.",
+      "category": "operations",
+      "tags": [
+        "fifo",
+        "fefo",
+        "cmup",
+        "valorisation",
+        "comptabilite",
+        "sce",
+        "logistique"
+      ]
+    },
+    {
+      "title": "Calcul Mathématique du Stock de Sécurité et du Point de Commande",
+      "content": "Le paramétrage du module d'approvisionnement ERP repose sur deux variables déterministes : le Point de Commande (ROP) et le Stock de Sécurité (SS).\nLe Stock de Sécurité absorbe la volatilité de la demande et les retards fournisseurs :\n\n\n$$SS = Z \\times \\sigma_{D} \\times \\sqrt{L}$$\n\n\nOù $Z$ est le coefficient de niveau de service (ex: **1,65** pour **95%**, **2,05** pour **98%**), $\\sigma_{D}$ est l'écart-type de la demande journalière, et $L$ est le délai de réapprovisionnement (Lead Time) mesuré en jours.\nLe Point de Commande (Reorder Point) est le seuil de déclenchement d'un ordre d'achat :\n\n\n$$ROP = (D \\times L) + SS$$\n\n\nOù $D$ correspond à la demande moyenne journalière. La requête de réapprovisionnement s'active dès que le stock physique additionné aux commandes en cours devient inférieur ou égal au ROP.",
+      "category": "operations",
+      "tags": [
+        "stock-securite",
+        "point-commande",
+        "rop",
+        "mathematiques-logistiques",
+        "approvisionnement",
+        "erp"
+      ]
+    },
+    {
+      "title": "Analyse du Coût Total de Possession du Stock (TCO)",
+      "content": "Détenir un stock génère une immobilisation financière coûteuse, représentant généralement entre **15%** et **25%** de la valeur annuelle des articles stockés. Le TCO (Total Cost of Ownership) englobe :\n\n* Coût d'Acquisition : Prix d'achat facturé par le fournisseur, majoré des frais d'approche (transport, droits de douane, transit).\n* Coût de Passation : Frais administratifs inhérents à la commande (temps acheteur, traitement comptable, contrôle qualité à réception). S'optimise via la formule de Wilson (Quantité Économique de Commande).\n* Coût de Possession (Holding Cost) : Intègre le coût de l'argent immobilisé (soumis au TMM tunisien), l'espace de magasinage (loyer, rayonnages, électricité), la démarque (vol, casse, obsolescence) et les assurances multirisques.\n* Coût de Rupture (Shortage Cost) : Manque à gagner sur vente, indemnités de retard ou surcoûts liés aux arrêts de ligne de production.",
+      "category": "operations",
+      "tags": [
+        "tco",
+        "cout-possession",
+        "finance",
+        "wilson",
+        "optimisation",
+        "lean"
+      ]
+    },
+    {
+      "title": "Organisation Physique de l'Entrepôt et Démarche 5S",
+      "content": "L'architecture spatiale du magasin conditionne la productivité du \"picking\" (préparation) et l'exactitude des stocks. L'adressage physique doit être codifié hiérarchiquement : Allée - Travée - Niveau - Emplacement (ex: A03-T12-N02-E01). Les articles à rotation rapide (Catégorie A) sont systématiquement positionnés à hauteur d'ergonomie humaine (Golden Zone) et au plus près des quais d'expédition.\nLe déploiement du standard 5S est indispensable en gestion d'entrepôt :\n\n1. Seiri (Débarrasser) : Évacuer les stocks dormants (Dead stock) et purger le matériel hors d'usage.\n2. Seiton (Ranger) : Assigner une localisation unique à chaque référence, délimiter les zones de transit au sol.\n3. Seiso (Nettoyer) : Maintenir la propreté (dépoussiérage, inspection des racks de stockage).\n4. Seiketsu (Standardiser) : Imposer l'usage de code-barres ou de terminaux radiofréquence (PDA) pour les saisies d'entrée/sortie.\n5. Shitsuke (Maintenir) : Conduire des audits visuels périodiques pour pérenniser la rigueur des magasiniers.",
+      "category": "operations",
+      "tags": [
+        "5s",
+        "entrepot",
+        "magasin",
+        "picking",
+        "adressage",
+        "lean-logistics"
+      ]
+    },
+    {
+      "title": "Procédure d'Inventaire Annuel Légal et Cut-Off",
+      "content": "Le Code de Commerce tunisien et le Système Comptable des Entreprises exigent la réalisation d'un inventaire physique exhaustif et chiffré à la clôture de l'exercice fiscal (généralement au 31 décembre).\nProcédure de fiabilisation de l'inventaire physique :\n\n1. Opération de Cut-Off : Séparation des exercices par le gel de tout mouvement physique de stock (production, réception, livraison) durant le comptage.\n2. Comptage en double aveugle : Deux équipes distinctes effectuent un relevé des mêmes allées, sans accès aux quantités théoriques stockées dans l'ERP.\n3. Rapprochement des données : Analyse systématique du différentiel entre le stock informatique et le relevé physique consolidé.\n4. Régularisation comptable : Constatation des écarts via l'enregistrement d'un boni (quantité réelle > théorie) ou d'un mali (quantité réelle < théorie).\nAfin d'alléger cette procédure lourde, les PME matures déploient un inventaire tournant (Cycle Counting) réalisant des comptages partiels planifiés tout au long de l'année.",
+      "category": "operations",
+      "tags": [
+        "inventaire",
+        "cloture",
+        "comptabilite",
+        "audit",
+        "cutoff",
+        "sce",
+        "tunisie"
+      ]
+    }
+  ]
+}
