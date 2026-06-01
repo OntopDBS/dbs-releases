@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "packageSource": "dbs-offres-08",
+    "name": "DBS Masterclass - Rédaction d'Offres & Négociation Commerciale",
+    "description": "Calcul CMT textile, structure d'une offre B2B gagnante, Incoterms et conditions de paiement export, techniques de négociation prix, réponse aux appels d'offres, positionnement tarifaire et TCO.",
+    "tags": [
+      "offre",
+      "negociation",
+      "cmt",
+      "textile",
+      "prix",
+      "conditions-paiement",
+      "ao",
+      "commercial"
+    ],
+    "category": "commercial",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Calcul du Prix CMT - Décomposition Standard Industrie Textile",
+      "content": "Le CMT (Cut-Make-Trim) est le modèle tarifaire standard pour les façonniers textile exportateurs tunisiens. Décomposition d'un prix CMT :\nPrix CMT = MOD + Frais généraux atelier + Marge + Frais financiers\nExemple pour une chemise homme (SAM = 18 minutes) :\n- MOD : (Salaire horaire chargé 3,2 DT/h x 18 min / 60) = 0,96 DT\n- Frais généraux atelier (encadrement, énergie, amortissements) : généralement 80-120% de la MOD = 0,96 DT\n- Sous-total coût de production : 1,92 DT\n- Marge bénéficiaire cible 15% : 0,29 DT\n- Frais financiers export (assurance, banque) 3% : 0,07 DT\n- Prix CMT total : environ 2,28 DT (environ 0,66 EUR)\nLe SAM (Standard Allowed Minute) est la clé : chaque minute gagnée sur le temps opératoire réduit directement le coût MOD. Un atelier world-class atteint 70-75% d'efficacité opérateur vs le SAM théorique.",
+      "category": "commercial",
+      "tags": [
+        "cmt",
+        "textile",
+        "prix",
+        "negociation",
+        "export",
+        "production"
+      ]
+    },
+    {
+      "title": "Structure d'une Offre Commerciale Gagnante (B2B / Export)",
+      "content": "La structure d'une offre commerciale B2B gagnante pour un exportateur tunisien suit un format précis qui rassure l'acheteur étranger sur la fiabilité du fournisseur. L'offre doit comporter 7 sections obligatoires :\n\n* **Identification du fournisseur** : Nom, forme juridique, capital social, matricule fiscal, certifications (ISO 9001, WRAP, GOTS…) et chiffre d'affaires export des 3 dernières années.\n* **Description technique détaillée** : Référence de l'article, composition matière (%), grammage, coloris disponibles, tolérances dimensionnelles, images HD.\n* **Prix unitaire FOB Tunis** (ou CFR/CIF selon accord) avec décomposition (CMT + matières si fourni fournisseur = prix FOB).\n* **Délai de production (Lead Time)** : Séparé en deux phases — délai d'approvisionnement matières (ex: 30 jours) + délai coupe-couture-finition (ex: 21 jours) = Lead Time Total 51 jours.\n* **Conditions de paiement proposées**.\n* **MOQ (Minimum Order Quantity)** et tableau dégressif de prix selon les quantités.\n* **Validité de l'offre** : Toujours limitée (30 ou 45 jours) pour créer une urgence et se protéger contre les variations de coût des matières.",
+      "category": "commercial",
+      "tags": [
+        "offre",
+        "structure",
+        "export",
+        "b2b",
+        "commercial",
+        "textile"
+      ]
+    },
+    {
+      "title": "Conditions de Paiement et Incoterms Export Textile",
+      "content": "Les conditions de paiement sont un élément de négociation aussi important que le prix. Pour un exportateur textile tunisien, les modalités standard sont :\n\n**Incoterms fréquents :**\n* **FOB Tunis/Sfax** : Le fournisseur prend en charge jusqu'au bord du navire. Incoterm de base pour tous les prix CMT — le plus courant pour les marques européennes (H&M, Inditex, C&A).\n* **CFR (Cost & Freight)** : Le fournisseur paie le fret maritime jusqu'au port de destination. Demandé par certains acheteurs US/canadiens.\n* **DDP (Delivered Duty Paid)** : Livraison tous frais compris à l'entrepôt de l'acheteur. Réservé aux grands comptes — risque élevé pour le fournisseur.\n\n**Conditions de paiement :**\n* **Virement SWIFT 30% avance + 70% contre documents (BL)** : Norme pour les nouveaux clients.\n* **Lettre de Crédit (LC) irrévocable et confirmée** : La plus sécurisée pour le fournisseur mais coûteuse pour l'acheteur (0,5–1,5% du montant). À exiger des acheteurs des pays à risque (Afrique, Moyen-Orient).\n* **Paiement à 60 jours date de facture (D/P)** : À accepter uniquement avec un acheteur ayant une ancienneté > 2 ans sans incident. Ne jamais accepter > 90 jours.",
+      "category": "commercial",
+      "tags": [
+        "incoterms",
+        "paiement",
+        "lc",
+        "fob",
+        "export",
+        "tresorerie"
+      ]
+    },
+    {
+      "title": "Techniques de Négociation Prix avec un Acheteur Professionnel",
+      "content": "La négociation de prix textile obéit à des règles précises. L'acheteur professionnel (sourcing manager) suit un protocole rodé pour extraire le maximum de marge :\n\n**Tactiques de l'acheteur à déjouer :**\n* **Le \"Budget Target\"** : L'acheteur annonce un prix cible fictif (ex: \"notre budget max est 1,80 EUR\") sans justification. Contre-tactique : demander la décomposition technique (SAM, matière, overheads) qui justifie ce prix. S'il ne peut pas la fournir, le prix est une fiction.\n* **Le volume fantôme** : \"Si vous baissez à X, on vous donne 500 000 pièces/saison.\" Réponse : exiger un LOI (Letter of Intent) ou un PO ferme avant toute concession de prix.\n* **La pression concurrentielle** : \"Votre concurrent au Bangladesh est à Y.\" Contre-attaque : mettre en avant le différentiel qualitatif — délai court, proximité, retouches rapides, conformité REACH/OEKO-TEX, zéro risque réputationnel pour la marque.\n\n**Règles de défense du prix :**\n* Toujours présenter une décomposition CMT transparente — elle ancre la négociation sur des faits.\n* Proposer des alternatives (moins de finitions, autre tissu, volume modifié) plutôt qu'une baisse nue.\n* Ne jamais baisser le prix sans obtenir quelque chose en échange : avance de trésorerie plus élevée, PO ferme plus grand, garantie de commandes récurrentes, délai de paiement raccourci.",
+      "category": "commercial",
+      "tags": [
+        "negociation",
+        "prix",
+        "tactique",
+        "acheteur",
+        "export",
+        "textile"
+      ]
+    },
+    {
+      "title": "Réponse Gagnante à un Appel d'Offres (AO / RFP)",
+      "content": "Les grandes marques et donneurs d'ordres industriels formalisent leurs achats via des appels d'offres structurés. Un AO mal répondu est une offre directement éliminée. Processus standard :\n\n**1. Analyse préalable (Go / No-Go) :**\nAvant de répondre, évaluer : capacité technique disponible pour les délais demandés ? Prix cible compatible avec le seuil de rentabilité ? Client stratégique justifiant un effort commercial ? Si 2 réponses négatives sur 3 → ne pas répondre.\n\n**2. Structure du dossier de réponse :**\n* Executive Summary (1 page) : proposition de valeur, prix, délai, différenciateurs clés.\n* Fiche technique article avec échantillons ou tech pack annoté.\n* Détail de prix par référence avec tableau de dégressivité quantité.\n* Planning de production (Gantt simplifié) pour démontrer la faisabilité du délai.\n* Certifications et preuves de conformité (rapports OEKO-TEX, audit social BSCI/SMETA).\n* Références clients similaires (avec autorisation) et photos usine.\n\n**3. Timing :**\nRépondre dans les 72h en accusé de réception, dossier complet sous 5 jours ouvrables. Tout AO sans réponse dans les délais = disqualification automatique chez les grands groupes.",
+      "category": "commercial",
+      "tags": [
+        "ao",
+        "rfp",
+        "appel-offres",
+        "textile",
+        "export",
+        "commercial"
+      ]
+    },
+    {
+      "title": "Marge et Positionnement Tarifaire — Défendre son Prix CMT",
+      "content": "La défense du prix est le défi permanent du façonnier tunisien face à la concurrence asiatique. La bonne stratégie repose sur la valorisation du coût total de possession (TCO) pour l'acheteur :\n\n**Avantages compétitifs tunisiens chiffrés :**\n* Délai de réapprovisionnement (Quick Response) : 20–35 jours contre 90–120 jours pour le Bangladesh ou le Cambodge.\n* MOQ bas : 300–500 pièces contre 3 000+ pièces en Asie — crucial pour les petites séries et tests de marché.\n* Risque conformité REACH et audit social faible — aucun risque réputationnel pour la marque européenne.\n* Fret aérien d'urgence (coûteux) : rare depuis la Tunisie, fréquent depuis l'Asie en cas de retard.\n\n**Quantifier la prime de proximité :**\nUn retard de 6 semaines en saison haute coûte à la marque européenne 15 à 25% du CA de la collection (démarques forcées, manque à gagner). La prime de proximité tunisienne vaut structurellement 0,15 à 0,30 EUR par pièce. Présenter ce calcul à l'acheteur transforme la conversation de \"prix CMT\" en \"valeur business totale\".\n\n**Seuil d'alerte marge minimum :**\nNe jamais accepter une commande en dessous de 8% de marge nette après charges financières. En dessous de ce seuil, l'entreprise finance le client avec son propre BFR.",
+      "category": "commercial",
+      "tags": [
+        "marge",
+        "positionnement",
+        "cmt",
+        "tco",
+        "negociation",
+        "textile",
+        "export"
+      ]
+    }
+  ]
+}
