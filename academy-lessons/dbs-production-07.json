@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "packageSource": "dbs-production-07",
+    "name": "DBS Masterclass - Techniques de Production & Ordonnancement",
+    "description": "Méthode Kanban, calcul Lead Time, identification des goulots d'étranglement (Theory of Constraints), ordonnancement des ordres de fabrication, OEE/TRS.",
+    "tags": [
+      "kanban",
+      "lead-time",
+      "goulot",
+      "toc",
+      "ordonnancement",
+      "of",
+      "oee",
+      "trs",
+      "production"
+    ],
+    "category": "production",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "OEE/TRS - Calcul et Interprétation pour Atelier de Production",
+      "content": "Le Taux de Rendement Synthétique (TRS) ou OEE (Overall Equipment Effectiveness) mesure l'efficacité globale d'un équipement :\nTRS = Disponibilité x Performance x Qualité\nCalcul des trois composantes :\n\n* Disponibilité = (Temps d'ouverture - Arrêts non planifiés) / Temps d'ouverture. Arrêts : pannes, changements de série, manque matière.\n* Performance = (Cadence réelle x Temps de production effective) / Temps de production effective. Pertes : micro-arrêts, ralentissements.\n* Qualité = (Pièces conformes) / (Total pièces produites). Pertes : rebuts, retouches.\nBenchmarks sectoriels : industrie textile : TRS moyen 55-65%, world-class 85% ou plus. Un TRS de 60% signifie que 40% de la capacité théorique est perdue — chaque point de TRS gagné représente de la capacité libérée sans investissement.\nPriorisation des actions : 70% des pertes TRS viennent des arrêts non planifiés (pannes + changements de série) — commencer par réduire les temps de changement (SMED) avant d'attaquer les micro-arrêts.",
+      "category": "production",
+      "tags": [
+        "oee",
+        "trs",
+        "production",
+        "performance",
+        "smed",
+        "lean"
+      ]
+    },
+    {
+      "title": "Méthode Kanban - Dimensionnement de la Boucle de Réapprovisionnement",
+      "content": "Le système Kanban pilote la production en flux tiré (pull) en limitant strictement l'en-cours. Le calcul du nombre d'étiquettes (cartes) Kanban dimensionne le niveau de stock intermédiaire entre deux postes :\nNombre de cartes = (Demande moyenne journalière × Délai de réapprovisionnement × (1 + Facteur de sécurité)) / Taille du lot unitaire.\nLe délai de réapprovisionnement (Lead Time de la boucle) inclut le temps d'attente, de traitement et de transfert. Le facteur de sécurité (généralement 10% à 20%) absorbe la variabilité de la demande et les aléas capacitaires (pannes, rebuts). Réduire la taille de lot de transfert augmente mathématiquement le nombre de cartes mais fluidifie l'écoulement. L'objectif Lean est d'attaquer les causes de variabilité pour réduire progressivement le facteur de sécurité, retirer des cartes du circuit, et ainsi forcer la baisse du Besoin en Fonds de Roulement (BFR).",
+      "category": "production",
+      "tags": [
+        "kanban",
+        "fluxtire",
+        "lean",
+        "production",
+        "stock",
+        "wip"
+      ]
+    },
+    {
+      "title": "Lead Time de Production - Calcul et Réduction du Temps de Traversée",
+      "content": "Le Lead Time (temps de traversée) mesure la durée totale d'écoulement d'un produit physique dans l'usine, de l'entrée matière première à la sortie produit fini.\nCalcul : Lead Time = Temps opératoires (à valeur ajoutée) + Temps de contrôle + Temps de transfert + Temps d'attente en file (non-valeur ajoutée).\nDans une PME industrielle classique, les temps d'attente en inter-opérations représentent plus de 80% du Lead Time total. La loi de Little lie le volume d'en-cours au temps de traversée de manière mécanique :\nLead Time = En-cours (WIP) / Débit (Throughput).\nPour réduire le Lead Time de fabrication et gagner en réactivité commerciale sans modifier la cadence nominale des machines, il faut impérativement diminuer le niveau des en-cours accumulés entre les postes via un ordonnancement lissé.",
+      "category": "production",
+      "tags": [
+        "lead-time",
+        "wip",
+        "loidelittle",
+        "valeur-ajoutee",
+        "flux",
+        "production"
+      ]
+    },
+    {
+      "title": "Théorie des Contraintes (TOC) - Gestion du Goulot d'Étranglement",
+      "content": "La Théorie des Contraintes (Goldratt) postule que le débit global d'une usine est strictement limité par son poste le plus lent, appelé goulot d'étranglement. Une heure perdue au goulot est une heure perdue pour toute l'usine ; une heure gagnée sur un non-goulot est un mirage stérile.\nDémarche d'optimisation en 5 étapes itératives :\n\n1. Identifier la contrainte : repérer le poste précédé par l'accumulation d'en-cours la plus importante.\n2. Exploiter la contrainte : garantir que le goulot tourne à 100% de sa capacité utile (éliminer les pauses machine, anticiper les approvisionnements).\n3. Subordonner le système : cadencer tout le reste de l'usine au rythme du goulot (méthode Drum-Buffer-Rope) pour éviter la surproduction en amont.\n4. Élever la contrainte : investir, recruter ou sous-traiter pour augmenter la capacité physique du goulot.\n5. Recommencer : l'augmentation de capacité déplacera inévitablement le goulot sur un autre poste.",
+      "category": "production",
+      "tags": [
+        "toc",
+        "goulot",
+        "bottleneck",
+        "goldratt",
+        "flux",
+        "capacite"
+      ]
+    },
+    {
+      "title": "Ordonnancement des OF et Nivellement de la Charge (Heijunka)",
+      "content": "L'ordonnancement traduit le Plan Directeur de Production (PDP) en ordres de fabrication (OF) exécutables sur les centres de charge.\n\n* Ordonnancement au plus tôt (Forward Scheduling) : lance la production dès la disponibilité des ressources et des matières. Maximise la sécurisation des délais mais sature l'atelier et gonfle l'en-cours (flux poussé).\n* Ordonnancement au plus tard (Backward Scheduling) : part de la date de livraison confirmée et remonte le Lead Time à rebours pour calculer la date de lancement limite. Minimise l'en-cours mais augmente le risque de rupture en cas d'aléa.\nLe Lissage de charge (Capacity Leveling) écrête les surcharges prévisionnelles en déplaçant des OF vers des périodes creuses. Le Nivellement (Heijunka) va plus loin en mixant la séquence de production quotidienne : au lieu de produire des lots massifs (AAAA puis BBBB), l'ERP séquence en petits lots répétés (A-B-A-B). Cela lisse instantanément la demande en composants vers la chaîne d'approvisionnement amont.",
+      "category": "production",
+      "tags": [
+        "ordonnancement",
+        "heijunka",
+        "lissage",
+        "pdp",
+        "of",
+        "planification"
+      ]
+    },
+    {
+      "title": "SMED - Réduction Stratégique des Temps de Changement de Série",
+      "content": "La méthode SMED (Single-Minute Exchange of Die) vise à comprimer drastiquement le temps de changement d'outillage ou de format, idéalement sous la barre des 10 minutes. C'est le prérequis absolu pour autoriser la production en petits lots imposée par le Heijunka.\nProcédure d'implémentation standard en 4 phases :\n\n1. Identifier et séparer : distinguer les opérations internes (réalisables uniquement machine arrêtée) des opérations externes (réalisables pendant que la machine produit la série précédente).\n2. Convertir : transformer un maximum d'opérations internes en opérations externes (ex: préchauffage d'un moule sur un banc externe, préparation anticipée des chariots d'outillage).\n3. Rationaliser : optimiser les opérations internes restantes (suppression des réglages par essais-erreurs, standardisation des hauteurs de serrage, utilisation de fixations rapides quart-de-tour).\n4. Standardiser : documenter la nouvelle procédure externe/interne et former les régleurs.\nLe gain de temps capacitaire issu du SMED ne doit pas être réinvesti pour produire plus, mais pour changer de série plus souvent.",
+      "category": "production",
+      "tags": [
+        "smed",
+        "changement-serie",
+        "agilite",
+        "lean",
+        "flexibilite",
+        "industrie"
+      ]
+    }
+  ]
+}
