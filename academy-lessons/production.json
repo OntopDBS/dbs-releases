@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "packageSource": "production",
+    "name": "Module Production ERP",
+    "description": "Fiches techniques décrivant le fonctionnement pratique du module de production et d'ordonnancement dans DBS ERP.",
+    "tags": [
+      "production",
+      "of",
+      "bom",
+      "cloture",
+      "reconciliation"
+    ],
+    "category": "workflow",
+    "version": "2.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Activation du module Production — Paramétrage et visibilité",
+      "content": "L'activation du module de production s'effectue dans les paramètres de DBS ERP par un administrateur. Une fois activé, le menu Production s'affiche dans la barre latérale et l'invoquabilité des articles de type Matière Première ou Consommable est automatiquement restreinte sur les factures pour sécuriser l'usage exclusif des stocks de production.",
+      "category": "workflow",
+      "tags": [
+        "activation",
+        "module",
+        "production",
+        "parametres",
+        "sidebar"
+      ]
+    },
+    {
+      "title": "Création d'Ordres de Fabrication (OF) — Processus d'initialisation",
+      "content": "La création d'un nouvel Ordre de Fabrication cible uniquement les produits finis ou semi-finis enregistrés dans votre catalogue. L'OF naît à l'état de brouillon avec un numéro séquentiel unique de type OF-YYYY-NNNN. L'opérateur y renseigne la quantité cible et la date de livraison souhaitée par le donneur d'ordre.",
+      "category": "workflow",
+      "tags": [
+        "creation",
+        "ordre-de-fabrication",
+        "of",
+        "brouillon",
+        "produit-fini"
+      ]
+    },
+    {
+      "title": "Association de Nomenclature (BOM) — Importation et saisie",
+      "content": "Chaque Ordre de Fabrication nécessite une nomenclature pour recenser les composants requis. Les nomenclatures peuvent être importées en masse depuis des fichiers Excel ou CSV ou saisies manuellement ligne par ligne. Le système vérifie automatiquement qu'aucun produit fini n'est ajouté en tant que composant pour éviter les boucles infinies de fabrication.",
+      "category": "workflow",
+      "tags": [
+        "nomenclature",
+        "bom",
+        "composants",
+        "importation",
+        "saisie"
+      ]
+    },
+    {
+      "title": "Lancement en Production (Release) — Consommation des stocks",
+      "content": "Le lancement d'un Ordre de Fabrication décrémente automatiquement le stock des composants répertoriés dans la nomenclature. L'OF passe alors au statut expédié et génère un bon de sortie interne (BSI). La quantité à libérer de chaque composant est calculée par rapport à la quantité unitaire requise multipliée par la cible de production.",
+      "category": "workflow",
+      "tags": [
+        "lancement",
+        "production",
+        "release",
+        "stock",
+        "consommation"
+      ]
+    },
+    {
+      "title": "Clôture d'OF et Réconciliation de Matière — Clôture fiscale",
+      "content": "La clôture d'un Ordre de Fabrication matérialise physiquement les produits finis en stock et fige la nomenclature historique pour la traçabilité. Les écarts de matières constatés lors du cycle de production sont réconciliés automatiquement selon les tolérances configurées, répartissant l'excédent entre perte tolérée et stock secondaire récupérable.",
+      "category": "workflow",
+      "tags": [
+        "cloture",
+        "of",
+        "reconciliation",
+        "ecarts",
+        "stock-secondaire"
+      ]
+    }
+  ]
+}
