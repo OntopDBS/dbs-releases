@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "packageSource": "dbs-droit-travail-01",
+    "name": "DBS Masterclass - Législation & Droit du Travail Tunisien",
+    "description": "Code du travail tunisien, CNSS, types de contrats, période d'essai, licenciement, heures supplémentaires, congés, obligations administratives de l'employeur.",
+    "tags": [
+      "cnss",
+      "droit",
+      "travail",
+      "contrat",
+      "licenciement",
+      "heures-sup",
+      "conges",
+      "tunisie"
+    ],
+    "category": "legal",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "CNSS - Régime Général et Taux de Cotisation",
+      "content": "Le régime général de sécurité sociale en Tunisie (CNSS) s'impose à toutes les PME assujetties. Le taux de cotisation global est de 25,75% calculé sur le salaire brut non plafonné :\n\n* Part patronale : 16,57% (dont 0,5% pour l'accident du travail, variable selon le secteur de 0,5% à 5%).\n* Part salariale : 9,18% prélevée à la source par l'employeur.\nLes déclarations et paiements sont obligatoirement trimestriels pour le régime général, à soumettre avant le 15 du mois suivant le trimestre échu. Les pénalités de retard s'élèvent à 1% par mois de retard ou fraction de mois.",
+      "category": "legal",
+      "tags": [
+        "cnss",
+        "social",
+        "loi",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Contrats de Travail - CDD vs CDI et Requalification",
+      "content": "Le Contrat à Durée Déterminée (CDD) est lié à l'exécution d'une tâche précise (surcroît exceptionnel, remplacement temporaire, travaux ponctuels). Selon l'Article 6-4 du Code du Travail, la durée maximale d'un CDD, y compris ses renouvellements, est strictement plafonnée à 4 ans. Tout dépassement de ce délai entraîne la requalification automatique et immédiate du contrat en Contrat à Durée Indéterminée (CDI). Le CDI constitue la norme juridique par défaut du droit du travail tunisien.",
+      "category": "legal",
+      "tags": [
+        "cdd",
+        "cdi",
+        "contrat",
+        "requalification",
+        "droit"
+      ]
+    },
+    {
+      "title": "Période d'Essai - Durées Légales par Catégorie Professionnelle",
+      "content": "La période d'essai (Article 14) permet d'évaluer les compétences du salarié avant l'engagement définitif. Ses durées maximales légales dépendent des conventions collectives et de la catégorie professionnelle :\n\n* Agents d'exécution (Ouvriers) : 6 mois maximum.\n* Agents de maîtrise : 9 mois maximum.\n* Cadres : 1 an maximum.\nCes durées absolues incluent le droit de renouvellement, qui ne peut s'opérer qu'une seule fois. La rupture du contrat durant cette période se fait sans obligation de préavis ni paiement d'indemnité.",
+      "category": "legal",
+      "tags": [
+        "essai",
+        "recrutement",
+        "rh",
+        "contrat",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Licenciement Disciplinaire - Procédures et Indemnités Légales",
+      "content": "Le licenciement pour faute grave (Article 14 ter) exige le respect d'une procédure stricte : convocation écrite du salarié devant la commission consultative paritaire (conseil de discipline) avec un préavis minimum de 3 jours. La décision finale doit être notifiée sous 3 jours ouvrables. Une faute grave avérée annule le droit au préavis et à l'indemnité de licenciement. En cas de requalification en licenciement abusif par le tribunal prud'homal (Article 23) : l'employeur est condamné au paiement du préavis, de l'indemnité de licenciement (jusqu'à 3 mois de salaire) et de dommages-intérêts (1 à 2 mois de salaire par année d'ancienneté, plafonnés à 3 ans).",
+      "category": "legal",
+      "tags": [
+        "licenciement",
+        "fautegrave",
+        "indemnite",
+        "discipline",
+        "prudhommes"
+      ]
+    },
+    {
+      "title": "Heures Supplémentaires - Taux de Majoration par Régime",
+      "content": "La majoration de la rémunération des heures supplémentaires (Article 90) est dictée par le régime horaire de l'entreprise :\n\n* Régime 48h/semaine : majoration unique de 75% pour chaque heure supplémentaire.\n* Régime 40h/semaine : majoration de 25% pour les heures effectuées jusqu'à la 48ème heure, puis 50% au-delà.\n* Temps de travail exceptionnel : Le travail exécuté durant les jours de repos hebdomadaire ou les jours fériés légaux entraîne une majoration automatique de 100% du salaire de base horaire.",
+      "category": "legal",
+      "tags": [
+        "heures-sup",
+        "majoration",
+        "salaire",
+        "temps-de-travail",
+        "loi"
+      ]
+    },
+    {
+      "title": "Congés Payés et Obligations Administratives de l'Employeur",
+      "content": "Le droit aux congés payés (Article 113) s'acquiert à raison d'un jour ouvrable par mois de travail effectif, souvent porté à 1,5 ou 2 jours par les conventions sectorielles. Les congés non pris à la rupture du contrat donnent droit à une indemnité compensatrice stricte. L'employeur est soumis à trois obligations administratives critiques : la tenue d'un registre du personnel et d'un registre des salaires visés par l'Inspection du Travail, l'affichage obligatoire du règlement intérieur et des horaires, ainsi que la déclaration nominale de toute nouvelle embauche à l'Inspection du Travail et à la CNSS.",
+      "category": "legal",
+      "tags": [
+        "conges",
+        "registre",
+        "inspection",
+        "affichage",
+        "administration"
+      ]
+    }
+  ]
+}
