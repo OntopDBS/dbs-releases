@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "packageSource": "dbs-subventions-aides-29",
+    "name": "DBS Masterclass - Cartographie des Subventions & Aides PME/GE",
+    "description": "Fonds d'État tunisiens (FOPRODI, FOPRODEX), programmes internationaux (GIZ, BERD, AFD), incitations Startup Act, subventions à l'emploi (SIVP), programmes de mise à niveau PMN.",
+    "tags": [
+      "subvention",
+      "foprodi",
+      "giz",
+      "berd",
+      "startup-act",
+      "foprodex",
+      "financement",
+      "aides",
+      "tunisie"
+    ],
+    "category": "finance",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Aides à l'Investissement et Développement Régional (ZDR / FOPRODI)",
+      "content": "L'État tunisien incite l'implantation industrielle dans les Zones de Développement Régional (ZDR) via le FOPRODI (APII).\nZDR Groupe 1 (zones moyennement développées) : Prime d'investissement de 15% du coût total du projet (plafonnée à 1,5 MDT), exonération totale de l'IS pendant 5 ans, puis imposition réduite pendant 5 ans. Prise en charge par l'État de la part patronale CNSS pendant 5 ans.\nZDR Groupe 2 (zones prioritaires de l'intérieur du pays) : Prime d'investissement de 30% (plafonnée à 3 MDT), exonération totale de l'IS pendant 10 ans. Prise en charge de la CNSS patronale pendant 10 ans.\nUne prime supplémentaire au développement technologique (PDT) ou à la transition énergétique peut être octroyée, plafonnée à 50% des investissements immatériels.",
+      "category": "finance",
+      "tags": [
+        "foprodi",
+        "zdr",
+        "apii",
+        "subvention",
+        "investissement",
+        "fiscalite"
+      ]
+    },
+    {
+      "title": "Soutien à l'Exportation - FOPRODEX et TASDIR+",
+      "content": "Le CEPEX gère les fonds d'aide aux entreprises exportatrices (totales ou partielles) pour pénétrer les marchés internationaux.\nFOPRODEX (Fonds de Promotion des Exportations) : Remboursement direct de 50% (et jusqu'à 70% pour les marchés africains) des frais de transport international (aérien et maritime) pour les produits tunisiens d'origine (taux d'intégration > 40%). Remboursement à 50% des frais de participation aux foires et salons internationaux, de conception de supports marketing, et d'études de marché à l'étranger.\nTASDIR+ (Programme d'Appui à la Compétitivité) : Co-financement par chèque sous forme de subvention non remboursable couvrant 50% à 70% du plan de développement à l'export (recrutement de cadres export, implantation de succursales à l'étranger, certifications internationales liées à l'export type BRC/IFS).",
+      "category": "finance",
+      "tags": [
+        "cepex",
+        "foprodex",
+        "tasdir",
+        "export",
+        "subvention",
+        "internationalisation"
+      ]
+    },
+    {
+      "title": "Lignes de Financement et Assistance Technique Internationale (BERD, GIZ, AFD)",
+      "content": "Les bailleurs de fonds internationaux opèrent via des guichets de conseil et des lignes de crédit bonifiées domiciliées dans les banques tunisiennes.\nBERD (Banque Européenne pour la Reconstruction et le Développement) : Le programme \"Advice for Small Businesses\" rembourse sous forme de don 50% à 75% du coût des prestations de consultants locaux (jusqu'à 10 000 EUR) ou internationaux (jusqu'à 50 000 EUR) pour des projets d'implémentation ERP, certification qualité, ou ingénierie financière.\nGIZ (Coopération Allemande) : Lance régulièrement des appels à projets (Fonds de subvention) pour soutenir l'industrie 4.0, l'économie circulaire et l'employabilité. Octroie des équipements ou du financement direct d'assistance technique.\nAFD (Agence Française de Développement) / SUNREF : Ligne de crédit \"Énergie et Environnement\". Permet l'acquisition d'équipements verts (photovoltaïque, cogénération) avec une prime d'investissement rétrogradée de 10% à 15% après validation technique du projet.",
+      "category": "finance",
+      "tags": [
+        "berd",
+        "giz",
+        "afd",
+        "sunref",
+        "subvention",
+        "assistance-technique"
+      ]
+    },
+    {
+      "title": "Incitations à l'Innovation et Dispositif Startup Act",
+      "content": "Le Startup Act tunisien est un cadre légal dédié aux entreprises innovantes, offrant un bouclier social et fiscal complet pour maximiser le cash-flow en phase d'amorçage.\nCritères : Entreprise < 8 ans, moins de 100 salariés, modèle économique scalable basé sur l'innovation.\nAvantages financiers :\n\n* Exonération totale de l'Impôt sur les Sociétés (IS) pendant la durée du label (jusqu'à 8 ans).\n* Prise en charge par l'État des charges sociales (CNSS patronale et salariale).\n* Bourse de vie (Stipend) octroyée par l'État à 1 à 3 fondateurs pendant un an pour sécuriser leurs revenus personnels, équivalente au salaire précédent du fondateur (plafonnée).\n* Prise en charge intégrale des frais de dépôt de brevets à l'échelle nationale et internationale (INNORPI / PCT).",
+      "category": "finance",
+      "tags": [
+        "startup-act",
+        "innovation",
+        "exoneration",
+        "technologie",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "Subventions à la Formation Continue et Droits de Tirage (TFP / CNFCPP)",
+      "content": "Toute PME tunisienne cotise à la Taxe de Formation Professionnelle (TFP - 1% ou 2% de la masse salariale). L'État permet de récupérer cet argent via le dispositif de l'Avance sur la TFP et les Droits de Tirage gérés par le CNFCPP.\nDroits de Tirage : Réservés aux entreprises non en règle avec le système d'avance. Le CNFCPP finance directement (en payant le cabinet de formation) les actions de formation des employés (ex: formation ISO, maîtrise ERP, langues) selon des plafonds horaires stricts (ex: 15 DT à 25 DT/heure/stagiaire).\nAvance sur la TFP : L'entreprise planifie son budget de formation annuel. Elle est autorisée à retenir un pourcentage (jusqu'à 60%) du montant mensuel de la TFP à ne pas verser à l'État, à condition de l'investir dans des formations éligibles, audits de compétences, ou certifications pour ses propres salariés.",
+      "category": "finance",
+      "tags": [
+        "tfp",
+        "cnfcpp",
+        "formation",
+        "subvention",
+        "rh",
+        "competences"
+      ]
+    },
+    {
+      "title": "Programme de Mise à Niveau (PMN) et Fonds de Dépollution (FODEP)",
+      "content": "Piloté par le Ministère de l'Industrie (BMN), le PMN est le programme structurel d'aide à la compétitivité industrielle.\nModalités du PMN : L'entreprise soumet un Plan de Mise à Niveau global. Après validation par le COPIL, elle bénéficie de :\n\n* Prime sur investissements immatériels (logiciels ERP, certifications, études) : 70% du coût.\n* Prime sur investissements matériels (machines de production de nouvelle génération) : 10% à 20% du coût.\nFODEP (Fonds de Dépollution) : Géré par l'ANPE, il subventionne les PME industrielles investissant dans la réduction de leurs rejets solides, liquides ou gazeux (ex: station d'épuration interne). Subvention fixée à 20% du coût total du projet d'investissement écologique, complétée par un crédit bancaire spécifique à taux préférentiel.",
+      "category": "finance",
+      "tags": [
+        "pmn",
+        "mise-a-niveau",
+        "fodep",
+        "industrie",
+        "subvention",
+        "environnement"
+      ]
+    }
+  ]
+}
