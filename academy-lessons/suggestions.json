@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "packageSource": "suggestions",
+    "name": "Astuces et Suggestions de l'Assistant",
+    "description": "Conseils d'utilisation avancés et exemples de requêtes interactives pour exploiter au mieux DBS ERP.",
+    "tags": [
+      "astuces",
+      "suggestions",
+      "raccourcis",
+      "ia",
+      "optimisation"
+    ],
+    "category": "workflow",
+    "version": "2.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Saisie rapide de commandes via l'Assistant IA — Rédaction de bons de commande",
+      "content": "Pour gagner du temps lors des approvisionnements, vous pouvez exprimer votre besoin en langage naturel dans l'Assistant IA. En saisissant par exemple « Rédige une commande pour Latco de 10 cartons de tissu », l'assistant extrait automatiquement le tiers, les articles et les quantités requis. Il affiche ensuite une fiche de validation interactive vous permettant de générer instantanément le Bon de Commande (PO) sans naviguer manuellement dans les menus.",
+      "category": "workflow",
+      "tags": [
+        "assistant",
+        "commande",
+        "po",
+        "ia",
+        "saisie"
+      ]
+    },
+    {
+      "title": "Navigation globale instantanée — Raccourci clavier de recherche globale",
+      "content": "Où que vous soyez dans l'application, vous pouvez ouvrir la barre de recherche globale en utilisant le raccourci clavier Ctrl + K. Cet outil polyvalent vous permet de rechercher des articles, d'accéder instantanément à une facture ou de solliciter l'Assistant intelligent RAG pour des questions réglementaires. C'est le moyen le plus rapide d'optimiser votre flux de travail au quotidien sans surcharger votre barre latérale.",
+      "category": "workflow",
+      "tags": [
+        "raccourci",
+        "recherche",
+        "navigation",
+        "clavier",
+        "ia"
+      ]
+    },
+    {
+      "title": "Personnalisation des documents PDF — Logo et informations de l'entreprise",
+      "content": "Afin de professionnaliser vos exports commerciaux et administratifs, assurez-vous d'importer le logo de votre entreprise dans le menu Paramètres de configuration. DBS ERP convertit automatiquement votre image au format Base64 pour l'incorporer de manière stable et immuable dans l'en-tête de toutes vos factures, devis et bons de livraison générés en PDF. Cela garantit une présentation visuelle irréprochable et conforme à votre identité de marque.",
+      "category": "workflow",
+      "tags": [
+        "logo",
+        "pdf",
+        "parametres",
+        "configuration",
+        "personnalisation"
+      ]
+    },
+    {
+      "title": "Automatisation fiscale et facturation électronique — Gestion de la TVA et du timbre fiscal",
+      "content": "DBS ERP intègre directement les exigences de la réglementation fiscale tunisienne pour simplifier vos ventes. Lors de la création de vos articles, affectez-leur leur taux de TVA respectif pour que le calcul s'effectue automatiquement par ligne de facture. De plus, le système applique systématiquement le timbre fiscal réglementaire de 1.000 TND au bas de chaque facture de vente définitive, éliminant ainsi les risques d'omission.",
+      "category": "workflow",
+      "tags": [
+        "tva",
+        "fiscalite",
+        "facturation",
+        "timbre",
+        "conformite"
+      ]
+    },
+    {
+      "title": "Maintenance de la base de données locale — Optimisation de l'instance SQLite",
+      "content": "Comme DBS ERP s'exécute entièrement en local pour garantir la confidentialité absolue de vos données d'entreprise, les performances dépendent de la santé du fichier de base de données. Il est recommandé de procéder périodiquement à une opération de compactage (VACUUM) de la base de données SQLite depuis l'onglet de maintenance de l'application. Cette maintenance libère l'espace disque inutilisé et accélère considérablement le temps de chargement des listes de stocks et de l'historique de production.",
+      "category": "workflow",
+      "tags": [
+        "maintenance",
+        "sqlite",
+        "base-de-donnees",
+        "performances",
+        "compactage"
+      ]
+    },
+    {
+      "title": "Importation en masse de nomenclatures complexes — Intégration de fiches techniques Excel",
+      "content": "Lors de la configuration initiale de votre module de production, évitez la saisie manuelle en utilisant la fonction d'importation de nomenclatures par fichier Excel ou CSV. Vous pouvez télécharger le modèle officiel directement depuis l'onglet Nomenclature de la section Articles. Le système valide automatiquement la structure des données lors de l'import, vérifiant notamment la conformité des codes articles et la cohérence des quantités pour prévenir toute erreur de planification ultérieure.",
+      "category": "workflow",
+      "tags": [
+        "nomenclature",
+        "bom",
+        "importation",
+        "excel",
+        "csv"
+      ]
+    }
+  ]
+}
