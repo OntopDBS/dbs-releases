@@ -1,0 +1,218 @@
+{
+  "metadata": {
+    "packageSource": "dbs-guide-00",
+    "name": "DBS Guide Utilisateur — Navigation & Fonctionnalités",
+    "description": "Réponses aux questions de navigation et d'utilisation de DBS : où trouver chaque fonction, comment effectuer les opérations courantes, et liste des fonctionnalités non encore disponibles.",
+    "tags": [
+      "guide",
+      "navigation",
+      "ui",
+      "aide",
+      "comment",
+      "ou",
+      "fonctionnalite",
+      "dbs"
+    ],
+    "category": "workflow",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Tableau de bord — Vue d'ensemble, indicateurs clés et navigation",
+      "content": "Le **Tableau de Bord** est l'écran principal affiché lors de la connexion à DBS. Il présente les indicateurs clés de performance (KPI) en temps réel, notamment le **CA ce mois** (chiffre d'affaires cumulé des factures définitives validées), le nombre d'**Articles actifs** au catalogue, les **Alertes stock** (articles dont le stock actuel est inférieur ou égal au stock minimal défini), ainsi que le nombre de **Clients actifs** et de **Fournisseurs**. Pour naviguer vers un module, l'utilisateur clique sur la carte correspondante (comme **Stock**, **Factures**, **Achats / BOM** ou **Paramètres**). Les onglets **Général** et **Ordres ouverts** permettent de filtrer rapidement les vues analytiques consolidées.",
+      "category": "workflow",
+      "tags": [
+        "tableau",
+        "kpi",
+        "dashboard",
+        "ca",
+        "alertes",
+        "stock",
+        "navigation"
+      ]
+    },
+    {
+      "title": "Clients & Fournisseurs — Fiches partenaires, recherche et archivage",
+      "content": "La gestion des relations partenaires s'effectue dans les sections **Clients** et **Fournisseurs** du menu latéral. Pour créer une fiche, l'utilisateur sélectionne **Créer un client** ou **Créer un fournisseur**, puis remplit les champs obligatoires (Désignation, Matricule Fiscal, Adresse, Email, Téléphone). Le champ **Rechercher** permet de filtrer instantanément les fiches par nom, code ou matricule fiscal. Pour modifier une fiche existante, il faut cliquer sur **Modifier** sur la ligne correspondante. L'archivage s'effectue via l'option **Archiver**, ce qui désactive le tiers pour les nouvelles transactions tout en conservant son historique comptable et de facturation intact.",
+      "category": "workflow",
+      "tags": [
+        "client",
+        "fournisseur",
+        "tiers",
+        "matricule",
+        "rechercher",
+        "archiver",
+        "modifier"
+      ]
+    },
+    {
+      "title": "Devis & Facturation — Ventes, conversion et cycle fiscal",
+      "content": "Le module **Factures** gère l'ensemble du cycle de vente de l'entreprise. Un flux classique commence par la création d'un **Devis** ou la saisie d'un **Bon de commande** client. Ce devis peut être directement converti en **Facture définitive** en un clic après acceptation. En cas de retour de marchandise ou de correction d'une facture déjà validée fiscalement, l'utilisateur génère un document d'**Avoir** pour régulariser le compte client. Les factures peuvent être envoyées au client avec l'action **Envoyer par email** (générant un PDF/A-3 réglementaire avec métadonnées TEIF). Une fois le règlement reçu, cliquer sur **Marquer comme payée** met à jour le statut comptable du document et incrémente le chiffre d'affaires.",
+      "category": "workflow",
+      "tags": [
+        "devis",
+        "facture",
+        "avoir",
+        "facturation",
+        "paiement",
+        "vente",
+        "teif"
+      ]
+    },
+    {
+      "title": "Bons de Livraison — Mouvements physiques et logistique",
+      "content": "Les mouvements physiques de marchandises sont consignés dans les **Bons de livraison** accessibles sous le menu **Stock**. Lors d'une expédition de produits finis ou de matières vers un client ou sous-traitant, l'utilisateur crée un **Bon de livraison (Sortie)**, qui décrémente automatiquement le stock physique. Lors de la réception de marchandises achetées, il génère un **Bon de livraison (Réception)** pour réintégrer les articles. Ces bons de livraison peuvent être convertis en factures grâce à l'action **Facturer** ou être imprimés en format physique A4 via le bouton **Imprimer**.",
+      "category": "workflow",
+      "tags": [
+        "bl",
+        "livraison",
+        "reception",
+        "sortie",
+        "expedition",
+        "imprimer",
+        "facturer"
+      ]
+    },
+    {
+      "title": "Achats & Commandes Fournisseur — Approvisionnements et réceptions de PO",
+      "content": "Pour lancer un approvisionnement, l'utilisateur accède au menu **Achats / BOM** et clique sur **Créer un bon de commande** (Purchase Order - PO) adressé à un fournisseur sélectionné. Le document passe par un circuit d'approbation interne. Lorsque la marchandise physique arrive à l'entrepôt, l'utilisateur clique sur **Réceptionner la marchandise** sur la fiche de commande correspondante. Une page de réception dédiée s'ouvre, permettant de renseigner la **Quantité reçue** réelle pour chaque ligne et d'ajuster le **Coût unitaire** de revient. En cas de livraison incomplète, le système enregistre une **Réception partielle**, maintient le bon de commande ouvert pour le reliquat restant, et met à jour instantanément la quantité de stock et le prix de revient pondéré des articles.",
+      "category": "workflow",
+      "tags": [
+        "achats",
+        "commande",
+        "po",
+        "reception",
+        "approvisionnement",
+        "fournisseur",
+        "reliquat"
+      ]
+    },
+    {
+      "title": "Stock & Inventaire — Suivi, alertes, export et scan",
+      "content": "Le module **Stock** offre une visibilité totale sur l'état de l'entrepôt. L'utilisateur consulte les niveaux actuels, le seuil de sécurité et l'historique des mouvements dans l'onglet **Mouvements > Historique**. Les **Alertes de stock** s'affichent en rouge pour tout article franchissant son seuil. Le bouton **📊 Exporter inventaire** (page Stock principale) génère un fichier Excel (.xlsx) daté contenant : stock actuel, seuil critique, surplus ou rupture (stock - seuil), entrées en cours depuis les PO ouverts, stock projeté, valeur achat/vente, et détail fournisseur/client réservé. Pour le scan terrain : DBS accepte trois méthodes — **caméra** (appareil photo de la tablette ou du PC), **scanner USB/Bluetooth** (saisie Enter terminée), et **saisie manuelle**. La caméra nécessite que l'application soit servie en **HTTPS ou sur localhost** ; en accès LAN simple (`http://192.168.x.x`), la caméra se désactive automatiquement avec un message explicatif et les deux autres méthodes restent disponibles. Lors d'un scan, DBS reconnaît le **code-barres interne** et le **code fournisseur** de chaque article — les deux identifiants donnent le même résultat.",
+      "category": "workflow",
+      "tags": [
+        "stock",
+        "inventaire",
+        "mouvement",
+        "alertestock",
+        "codebarres",
+        "securite"
+      ]
+    },
+    {
+      "title": "Articles — Catalogue produits, prix, codes et conditionnements",
+      "content": "Le catalogue central des produits se gère dans la section **Articles**. En cliquant sur **Créer un article**, l'utilisateur définit la désignation, le **Prix de vente** HT, le **Prix d'achat**, la **Famille** et les codes de référence. Quatre codes coexistent : **Code interne** (obligatoire, ex : VIS-5MM), **Code-barres** (EAN-13/Code-128 — si laissé vide, DBS génère un code `INT-XXX` à la première impression d'étiquette), **Code client** (référence du client) et **Code fournisseur** (référence sur les BL fournisseur, scannable). Lorsque le Code fournisseur est renseigné et que le Code-barres est vide, un bouton **→ Adopter** apparaît pour copier le code fournisseur comme code-barres interne en un clic. Les deux codes sont enregistrés séparément ; lors d'un scan en mouvement de stock ou en facturation, DBS reconnaît **l'un ou l'autre** automatiquement. En cas de changement de fournisseur sur un article existant, DBS affiche un rappel pour mettre à jour le code fournisseur. Pour les produits fabriqués en interne, l'onglet **Nomenclature (BOM)** calcule automatiquement le coût de revient théorique.",
+      "category": "workflow",
+      "tags": [
+        "article",
+        "produit",
+        "bom",
+        "nomenclature",
+        "prix",
+        "tva",
+        "famille"
+      ]
+    },
+    {
+      "title": "Conditionnements — Créer des variantes et convertir le stock (déballer / emballer)",
+      "content": "DBS permet de gérer plusieurs unités de vente ou de stockage pour le même article via les **Conditionnements**. Depuis la fiche d'un article, le bouton **+ Conditionnement** ouvre un assistant pour créer une variante : choisir la direction (plus grand — carton, palette, sac — ou plus petit — sous-unité) et saisir la quantité de base contenue (ex : 1 carton = 100 pièces). DBS génère automatiquement un code dérivé (ex : `VIS-5MM-C100`) et un code-barres distinct. Lors d'une opération physique de déballage ou emballage, le bouton **🔄 Déballer / Emballer** sur la fiche de la variante permet de convertir le stock : en mode **Déballer**, N cartons sortent du stock de la variante et N × 100 pièces entrent dans le stock de l'article unitaire ; en mode **Emballer**, l'opération inverse constitue des cartons depuis les pièces unitaires. Les deux mouvements (OUT + IN) sont enregistrés automatiquement dans l'historique pour la traçabilité complète.",
+      "category": "workflow",
+      "tags": [
+        "conditionnement",
+        "variante",
+        "carton",
+        "palette",
+        "deballer",
+        "emballer",
+        "conversion",
+        "pack",
+        "unpack"
+      ]
+    },
+    {
+      "title": "Production & Ordres de Fabrication — Planification et exécution d'OF",
+      "content": "Le module de fabrication s'articule autour de la vue **Production**. L'utilisateur clique sur **Créer un ordre** (Ordre de Fabrication - OF) en sélectionnant le produit fini à fabriquer, la quantité cible et la date d'échéance. Le système charge automatiquement la **Nomenclature (BOM)** associée pour calculer les besoins bruts en matières premières et vérifier leur disponibilité en stock. Une fois la fabrication physique terminée, l'utilisateur clique sur **Déclarer la production** pour saisir les quantités réellement obtenues et les pertes constatées. L'action **Clôturer l'ordre** réintègre le produit fini en stock, décrémente les matières consommées, et enregistre la session dans l'**Historique de production**.",
+      "category": "workflow",
+      "tags": [
+        "production",
+        "of",
+        "fabrication",
+        "nomenclature",
+        "bom",
+        "cloturer",
+        "historique"
+      ]
+    },
+    {
+      "title": "Ressources Humaines — Personnel, présences et congés",
+      "content": "La gestion interne des ressources humaines s'effectue dans le menu **RH**. La section **Collaborateurs** répertorie l'ensemble des fiches employés avec leurs contrats, coordonnées, et leur numéro d'affiliation CNSS. L'onglet **Présence** permet d'enregistrer quotidiennement les heures de travail effectuées, les absences injustifiées et les heures supplémentaires effectuées par chaque salarié. Les fiches de paie et la synthèse de la masse salariale sont consolidées sous la vue **Fiches de paie**. Enfin, l'onglet **Congés** regroupe les **Demandes** d'absences, de congés annuels ou de maladies soumises par les employés pour approbation.",
+      "category": "workflow",
+      "tags": [
+        "rh",
+        "personnel",
+        "collaborateur",
+        "presence",
+        "heures-sup",
+        "paie",
+        "conges"
+      ]
+    },
+    {
+      "title": "Utilisateurs & Permissions — Sécurité des accès et contrôle d'accès",
+      "content": "La sécurité et le contrôle d'accès se configurent dans **Paramètres** > **Utilisateurs**. Pour ajouter un nouvel utilisateur, l'administrateur clique sur **Créer un utilisateur**, renseigne son adresse e-mail et lui affecte un **Rôle** (comme Administrateur, Vendeur ou Gestionnaire de stock) définissant ses permissions d'accès strictes. L'administrateur peut utiliser l'action **Réinitialiser le mot de passe** pour générer un mot de passe temporaire ou cocher **Forcer le changement de mot de passe** pour contraindre l'utilisateur à redéfinir sa clé d'accès lors de sa prochaine session de connexion. Pour révoquer les accès d'un salarié ayant quitté l'entreprise, il suffit de cliquer sur **Désactiver** pour suspendre instantanément son compte sans effacer son historique d'audit.",
+      "category": "workflow",
+      "tags": [
+        "utilisateur",
+        "permissions",
+        "role",
+        "securite",
+        "motdepasse",
+        "admin",
+        "desactiver"
+      ]
+    },
+    {
+      "title": "Paramètres & Configuration — Données d'entreprise et conformité fiscale",
+      "content": "La conformité réglementaire de l'instance se règle dans le menu **Paramètres** > **Configuration de l'entreprise**. L'utilisateur y charge le **Logo** officiel de la société (qui sera incorporé en base64 sur tous les documents PDF émis), définit l'**Exercice fiscal** actif, configure les **Taux de TVA** applicables (notamment 7%, 13% et 19%), sélectionne les **Conditions de règlement** légales (comme 30 jours fin de mois) et établit la **Numérotation** chronologique obligatoire des factures et bons de livraison, assurant une intégrité totale conforme aux règles de la facturation électronique tunisienne.",
+      "category": "workflow",
+      "tags": [
+        "parametres",
+        "configuration",
+        "logo",
+        "tva",
+        "exercice",
+        "reglement",
+        "numerotation"
+      ]
+    },
+    {
+      "title": "Assistant IA & Academy — Interaction naturelle et extensions RAG",
+      "content": "L'**Assistant IA** est accessible sur toutes les pages via le widget de chat flottant en bas à droite de l'écran ou en utilisant le raccourci clavier `Ctrl + K`. L'utilisateur peut y formuler une requête en langage naturel pour naviguer dans l'application ou extraire des données. L'onglet **DBS Academy** permet d'étendre les connaissances réglementaires et d'affaires du système grâce à la section **Mises à jour et Extensions**, où l'on peut installer de nouvelles leçons thématiques en téléchargeant des packages de connaissances vectorielles. Le **Tier d'IA** configuré dans les paramètres (local, serveur ou cloud) détermine la puissance de traitement allouée pour répondre aux questions.",
+      "category": "workflow",
+      "tags": [
+        "assistant",
+        "ia",
+        "academy",
+        "rag",
+        "lecon",
+        "question",
+        "extension"
+      ]
+    },
+    {
+      "title": "Fonctionnalités non disponibles dans DBS — Limites de la version actuelle",
+      "content": "Pour éviter toute confusion opérationnelle, certaines fonctionnalités avancées ne sont pas prises en charge dans la version actuelle de DBS. Le système ne supporte pas le **Multi-devises** (toutes les transactions, factures, et bilans de stock sont exclusivement traités en Dinars Tunisiens - TND). Il n'existe pas d'**Application mobile native iOS/Android** (l'accès sur tablette se fait via un navigateur web responsive ou en installant le raccourci PWA sur l'écran d'accueil). De plus, l'**Intégration email directe client** (pas de serveur SMTP sortant intégré pour l'envoi transparent de courriels sans logiciel externe), le **Rapprochement bancaire automatique** (l'import de relevés bancaires MT940 ou l'intégration directe d'API bancaires tunisiennes ne sont pas disponibles), et le **Multi-entrepôts** ne sont pas supportés dans cette version.",
+      "category": "workflow",
+      "tags": [
+        "limite",
+        "indisponible",
+        "manquant",
+        "multidevises",
+        "mobile",
+        "rapprochement",
+        "email"
+      ]
+    }
+  ]
+}
