@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "packageSource": "dbs-bom-06",
+    "name": "DBS Masterclass - Nomenclatures BOM & Optimisation",
+    "description": "Nomenclatures multi-niveaux, calcul des taux de rebut et perte matière, réconciliation BOM à la clôture OF, gestion des variantes, coût standard vs coût réel.",
+    "tags": [
+      "bom",
+      "nomenclature",
+      "rebut",
+      "mrp",
+      "composants",
+      "cout-standard",
+      "reconciliation",
+      "of"
+    ],
+    "category": "production",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "BOM Multi-Niveaux et Calcul des Quantités avec Taux de Rebut",
+      "content": "Dans une nomenclature multi-niveaux, chaque composant possède un taux de rebut spécifique majorant la quantité à approvisionner :\nQuantité à lancer = Quantité nette requise / (1 - Taux de rebut)\nExemple textile : pour produire 100 chemises, le tissu principal a un taux de rebut de 8% (pertes de coupe).\n\n* Consommation théorique tissu : 1,45 m/chemise x 100 / (1 - 0,08) = 157,6 m à approvisionner.\nHiérarchie de nomenclature textile typique :\n* Niveau 0 : Produit fini (Chemise référence X)\n* Niveau 1 : Sous-ensemble fabriqué (Corps, manche, col)\n* Niveau 2 : Matières premières (Tissu principal, doublure)\n* Niveau 3 : Accessoires (Boutons, fil, size ticket défini comme étiquette volante papier).\nLes nomenclatures \"fantômes\" (phantom BOM) regroupent des composants sans créer d'ordre de fabrication intermédiaire ni de stock physique, servant uniquement à structurer l'ingénierie.",
+      "category": "production",
+      "tags": [
+        "bom",
+        "nomenclature",
+        "rebut",
+        "production",
+        "textile",
+        "mrp"
+      ]
+    },
+    {
+      "title": "MRP - Algorithme de Calcul des Besoins Nets",
+      "content": "Le calcul des besoins nets (MRP - Material Requirements Planning) détermine les quantités exactes à acheter ou fabriquer selon le plan directeur de production (PDP).\nFormule de base :\nBesoin Net = Besoin Brut - (Stock Disponible + Réceptions Attendues) + Stock de Sécurité\n\n* Besoin Brut : Quantité issue de l'éclatement de la nomenclature multi-niveaux (dépendante de la demande du niveau supérieur).\n* Stock Disponible : Quantité physiquement en magasin déduction faite des quantités déjà allouées à d'autres ordres de fabrication (OF).\n* Réceptions Attendues : Commandes d'achats ou OF en cours de livraison/fabrication.\nLe calcul intègre le délai d'obtention (lead time) pour définir la date de lancement au plus tard (jalonnement arrière). Une quantité de lotissement (MOQ, multiple de commande) est ensuite appliquée au besoin net pour générer l'ordre suggéré.",
+      "category": "production",
+      "tags": [
+        "mrp",
+        "besoins-nets",
+        "planification",
+        "approvisionnement",
+        "leadtime",
+        "pdp"
+      ]
+    },
+    {
+      "title": "Nomenclatures Configurables et Gestion des Variantes",
+      "content": "La gestion par variantes évite la création d'une BOM distincte pour chaque combinaison de produit fini (ex : Taille/Couleur). Une nomenclature configurable utilise un article générique doté de règles de sélection.\nComposants d'une BOM configurable :\n\n* Articles communs : Composants systématiquement consommés quelle que soit la variante (ex : fil de montage standard, étiquette de composition).\n* Articles alternatifs : Composants sélectionnés selon les attributs de la commande (ex : Tissu Rouge vs Tissu Bleu selon l'attribut \"Couleur\").\n* Quantités variables : Consommation indexée sur un attribut (ex : la longueur de tissu augmente avec l'attribut \"Taille\" via une table de dimensionnement).\nLe configurateur produit (CPQ) génère automatiquement la nomenclature de fabrication (BOM d'OF) lors de la validation de la commande de vente, garantissant l'exactitude des spécifications et éliminant la redondance des données techniques.",
+      "category": "production",
+      "tags": [
+        "variantes",
+        "bom-configurable",
+        "cpq",
+        "donnees-techniques",
+        "erp",
+        "textile"
+      ]
+    },
+    {
+      "title": "Analyse des Coûts de Production : Standard vs Réel",
+      "content": "Le pilotage de la rentabilité exige la comparaison analytique entre le coût standard (théorique) et le coût réel (constaté).\n\n* Coût Standard : Évalué avant production. Calcul = (Quantité BOM x Coût unitaire standard matière) + (Temps opératoire gamme SAM x Taux horaire centre de charge) + Frais généraux imputés.\n* Coût Réel : Évalué à la clôture de l'OF. Calcul = (Matière réellement consommée x Prix d'achat réel moyen) + (Heures pointées réelles x Taux horaire réel).\nDécomposition des écarts analytiques :\n\n1. Écart sur Prix Matière = (Prix Standard - Prix Réel) x Quantité Réelle Consommée.\n2. Écart sur Quantité/Rendement Matière = (Quantité Standard - Quantité Réelle) x Prix Standard.\n3. Écart sur Temps = (Temps Standard - Temps Réel) x Taux horaire.\nL'analyse systématique de l'écart de rendement permet d'identifier immédiatement les nomenclatures dont le taux de rebut paramétré est obsolète.",
+      "category": "production",
+      "tags": [
+        "cout-standard",
+        "cout-reel",
+        "ecarts",
+        "analytique",
+        "rentabilite",
+        "controle-de-gestion"
+      ]
+    },
+    {
+      "title": "Réconciliation Matière et Clôture des Ordres de Fabrication (OF)",
+      "content": "La clôture d'un OF déclenche la réconciliation matière, processus d'ajustement des stocks et de validation de la consommation.\nÉtapes de réconciliation :\n\n1. Consommation Backflush (Post-déduction) : L'ERP déduit automatiquement les composants du stock en multipliant la quantité déclarée de produits finis bons par la nomenclature théorique.\n2. Déclaration des Rebuts : Saisie manuelle des composants ou sous-ensembles détruits hors tolérance standard.\n3. Ajustement des Sur-consommations : Déclaration des sorties de stock supplémentaires demandées manuellement au magasin pour pallier un défaut ou une perte de coupe imprévue.\nUn écart de rendement matière négatif récurrent supérieur à 2% signale une dérive du processus machine ou une nomenclature erronée. La clôture définitive fige les mouvements de stock et transfère la valeur monétaire de l'en-cours (WIP) vers le stock de produits finis.",
+      "category": "production",
+      "tags": [
+        "cloture-of",
+        "reconciliation",
+        "backflush",
+        "rendement",
+        "stocks",
+        "wip"
+      ]
+    },
+    {
+      "title": "Engineering Change Orders (ECO) et Impact sur l'En-cours",
+      "content": "L'Engineering Change Order (ECO) ou Ordre de Modification Technique documente et sécurise tout changement apporté à une nomenclature active.\nParamètres critiques d'exécution d'un ECO :\n\n* Date d'effectivité : Date exacte d'application de la nouvelle révision de la nomenclature en production.\n* Règle d'épuisement : Stratégie de transition autorisant la consommation du stock du composant obsolète avant de basculer sur la nouvelle référence (Use-up), ou imposant un remplacement immédiat avec mise au rebut du stock existant (Scrap).\nImpact sur le WIP (Work in Progress) : Un ECO à criticité élevée impose l'arrêt, le réusinage ou la modification manuelle des OF déjà lancés en atelier. L'ERP gère l'historique des révisions (BOM Versioning) pour assurer la traçabilité ascendante et descendante totale des lots produits avant, pendant et après l'implémentation de la modification.",
+      "category": "production",
+      "tags": [
+        "eco",
+        "modification-technique",
+        "versioning",
+        "tracabilite",
+        "wip",
+        "ingenierie"
+      ]
+    }
+  ]
+}
