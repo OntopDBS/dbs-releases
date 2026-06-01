@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "packageSource": "dbs-optimisation-extreme-28",
+    "name": "DBS Masterclass - Ingénierie Légale & Optimisation Agressive (Real World)",
+    "description": "Cartographie des pratiques d'optimisation fiscale, sociale et financière observées dans les PME tunisiennes — contenu descriptif/forensique pour conseillers et dirigeants avertis. Certaines pratiques comportent des risques légaux significatifs ; l'objectif est la compréhension du terrain, pas la prescription.",
+    "tags": [
+      "optimisation",
+      "loopholes",
+      "fiscalite",
+      "bfr",
+      "sivp",
+      "liquidation",
+      "real-world",
+      "tunisie"
+    ],
+    "category": "legal",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "Exploitation Intensive des Contrats Aidés (SIVP / Karama)",
+      "content": "Le système d'incitation à l'emploi tunisien (ANETI) permet de réduire le coût de la main-d'œuvre à un niveau quasi-nul si la rotation est maîtrisée. Le contrat SIVP/CIVP dure 12 mois (renouvelable une fois) : l'État verse une indemnité de 200 DT, l'entreprise complète avec 200 DT sans aucune charge CNSS. Le contrat Karama prend en charge 400 DT du salaire et exempte la part patronale CNSS. La tactique agressive consiste à organiser un \"turnover structurel\" : utiliser ces profils sur des postes à faible valeur ajoutée ne nécessitant qu'une semaine de formation, ne jamais les titulariser en CDI à l'échéance (sauf exception talentueuse), et les remplacer systématiquement par de nouveaux bénéficiaires ANETI. L'économie sur la masse salariale chargée atteint 60% à 70% par rapport au recrutement standard.",
+      "category": "legal",
+      "tags": [
+        "sivp",
+        "karama",
+        "masse-salariale",
+        "optimisation-sociale",
+        "aneti"
+      ]
+    },
+    {
+      "title": "Ingénierie Fiscale et Prix de Transfert Local (Management Fees)",
+      "content": "Pour vider la marge imposable d'une société soumise à l'IS au taux plein (15% ou 35%) ou fortement endettée, la création d'une société écran ou d'une SUARL de conseil (appartenant au même bénéficiaire effectif ou à un prête-nom) soumise à un régime fiscal plus favorable ou bénéficiant d'avantages régionaux est courante. La société principale \"achète\" des prestations immatérielles (Management fees, études marketing, redevances d'exploitation de marque) à la seconde entité. Cette charge vient réduire mécaniquement le bénéfice net de l'entreprise principale. Règle de couverture vis-à-vis du contrôle fiscal : justifier ces factures par un contrat de prestation formel, des rapports d'études physiques (même basiques) et des livrables tangibles pour éviter la requalification en acte anormal de gestion ou abus de droit.",
+      "category": "legal",
+      "tags": [
+        "optimisation-fiscale",
+        "management-fees",
+        "prix-de-transfert",
+        "is",
+        "holding"
+      ]
+    },
+    {
+      "title": "Contournement des Seuils Sociaux et Syndicaux par Scission",
+      "content": "Le Code du Travail tunisien impose des obligations lourdes dès certains seuils (ex: obligation de constituer un Comité de Santé et Sécurité au Travail (CSST) et tolérance syndicale à partir de 40 salariés). La faille juridique exploitée est la scission de l'entreprise (Essaimage). Au lieu de diriger une usine de 90 personnes, le dirigeant crée trois entités juridiques distinctes (SUARL/SARL) de 30 personnes chacune, partageant officieusement les mêmes locaux (par un jeu de sous-location ou de domiciliation croisée). Une société devient la \"commerciale\", une autre la \"production\", une troisième la \"logistique\". L'entreprise échappe ainsi légalement aux obligations sociales lourdes, réduit le risque de grève générale (blocage impossible simultanément) et dilue le pouvoir de négociation des salariés.",
+      "category": "legal",
+      "tags": [
+        "scission",
+        "seuils-sociaux",
+        "csst",
+        "syndicat",
+        "code-du-travail",
+        "rh"
+      ]
+    },
+    {
+      "title": "Financement par le Float Fournisseur (Squeezing)",
+      "content": "La gestion agressive du BFR consiste à se financer structurellement sur le dos des fournisseurs sans franchir le seuil du contentieux judiciaire. La tactique : imposer unilatéralement un DPO (délai de paiement) à 90 ou 120 jours dans les conditions générales d'achat (CGA), puis systématiser un retard technique de 15 à 30 jours (excuse de \"signature directeur\", \"rapprochement BL\", ou \"erreur de RIB\"). L'entreprise encaisse ses clients à 30 jours et paie à 120 jours, générant une trésorerie (Float) investie en placements à court terme ou utilisée pour financer la croissance sans crédit bancaire. Limite du système : ne cibler que les fournisseurs de classe B et C (fortement concurrencés). Les fournisseurs critiques (classe A) doivent être payés à l'heure pour ne jamais stopper la chaîne de valeur.",
+      "category": "legal",
+      "tags": [
+        "bfr",
+        "dpo",
+        "float",
+        "fournisseur",
+        "tresorerie",
+        "achats"
+      ]
+    },
+    {
+      "title": "Arbitrage Douanier et Ingénierie de la Position Tarifaire (SH)",
+      "content": "Les droits de douane tunisiens varient de 0% à plus de 30% selon la nomenclature tarifaire (Code SH à 10 chiffres). L'optimisation consiste à importer des composants démontés (SKD - Semi Knocked Down / CKD - Completely Knocked Down) plutôt que le produit fini, la taxation des pièces détachées ou \"matières premières industrielles\" étant souvent nulle ou réduite (0% à 10%), contre 30% pour le produit fini. Autre technique : la \"requalification\" de la marchandise. Si un écran d'affichage industriel est taxé à 30% comme \"téléviseur\", l'astuce légale consiste à exiger du fournisseur étranger l'ablation d'un port HDMI ou du tuner TV pour l'importer sous la nomenclature \"moniteur pour machine-outil\", taxé à 0%. Toujours valider la position par un Renseignement Tarifaire Contraignant (RTC) délivré par la douane pour s'immuniser contre les redressements.",
+      "category": "legal",
+      "tags": [
+        "douanes",
+        "optimisation",
+        "ckd",
+        "nomenclature",
+        "taxes",
+        "import"
+      ]
+    },
+    {
+      "title": "Protection des Actifs et Insolvabilité Organisée",
+      "content": "Pour protéger le patrimoine face à un risque de redressement fiscal mortel ou d'échec commercial, le principe est la séparation étanche de la propriété et de l'exploitation. Le dirigeant acquiert les murs de l'usine et les machines critiques en son nom propre (ou via une SCI familiale), puis les loue à sa propre société d'exploitation (SARL/SUARL). Si l'entreprise fait faillite (dettes CNSS, impôts, fournisseurs), la responsabilité est limitée au capital social (souvent faible, ex: 10 000 DT). Le liquidateur ne peut pas saisir l'immobilier ni les machines, qui n'appartiennent pas à la société. Le dirigeant peut alors liquider la coquille vide, créer une nouvelle entité sans passif, et reprendre l'exploitation avec les mêmes actifs dès le lendemain.",
+      "category": "legal",
+      "tags": [
+        "actifs",
+        "sci",
+        "liquidation",
+        "insolvabilite",
+        "faillite",
+        "protection-patrimoine"
+      ]
+    }
+  ]
+}
