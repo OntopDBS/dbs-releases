@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "packageSource": "dbs-financement-20",
+    "name": "DBS Masterclass - Financement & Aides PME Tunisiennes",
+    "description": "BFPME, SOTUGAR, SICAR, FOPRODI, leasing vs crédit bancaire, programmes d'appui européens (GIZ, COSPE), microcrédit, processus de demande de financement et dossier bancaire PME.",
+    "tags": [
+      "financement",
+      "bfpme",
+      "sotugar",
+      "foprodi",
+      "sicar",
+      "leasing",
+      "credit",
+      "aides",
+      "pme",
+      "tunisie"
+    ],
+    "category": "finance",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "BFPME et SOTUGAR - Mécanisme de Financement Bonifié pour PME",
+      "content": "La BFPME (Banque de Financement des PME) et SOTUGAR (Société Tunisienne de Garantie) forment le dispositif central de financement des PME tunisiennes en dehors du circuit bancaire classique :\nBFPME — caractéristiques principales :\n\n* Cible : PME en création ou en développement, capital inférieur à 5 millions DT.\n* Financement : jusqu'à 70% du coût du projet, plafond variable selon secteur.\n* Taux bonifiés : généralement inférieurs aux taux bancaires de marché de 2 à 4 points.\n* Durée : jusqu'à 7 ans avec différé d'amortissement de 2 ans maximum.\n* Condition clé : apport personnel du promoteur minimum 30% du coût du projet.\nSOTUGAR — mécanisme de garantie :\n* Couvre jusqu'à 50% à 75% du crédit bancaire en cas de défaillance du débiteur.\n* Permet aux PME sans garanties réelles suffisantes d'accéder au crédit bancaire classique.\n* Frais de garantie : commission annuelle de 0,5% à 1,5% sur l'encours garanti.\n* Délai d'obtention de la garantie SOTUGAR : 15 à 30 jours ouvrables après dépôt du dossier complet.\nCombinaison optimale : BFPME pour le financement long terme + SOTUGAR pour débloquer la tranche bancaire complémentaire = couverture jusqu'à 90-95% du projet sans garantie hypothécaire lourde.",
+      "category": "finance",
+      "tags": [
+        "bfpme",
+        "sotugar",
+        "financement",
+        "pme",
+        "credit",
+        "garantie",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "FOPRODI - Fonds de Promotion et de Décentralisation Industrielle",
+      "content": "Géré par l'APII (Agence de Promotion de l'Industrie et de l'Innovation), le FOPRODI octroie des aides financières aux PME industrielles ou de services liés à l'industrie. Les incitations prennent la forme de primes d'investissement directes et de participation au capital.\n\n* Primes liées à l'implantation : 15% du coût du projet pour la Zone de Développement Régional (ZDR) groupe 1, et 30% pour la ZDR groupe 2.\n* Nouveaux promoteurs : Prise en charge d'une partie du capital initial sous forme de dotation remboursable (jusqu'à 60% pour des projets inférieurs à 1 million DT).\n* Investissements immatériels : Le fonds finance les études de faisabilité et l'assistance technique avec une prime de 50% du coût de l'étude, strictement plafonnée à 20 000 DT.\nLe décaissement des primes s'effectue par tranches, sur présentation des factures d'équipements définitivement acquittées et vérifiées par les services de l'APII.",
+      "category": "finance",
+      "tags": [
+        "foprodi",
+        "apii",
+        "investissement",
+        "subvention",
+        "zdr",
+        "tunisie"
+      ]
+    },
+    {
+      "title": "SICAR - Sociétés d'Investissement à Capital Risque",
+      "content": "Les SICAR interviennent par des prises de participation minoritaires au capital social des PME non cotées (généralement entre 10% et 49%). L'objectif est de consolider les fonds propres de l'entreprise pour faire effet de levier sur la dette bancaire.\n\n* Avantage fiscal : La loi de finances tunisienne octroie une déduction totale des revenus ou bénéfices réinvestis de l'assiette imposable pour les entreprises ou personnes physiques souscrivant aux fonds SICAR.\n* Horizon d'investissement : Sortie prévue à moyen terme (5 à 7 ans).\n* Pacte d'actionnaires (Shareholders' Agreement) : Document juridique obligatoire fixant les règles de gouvernance, les droits de veto, et surtout les conditions de sortie (Exit). La sortie s'opère souvent via le rachat des parts par le promoteur, avec un Taux de Rentabilité Interne (TRI) cible imposé de 10% à 15%.",
+      "category": "finance",
+      "tags": [
+        "sicar",
+        "capital-risque",
+        "private-equity",
+        "fondspropres",
+        "fiscalite"
+      ]
+    },
+    {
+      "title": "Financement d'Équipements - Leasing vs Crédit Bancaire Classique",
+      "content": "Le financement d'équipements industriels oppose deux véhicules financiers aux contraintes distinctes :\n\n* Crédit bancaire classique : Taux d'intérêt indexé sur le TMM + marge (généralement 2 à 4 points). Exige un apport en fonds propres (autofinancement) de 20% à 30% et des garanties réelles lourdes (hypothèque, nantissement sur fonds de commerce). Traitement comptable : l'équipement est inscrit à l'actif du bilan, ouvrant droit aux dotations aux amortissements.\n* Leasing (Crédit-bail) : Financement à 100% du prix d'achat TTC, préservant immédiatement la trésorerie. L'équipement constitue sa propre garantie légale (le bailleur reste propriétaire jusqu'à la levée de l'option d'achat en fin de contrat). Coût total supérieur au crédit bancaire (taux effectif souvent équivalent à TMM + 5 à 7 points). Délai d'octroi rapide (48h-72h). La TVA payée sur les loyers de leasing mensuels est totalement déductible.",
+      "category": "finance",
+      "tags": [
+        "leasing",
+        "credit-bancaire",
+        "tmm",
+        "financement",
+        "bilan",
+        "equipement"
+      ]
+    },
+    {
+      "title": "Constitution du Dossier Bancaire PME - Critères d'Évaluation",
+      "content": "L'acceptation d'un financement bancaire ou de lignes extérieures repose sur un dossier structuré démontrant la solvabilité. Composantes critiques exigées par les comités de crédit tunisiens :\n\n1. Business Plan (BP) : Présentation de l'équipe dirigeante, étude de marché concurrentielle, et modèle de revenus détaillé.\n2. Prévisionnel Financier (sur 3 à 5 ans) : Doit inclure un Plan de Trésorerie Mensuel détaillant le BFR. Le ratio clé scruté est le DSCR (Debt Service Coverage Ratio - Capacité de Remboursement). Un DSCR < 1,2 entraîne un rejet quasi automatique.\n3. Conformité administrative : Statuts, extrait RNE récent, états financiers des 3 dernières années certifiés par un commissaire aux comptes.\n4. Quitus fiscal et social : Une attestation CNSS à jour est impérative. Tout découvert social ou fiscal bloque légalement le décaissement des fonds en Tunisie.\n5. Garanties proposées : Évaluation de la valeur de réalisation forcée des sûretés réelles ou recours à la caution solidaire des dirigeants.",
+      "category": "finance",
+      "tags": [
+        "businessplan",
+        "credit",
+        "dscr",
+        "banque",
+        "garanties",
+        "tresorerie"
+      ]
+    },
+    {
+      "title": "Programmes d'Appui Internationaux (GIZ, BERD, AFD)",
+      "content": "Les lignes de financement internationales (GIZ, AFD, BERD/EBRD) subventionnent massivement la transition énergétique, la digitalisation (Industrie 4.0) et le développement à l'export des PME tunisiennes.\n\n* Lignes de Crédit Étrangères (ex: Ligne Française AFD ou Italienne) : Mises en place via les banques commerciales tunisiennes, elles offrent des crédits à long terme avec une rétrocession d'une prime de subvention non remboursable (souvent 10% à 15% du montant du crédit) versée à l'achèvement et à l'entrée en production du projet.\n* Assistance Technique (BERD / GIZ) : Programmes de type \"Advice for Small Businesses\" finançant jusqu'à 75% du coût des prestations de conseil externe (implémentation de systèmes ERP, préparation à la certification ISO 9001/14001, audit énergétique).\n* Programme de Mise à Niveau (PMN) : Piloté par le Bureau de Mise à Niveau (BMN) du Ministère de l'Industrie, il offre des primes immatérielles (70%) et matérielles (10 à 20%) cumulables avec les soutiens internationaux, conditionnées par la validation préalable du dossier par le COPIL (Comité de Pilotage).",
+      "category": "finance",
+      "tags": [
+        "bailleursdefonds",
+        "giz",
+        "berd",
+        "afd",
+        "subvention",
+        "mise-a-niveau"
+      ]
+    }
+  ]
+}
