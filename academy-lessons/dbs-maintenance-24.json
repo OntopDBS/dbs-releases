@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "packageSource": "dbs-maintenance-24",
+    "name": "DBS Masterclass - Maintenance Industrielle TPM et GMAO",
+    "description": "Types de maintenance (préventive/corrective/prédictive/améliorative), TPM (Total Productive Maintenance), calcul MTBF et MTTR, plan de maintenance préventive, GMAO (logiciel de gestion de la maintenance), coût global de défaillance.",
+    "tags": [
+      "maintenance",
+      "tpm",
+      "gmao",
+      "mtbf",
+      "mttr",
+      "preventive",
+      "corrective",
+      "predictive",
+      "industriel"
+    ],
+    "category": "production",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "MTBF et MTTR - Calcul et Utilisation pour Piloter la Fiabilité",
+      "content": "Le MTBF (Mean Time Between Failures — Temps Moyen Entre Pannes) et le MTTR (Mean Time To Repair — Temps Moyen de Réparation) sont les deux indicateurs fondamentaux de la performance maintenance :\nCalcul MTBF :\nMTBF = Temps total de fonctionnement effectif / Nombre de pannes sur la période\nExemple : une machine textile a fonctionné 1 200 heures sur 3 mois et a subi 8 pannes.\nMTBF = 1 200 / 8 = 150 heures entre pannes en moyenne.\nCalcul MTTR :\nMTTR = Temps total d'arrêt pour réparation / Nombre d'interventions correctives\nExemple : les 8 pannes ont cumulé 16 heures d'arrêt total.\nMTTR = 16 / 8 = 2 heures par panne en moyenne.\nDisponibilité intrinsèque calculée : Di = MTBF / (MTBF + MTTR) = 150 / (150 + 2) = 98,7%.\nUtilisation opérationnelle : un MTBF bas indique un problème de fiabilité à traiter à la source (maintenance préventive insuffisante, pièce sous-dimensionnée). Un MTTR élevé indique un problème d'organisation de la maintenance (pièces indisponibles, compétences insuffisantes, outillage inadapté). Agir sur le MTTR est souvent plus rapide et moins coûteux qu'améliorer le MTBF.",
+      "category": "production",
+      "tags": [
+        "maintenance",
+        "mtbf",
+        "mttr",
+        "tpm",
+        "gmao",
+        "fiabilite",
+        "production"
+      ]
+    },
+    {
+      "title": "Les 4 Types de Maintenance Industrielle",
+      "content": "La stratégie de maintenance combine quatre approches selon la criticité des équipements (Analyse AMDEC) :\n\n* Maintenance Corrective (Curative/Palliative) : Intervention après l'apparition d'une défaillance. À réserver aux équipements non critiques (Catégorie C) dont l'arrêt n'impacte ni la production ni la sécurité.\n* Maintenance Préventive Systématique : Remplacement de pièces ou révision selon un échéancier fixe (heures de marche, cycles, calendrier), indépendamment de l'état de la pièce (ex: vidange compresseur toutes les 2000h).\n* Maintenance Préventive Conditionnelle : Déclenchée par le franchissement d'un seuil d'alerte mesurable (niveau d'huile, perte de pression, température).\n* Maintenance Prédictive (Prévisionnelle) : Basée sur l'analyse de tendance et d'extrapolation via des capteurs IoT (analyse vibratoire, thermographie infrarouge, ultrasons). Permet d'anticiper la rupture exacte et d'exploiter la durée de vie maximale des composants.",
+      "category": "production",
+      "tags": [
+        "preventive",
+        "corrective",
+        "predictive",
+        "strategie-maintenance",
+        "amdec"
+      ]
+    },
+    {
+      "title": "TPM - Les 8 Piliers et la Maintenance Autonome",
+      "content": "La Total Productive Maintenance (TPM) est une démarche Lean visant l'élimination des 6 grandes pertes (pannes, réglages, micro-arrêts, ralentissements, rebuts, retouches) pour maximiser le TRS. Elle s'articule sur 8 piliers : Amélioration ciblée (Kobetsu Kaizen), Maintenance autonome (Jishu Hozen), Maintenance planifiée, Formation, Maîtrise de la conception, Qualité, TPM dans l'administration, et Sécurité/Environnement.\nLa Maintenance Autonome transfère les tâches de niveau 1 (selon AFNOR) de l'équipe de maintenance vers les opérateurs de production.\nPrincipe : \"Le Nettoyage, c'est l'Inspection\". Les opérateurs exécutent des gammes standardisées incluant :\n\n* Nettoyage des zones critiques (mise en évidence des fuites).\n* Graissage et lubrification de base.\n* Resserrage de la boulonnerie.\nCe transfert permet de détecter les anomalies avant la panne lourde et libère les techniciens de maintenance pour les tâches préventives complexes.",
+      "category": "production",
+      "tags": [
+        "tpm",
+        "trs",
+        "lean",
+        "jishuhozen",
+        "maintenance-autonome",
+        "productivite"
+      ]
+    },
+    {
+      "title": "Construction d'un Plan de Maintenance Préventive (PMP)",
+      "content": "Le Plan de Maintenance Préventive (PMP) opérationnalise la stratégie de fiabilité. Sa structure exige une base de données rigoureuse :\n\n1. Arborescence technique : Découpage hiérarchique (Usine > Ligne > Machine > Sous-ensemble > Composant).\n2. Gammes de maintenance : Documents décrivant le mode opératoire (SOP), le temps alloué, les consignations de sécurité (LOTO - Lockout/Tagout).\n3. Fréquences d'intervention : Hebdomadaire, mensuelle, trimestrielle, annuelle ou par compteur horaire.\n4. Nomenclatures PDR (Pièces de Rechange) : Lien direct entre la gamme et les références des pièces à sortir du magasin.\n5. Niveaux d'habilitation (Norme AFNOR X60-010) : N1 (opérateur de ligne), N2 (technicien avec procédure simple), N3 (technicien qualifié pour diagnostic), N4 (technicien spécialisé/expert), N5 (constructeur/SAV externe).",
+      "category": "production",
+      "tags": [
+        "pmp",
+        "gamme-maintenance",
+        "habilitation",
+        "afnor",
+        "loto",
+        "preventif"
+      ]
+    },
+    {
+      "title": "Principes et Structuration d'une GMAO (CMMS)",
+      "content": "La Gestion de la Maintenance Assistée par Ordinateur (GMAO / CMMS) est le socle digital du service technique. Elle garantit la traçabilité et le calcul automatique des KPI.\nFonctions primaires à paramétrer dans l'ERP :\n\n* Gestion des Équipements : Fiches techniques, numéros de série, documentation PDF centralisée, valorisation comptable.\n* Gestion des Ordres de Travail (OT) : Création manuelle (correctif) ou génération automatique (préventif échu). L'OT trace le temps pointé par le technicien, le code panne, et l'intervention réalisée.\n* Magasin PDR : Gestion des points de commande (ROP), valorisation du stock mort, suivi des consommations croisées (Où est utilisée cette courroie ?).\n* Tableau de bord de pilotage : Suivi du Taux d'Accomplissement du Préventif (cible > 90%), Pareto des équipements les plus pénalisants en temps (MTTR) et en fréquence, coût de maintenance par unité produite.",
+      "category": "production",
+      "tags": [
+        "gmao",
+        "cmms",
+        "ordredetravail",
+        "erp",
+        "kpi",
+        "pdr",
+        "digitalisation"
+      ]
+    },
+    {
+      "title": "Calcul du Coût Global de Défaillance (CGD)",
+      "content": "L'arbitrage des budgets de maintenance ne se fait jamais sur le seul coût de la réparation, mais sur le Coût Global de Défaillance (CGD).\nCGD = Coût Direct de Maintenance + Coût d'Indisponibilité (Perte de Production) + Coût de Non-Qualité.\n\n* Coût Direct : Valorisation des pièces de rechange (PDR) consommées + Main d'œuvre directe (MOD) interne pointée + Facturation des sous-traitants/experts externes.\n* Coût d'Indisponibilité : Marge brute non générée durant l'arrêt machine + Salaires des opérateurs de production inoccupés + Pénalités contractuelles de retard payées au client.\n* Coût de Non-Qualité : Valorisation de la matière première détruite pendant la casse et des rebuts générés lors des essais de redémarrage.\nEn PME industrielle (notamment en flux tendu), le coût d'indisponibilité représente souvent 80% du CGD. C'est ce calcul strict qui justifie financièrement le retour sur investissement (ROI) des capteurs de maintenance prédictive ou l'augmentation des budgets préventifs.",
+      "category": "production",
+      "tags": [
+        "cgd",
+        "cout-defaillance",
+        "finance",
+        "budget",
+        "rentabilite",
+        "roi"
+      ]
+    }
+  ]
+}
