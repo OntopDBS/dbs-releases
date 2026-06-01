@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "packageSource": "dbs-strategie-09",
+    "name": "DBS Masterclass - Gestion d'Entreprise & Stratégie",
+    "description": "Analyse SWOT et PESTEL, planification budgétaire PME, KPI ERP essentiels, tableau de bord de direction, pilotage stratégique et opérationnel PME tunisienne.",
+    "tags": [
+      "strategie",
+      "swot",
+      "pestel",
+      "budget",
+      "kpi",
+      "tableau-de-bord",
+      "gestion",
+      "pme",
+      "erp"
+    ],
+    "category": "management",
+    "version": "1.0.0"
+  },
+  "snippets": [
+    {
+      "title": "KPI ERP Essentiels pour PME Industrielle - Tableau de Bord de Direction",
+      "content": "Les 10 indicateurs de pilotage prioritaires à monitorer mensuellement dans un ERP PME :\n\n1. Taux de service client (On-Time In-Full, OTIF) : cible 95% ou plus. Commandes livrées complètes et à temps / total commandes.\n2. Rotation des stocks : Coût des ventes annuel / Stock moyen. Cible sectorielle textile : 6-8x/an.\n3. DSO (Days Sales Outstanding) : Créances clients / (CA annuel / 365). Cible 45 jours maximum.\n4. Taux de rebut qualité : NC internes / production totale. Cible 2% maximum pour confection textile.\n5. OEE/TRS : disponibilité x performance x qualité. Cible world-class 85% ou plus.\n6. Cash Conversion Cycle (CCC) : DSO + Délai stock - DPO. Cible : minimiser (idéalement sous 30 jours).\n7. Marge brute par famille produit : alerter si écart supérieur à 3 points vs budget.\n8. Taux d'utilisation capacité : heures produites / heures disponibles. En dessous de 70% = sous-activité à analyser.\n9. DPO (Days Payable Outstanding) : Dettes fournisseurs / (Achats / 365). Optimiser sans dégrader relation fournisseur.\n10. Retour sur Actifs (ROA) : Résultat net / Total actif. Référence PME industrielle tunisienne : 5-10%.",
+      "category": "management",
+      "tags": [
+        "kpi",
+        "erp",
+        "strategie",
+        "tableau-de-bord",
+        "gestion",
+        "pme"
+      ]
+    },
+    {
+      "title": "Analyse SWOT et Stratégies Croisées (Matrice TOWS)",
+      "content": "La matrice SWOT (Forces, Faiblesses, Opportunités, Menaces) s'opérationnalise via la pondération des facteurs (score de 1 à 5 x coefficient d'importance) et le croisement TOWS pour générer des axes stratégiques actionnables :\n\n* Stratégie SO (Max-Max) : Utiliser les forces internes pour exploiter les opportunités du marché (ex: utiliser la certification ISO 9001 pour remporter de nouveaux appels d'offres publics).\n* Stratégie WO (Min-Max) : Combler les faiblesses internes pour saisir une opportunité (ex: investir dans un ERP pour répondre aux exigences de traçabilité des donneurs d'ordres européens).\n* Stratégie ST (Max-Min) : S'appuyer sur les forces pour contourner les menaces externes (ex: utiliser une forte trésorerie pour absorber une hausse du coût des matières premières).\n* Stratégie WT (Min-Min) : Minimiser les faiblesses pour survivre aux menaces (ex: externaliser une logistique défaillante face à l'arrivée d'un concurrent international).",
+      "category": "management",
+      "tags": [
+        "swot",
+        "tows",
+        "strategie",
+        "management",
+        "planification",
+        "pme"
+      ]
+    },
+    {
+      "title": "Analyse PESTEL - Modélisation du Contexte Tunisien",
+      "content": "L'analyse PESTEL évalue les macro-facteurs influençant la PME tunisienne pour anticiper les risques systémiques :\n\n* Politique & Légal : Instabilité réglementaire (lois de finances annuelles modifiant les taux d'IS/TVA), lourdeur administrative, Code du Travail rigide (requalification CDD en CDI).\n* Économique : Volatilité du taux de change du Dinar (TND) impactant les intrants importés, inflation des coûts de l'énergie, accès restreint et coûteux au financement bancaire (TMM élevé).\n* Socioculturel : Pénurie de main-d'œuvre qualifiée dans certains bassins industriels, décalage entre attentes salariales et pouvoir d'achat.\n* Technologique : Transition numérique (facturation électronique obligatoire), subventions étatiques pour l'industrie 4.0.\n* Écologique : Stress hydrique imposant des taxes environnementales, exigences de conformité carbone des donneurs d'ordres européens (CBAM).",
+      "category": "management",
+      "tags": [
+        "pestel",
+        "macroeconomie",
+        "tunisie",
+        "risques",
+        "strategie"
+      ]
+    },
+    {
+      "title": "Planification Budgétaire Annuelle PME - Séquencement Logique",
+      "content": "La construction du budget annuel (généralement initiée en octobre N-1) suit un ordonnancement strict en cascade, chaque budget déterminant le suivant :\n\n1. Budget des Ventes : Prévision du Chiffre d'Affaires (CA) par famille de produits, région et représentant. Sert de base au système.\n2. Budget de Production : Quantités à produire = Ventes prévues + Stock final cible - Stock initial. Détermine les besoins en heures-machines et main-d'œuvre directe (MOD).\n3. Budget des Achats & Approvisionnements : Calculé via l'éclatement des nomenclatures (BOM) appliquées au budget de production, intégrant la politique de stock de sécurité matières.\n4. Budgets des Frais Généraux : Frais fixes (loyers, assurances) et variables (marketing, maintenance).\n5. Budget de Trésorerie : Synthèse mensuelle des encaissements (ventes TTC décalées du DSO) et décaissements (achats TTC décalés du DPO, salaires, impôts). Identifie les impasses de trésorerie avant exécution.",
+      "category": "management",
+      "tags": [
+        "budget",
+        "planification",
+        "finance",
+        "previsionnel",
+        "gestion"
+      ]
+    },
+    {
+      "title": "Tableau de Bord de Direction et Cycle de Revue Mensuelle",
+      "content": "Le tableau de bord de direction (TBD) consolide les KPI stratégiques sous un format visuel (vert/orange/rouge) pour piloter l'entreprise. Format standard : 1 page (One-Pager), maximum 10-12 KPI croisant finances, clients, processus internes et RH (Balanced Scorecard).\nLe cycle de revue mensuelle de gestion s'exécute à J+5 de la clôture comptable du mois :\n\n* Étape 1 : Analyse des écarts (Réel vs Budget) par le contrôle de gestion.\n* Étape 2 : Réunion du comité de direction (CODIR) d'une durée stricte (2h maximum).\n* Étape 3 : Traitement des écarts négatifs supérieurs à 5% via l'ouverture immédiate d'actions correctives (CAPA) assignées à un pilote unique avec délai de résolution (PDCA).",
+      "category": "management",
+      "tags": [
+        "tableau-de-bord",
+        "codir",
+        "kpi",
+        "reporting",
+        "pdca",
+        "management"
+      ]
+    },
+    {
+      "title": "Méthode OKR (Objectives and Key Results) Adaptée aux PME",
+      "content": "Les OKR alignent les efforts opérationnels sur la vision stratégique par cycles trimestriels. Contrairement aux KPI (qui mesurent la santé opérationnelle existante), les OKR pilotent le changement et la croissance.\nStructure d'un OKR :\n\n* Objectif (O) : Qualitatif, ambitieux, inspirant (ex: \"Devenir le fournisseur le plus fiable d'Europe du Sud\").\n* Key Results (KR) : 3 à 5 résultats clés quantitatifs, mesurables, définissant le succès de l'objectif (ex: KR1 = Atteindre un OTIF de 98% ; KR2 = Réduire le Lead Time de 15 à 10 jours ; KR3 = Zéro pénalité de retard client).\nDéploiement en PME : Limiter à 3 Objectifs globaux par trimestre. Évaluation hebdomadaire de la progression des KR (check-in de 15 minutes). Un score final de 70% d'accomplissement est considéré comme un succès standard pour un OKR ambitieux.",
+      "category": "management",
+      "tags": [
+        "okr",
+        "objectifs",
+        "performance",
+        "strategie",
+        "croissance",
+        "agile"
+      ]
+    }
+  ]
+}
