@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "packageSource": "textile-pack-1",
+    "name": "Extension Textile & Confection",
+    "description": "Base étendue de fiches sur les procédés textiles, contrôles de couture, calculs de gâche et tolérances douanières tunisiennes.",
+    "tags": ["textile", "BOM", "confection"]
+  },
+  "snippets": [
+    {
+      "category": "workflow",
+      "title": "Textile : Traçabilité des lots de fils",
+      "content": "La traçabilité des lots de fils de couture est indispensable pour la certification ISO 9001. Chaque lot reçu en magasin principal reçoit un code à barres unique mentionnant le fournisseur, la couleur exact (Pantone) et le lot d'origine. Les sorties de stock pour confection doivent être scannées pour associer le lot de fil au lot de pièces coupées.",
+      "tags": ["textile", "fil", "traçabilité"]
+    },
+    {
+      "category": "workflow",
+      "title": "Textile : Calcul de la gâche technique de coupe",
+      "content": "Dans l'industrie textile, la gâche de coupe correspond à la perte de matière lors de l'imbrication des patrons sur le tissu. La formule de calcul est : Gâche (%) = (Poids du tissu utilisé - Poids des pièces coupées) / Poids du tissu utilisé. DBS applique une tolérance standard de 3% sur les ordres de fabrication pour identifier les anomalies de découpe.",
+      "tags": ["textile", "gâche", "calcul"]
+    },
+    {
+      "category": "compliance",
+      "title": "Textile : Contrôle qualité OEKO-TEX",
+      "content": "Le label OEKO-TEX Standard 100 certifie l'absence de substances nocives dans les textiles tunisiens destinés à l'exportation. Il impose des tests rigoureux sur les colorants, les fils, et les accessoires métalliques (zippers, boutons). L'ERP enregistre les certificats de conformité fournisseurs pour chaque lot de matières premières.",
+      "tags": ["oekotex", "qualité", "export"]
+    }
+  ]
+}
