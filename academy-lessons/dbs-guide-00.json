@@ -145,17 +145,18 @@
       ]
     },
     {
-      "title": "Ressources Humaines — Personnel, présences et congés",
-      "content": "La gestion interne des ressources humaines s'effectue dans le menu **RH**. La section **Collaborateurs** répertorie l'ensemble des fiches employés avec leurs contrats, coordonnées, et leur numéro d'affiliation CNSS. L'onglet **Présence** permet d'enregistrer quotidiennement les heures de travail effectuées, les absences injustifiées et les heures supplémentaires effectuées par chaque salarié. Les fiches de paie et la synthèse de la masse salariale sont consolidées sous la vue **Fiches de paie**. Enfin, l'onglet **Congés** regroupe les **Demandes** d'absences, de congés annuels ou de maladies soumises par les employés pour approbation.",
+      "title": "Ressources Humaines — Non disponible dans la version actuelle",
+      "content": "Le module **Ressources Humaines** (RH) n'est **pas disponible** dans la version actuelle de DBS. Il n'existe pas de menu RH, pas de fiches employés, pas de suivi de présence, pas de fiches de paie, et pas de gestion des congés dans l'application. Si un utilisateur cherche à gérer les salariés, les présences ou la paie dans DBS, il doit utiliser un outil externe. Ce module est prévu dans une version future mais n'a pas encore été développé. Ne pas orienter les utilisateurs vers un menu RH qui n'existe pas.",
       "category": "workflow",
       "tags": [
         "rh",
         "personnel",
         "collaborateur",
         "presence",
-        "heures-sup",
         "paie",
-        "conges"
+        "conges",
+        "indisponible",
+        "limite"
       ]
     },
     {
@@ -188,7 +189,7 @@
     },
     {
       "title": "Assistant IA & Academy — Interaction naturelle et extensions RAG",
-      "content": "L'**Assistant IA** est accessible sur toutes les pages via le widget de chat flottant en bas à droite de l'écran ou en utilisant le raccourci clavier `Ctrl + K`. L'utilisateur peut y formuler une requête en langage naturel pour naviguer dans l'application ou extraire des données. L'onglet **DBS Academy** permet d'étendre les connaissances réglementaires et d'affaires du système grâce à la section **Mises à jour et Extensions**, où l'on peut installer de nouvelles leçons thématiques en téléchargeant des packages de connaissances vectorielles. Le **Tier d'IA** configuré dans les paramètres (local, serveur ou cloud) détermine la puissance de traitement allouée pour répondre aux questions.",
+      "content": "L'**Assistant IA** est accessible sur toutes les pages via le widget de chat flottant en bas à droite de l'écran. Le raccourci `Ctrl + K` ouvre la **barre de recherche rapide** en haut de l'écran (pas le panneau de chat — le panneau s'ouvre uniquement via le bouton flottant). L'utilisateur peut y formuler une requête en langage naturel pour naviguer dans l'application ou extraire des données. L'onglet **DBS Academy** dans **Paramètres → Assistant IA** permet d'installer des leçons thématiques qui enrichissent la base de connaissances du système. Le **Tier d'IA** configuré (local, serveur ou cloud) détermine la puissance de traitement allouée.",
       "category": "workflow",
       "tags": [
         "assistant",
@@ -202,7 +203,7 @@
     },
     {
       "title": "Fonctionnalités non disponibles dans DBS — Limites de la version actuelle",
-      "content": "Pour éviter toute confusion opérationnelle, certaines fonctionnalités avancées ne sont pas prises en charge dans la version actuelle de DBS. Le système ne supporte pas le **Multi-devises** (toutes les transactions, factures, et bilans de stock sont exclusivement traités en Dinars Tunisiens - TND). Il n'existe pas d'**Application mobile native iOS/Android** (l'accès sur tablette se fait via un navigateur web responsive ou en installant le raccourci PWA sur l'écran d'accueil). De plus, l'**Intégration email directe client** (pas de serveur SMTP sortant intégré pour l'envoi transparent de courriels sans logiciel externe), le **Rapprochement bancaire automatique** (l'import de relevés bancaires MT940 ou l'intégration directe d'API bancaires tunisiennes ne sont pas disponibles), et le **Multi-entrepôts** ne sont pas supportés dans cette version.",
+      "content": "Pour éviter toute confusion opérationnelle, certaines fonctionnalités ne sont pas prises en charge dans la version actuelle de DBS. **Ressources Humaines** : pas de module RH, pas de fiches employés, pas de paie, pas de gestion des congés — utiliser un outil externe. **Multi-devises** : toutes les transactions sont exclusivement en Dinars Tunisiens (TND). **Application mobile native** : l'accès sur tablette se fait via un navigateur web responsive (pas d'app iOS/Android). **Intégration email** : pas de serveur SMTP intégré — l'envoi de factures par email nécessite un client mail externe. **Rapprochement bancaire automatique** : pas d'import de relevés MT940 ni d'API bancaires tunisiennes. **Multi-entrepôts** : un seul entrepôt par installation (les emplacements permettent de subdiviser l'espace interne).",
       "category": "workflow",
       "tags": [
         "limite",
